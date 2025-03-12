@@ -1,0 +1,552 @@
+name: gee_catalog_json
+on: 
+  workflow_dispatch:
+  schedule:
+    - cron:  '15 0 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: checkout repo content
+        uses: actions/checkout@v2 # checkout the repository content to github runner
+
+      - name: setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.10' # upgrade to a newer Python version
+
+      - name: install python packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install -U pip setuptools
+          pip install aiohttp asyncio tqdm natsort beautifulsoup4 requests logging
+
+      - name: Run optimized script
+        uses: jannekem/run-python-script-action@v1
+        with:
+          script: |
+            import asyncio
+            import concurrent.futures
+            import csv
+            import json
+            import logging
+            import time
+            import urllib
+            from datetime import datetime
+            from pathlib import Path
+            from typing import Any, Dict, List, Optional
+
+            import aiohttp
+            import requests
+            from bs4 import BeautifulSoup
+            from natsort import natsorted
+            from tqdm import tqdm
+
+            # Configure logging
+            logging.basicConfig(
+                level=logging.INFO,
+                format='%(asctime)s - %(levelname)s - %(message)s',
+                handlers=[
+                    logging.FileHandler("gee_catalog.log"),
+                    logging.StreamHandler()
+                ]
+            )
+            logger = logging.getLogger(__name__)
+
+            BASE_URL = "https://earthengine-stac.storage.googleapis.com/catalog/catalog.json"
+            OUTPUT_JSON = "gee_catalog_formatted.json"
+            MAX_WORKERS = 20  # Adjust based on your system's capabilities and API limits
+
+            # Alternative endpoints for direct dataset listing (if main method fails)
+            ALTERNATIVE_GEE_ENDPOINTS = [
+                "https://earthengine.googleapis.com/v1alpha/projects/earthengine-public/assets",
+                "https://developers.google.com/earth-engine/datasets/catalog",
+                "https://code.earthengine.google.com/datasets"
+            ]
+
+            class GEECatalogBuilder:
+                """Class to build and manage the Google Earth Engine catalog."""
+
+                def __init__(self):
+                    self.catalog = []
+                    self.asset_list = []
+                    self.session = None
+
+                async def fetch_url(self, url: str) -> Dict:
+                    """Asynchronously fetch and parse JSON from a URL."""
+                    try:
+                        async with self.session.get(url, timeout=30) as response:
+                            if response.status == 200:
+                                # First get the text response
+                                text_response = await response.text()
+
+                                # Try to parse it as JSON
+                                try:
+                                    return json.loads(text_response)
+                                except json.JSONDecodeError:
+                                    logger.error(f"Response is not valid JSON from {url}")
+                                    logger.debug(f"First 100 chars: {text_response[:100]}")
+                                    return None
+                            else:
+                                logger.warning(f"Failed to fetch {url}, status code: {response.status}")
+                                return None
+                    except Exception as e:
+                        logger.error(f"Error fetching {url}: {str(e)}")
+                        return None
+
+                async def parse_url(self, url: str, pbar: tqdm) -> Optional[Dict[str, Any]]:
+                    """Parse a GEE asset URL and extract metadata in the community catalog format."""
+                    try:
+                        r = await self.fetch_url(url)
+                        if not r:
+                            return None
+
+                        # Skip deprecated assets
+                        if r.get("deprecated", False):
+                            logger.info(f"Skipping deprecated asset: {r.get('id', url)}")
+                            pbar.update(1)
+                            return None
+
+                        gee_id = r.get("id")
+                        if not gee_id:
+                            return None
+
+                        gee_title = r.get("title", "")
+                        gee_type = r.get("gee:type", "")
+
+                        # Get provider safely
+                        providers = r.get("providers", [])
+                        gee_provider = providers[0].get("name", "") if providers else ""
+
+                        # Get keywords/tags safely
+                        gee_tags = r.get("keywords", [])
+                        tags_string = ", ".join(gee_tags) if gee_tags else ""
+
+                        # Extract URLs safely
+                        links = r.get("links", [])
+                        thumbnail_url = next((assets["href"] for assets in links if assets.get("rel") == "preview"), "")
+
+                        # Get code sample URL based on dataset ID
+                        sample_code = ""
+                        if gee_id:
+                            sample_code = f"https://code.earthengine.google.com/?scriptPath=Examples:Datasets/{gee_id.replace('/', '/')}"
+
+                        # Get asset URL
+                        docs_url = next((assets["href"] for assets in links if assets.get("rel") == "license"), "")
+                        if not docs_url:
+                            docs_url = f"https://developers.google.com/earth-engine/datasets/catalog/{gee_id.replace('/', '_')}"
+
+                        # Get license information
+                        license_info = r.get("license", "")
+
+                        # Get terms of use directly from the JSON if license is proprietary
+                        terms_of_use = ""
+                        if license_info.lower() == "proprietary":
+                            terms_of_use = r.get("gee:terms_of_use", "")
+
+                        # Map categories to community catalog thematic groups
+                        category_mapping = {
+                            # Agriculture related
+                            "agriculture": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+                            "crops": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+                            "farm": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+
+                            # Biodiversity/Ecosystems
+                            "biology": "Biodiversity, Ecosystems & Habitat Layers",
+                            "biodiversity": "Biodiversity, Ecosystems & Habitat Layers",
+                            "ecosystem": "Biodiversity, Ecosystems & Habitat Layers",
+                            "habitat": "Biodiversity, Ecosystems & Habitat Layers",
+
+                            # Elevation
+                            "elevation": "Elevation and Bathymetry",
+                            "terrain": "Elevation and Bathymetry",
+                            "dem": "Elevation and Bathymetry",
+                            "bathymetry": "Elevation and Bathymetry",
+
+                            # Fire
+                            "fire": "Fire Monitoring and Analysis",
+                            "burn": "Fire Monitoring and Analysis",
+
+                            # Geophysical
+                            "geology": "Geophysical, Biological & Biogeochemical",
+                            "geophysical": "Geophysical, Biological & Biogeochemical",
+                            "biogeochemical": "Geophysical, Biological & Biogeochemical",
+
+                            # Global events
+                            "disasters": "Global Events Layers",
+                            "drought": "Global Events Layers",
+                            "flood": "Global Events Layers",
+                            "earthquake": "Global Events Layers",
+                            "hurricane": "Global Events Layers",
+
+                            # Land cover
+                            "land_cover": "Global Land Use and Land Cover",
+                            "landcover": "Global Land Use and Land Cover",
+
+                            # Utilities
+                            "utilities": "Global Utilities, Assets and Amenities Layers",
+                            "assets": "Global Utilities, Assets and Amenities Layers",
+                            "amenities": "Global Utilities, Assets and Amenities Layers",
+                            "infrastructure": "Global Utilities, Assets and Amenities Layers",
+
+                            # Hydrology
+                            "hydrology": "Hydrology",
+                            "water": "Hydrology",
+                            "rivers": "Hydrology",
+                            "lakes": "Hydrology",
+
+                            # Oceans
+                            "oceans": "Oceans and Shorelines",
+                            "ocean": "Oceans and Shorelines",
+                            "shore": "Oceans and Shorelines",
+                            "coastal": "Oceans and Shorelines",
+                            "marine": "Oceans and Shorelines",
+
+                            # Population
+                            "population": "Population & Socioeconomic",
+                            "socioeconomic": "Population & Socioeconomic",
+                            "demographic": "Population & Socioeconomic",
+                            "urban": "Population & Socioeconomic",
+
+                            # Regional land use
+                            "regional": "Regional Land Use and Land Cover",
+
+                            # Soil
+                            "soil": "Soil Properties",
+
+                            # Weather and climate
+                            "climate": "Weather and Climate Layers",
+                            "weather": "Weather and Climate Layers",
+                            "temperature": "Weather and Climate Layers",
+                            "precipitation": "Weather and Climate Layers",
+                            "snow": "Weather and Climate Layers",
+                            "atmosphere": "Weather and Climate Layers",
+                            "air_quality": "Weather and Climate Layers",
+
+                            # Forest/vegetation specific mapping
+                            "forest": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+                            "vegetation": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+
+                            # Satellite collections can go into appropriate categories based on their purpose
+                            "landsat": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+                            "sentinel": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+                            "modis": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+                        }
+
+                        # Determine the thematic group based on categories or tags
+                        thematic_group = "Global Events Layers"  # Default category if nothing matches
+                        categories = r.get("gee:categories", [])
+
+                        # Try to determine thematic group from categories
+                        if categories:
+                            for category in categories:
+                                category_lower = category.lower()
+                                if category_lower in category_mapping:
+                                    thematic_group = category_mapping[category_lower]
+                                    break
+
+                        # If no category match, try to determine from tags
+                        if thematic_group == "Global Events Layers" and gee_tags:
+                            for tag in gee_tags:
+                                tag_lower = tag.lower()
+                                if tag_lower in category_mapping:
+                                    thematic_group = category_mapping[tag_lower]
+                                    break
+
+                        # Create asset in community catalog format
+                        asset = {
+                            "title": gee_title,
+                            "sample_code": sample_code,
+                            "type": gee_type,
+                            "id": gee_id,
+                            "provider": gee_provider,
+                            "tags": tags_string,
+                            "license": license_info,
+                            "terms_of_use": terms_of_use,  # Use terms_of_use instead of license_text
+                            "docs": docs_url.split('#')[0],  # Remove fragment identifiers
+                            "thematic_group": thematic_group,
+                            "thumbnail": thumbnail_url,
+                        }
+
+                        pbar.update(1)
+                        return asset
+
+                    except Exception as e:
+                        logger.error(f"Error parsing {url}: {str(e)}")
+                        pbar.update(1)
+                        return None
+
+                async def fetch_catalog_tree(self, url: str) -> None:
+                    """Recursively fetch the catalog tree structure."""
+                    try:
+                        data = await self.fetch_url(url)
+                        if not data:
+                            return
+
+                        features = [assets["href"] for assets in data.get("links", [])
+                                  if assets.get("rel") == "child"]
+
+                        for feature in features:
+                            if not feature.endswith("catalog.json"):
+                                self.asset_list.append(feature)
+                            else:
+                                await self.fetch_catalog_tree(feature)
+
+                    except Exception as e:
+                        logger.error(f"Error fetching catalog tree at {url}: {str(e)}")
+
+                async def build_catalog(self):
+                    """Main method to build the GEE catalog."""
+                    try:
+                        # Create an aiohttp session for all requests with specific headers
+                        headers = {
+                            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+                            'Accept': 'application/json'
+                        }
+
+                        connector = aiohttp.TCPConnector(ssl=False)  # Skip SSL verification if needed
+                        timeout = aiohttp.ClientTimeout(total=60)  # Longer timeout
+
+                        async with aiohttp.ClientSession(headers=headers, connector=connector, timeout=timeout) as session:
+                            self.session = session
+
+                            # Step 1: Attempt direct fetch first
+                            logger.info("Attempting to fetch catalog directly...")
+
+                            # Fallback URLs in case the primary one fails
+                            urls_to_try = [
+                                BASE_URL,
+                                "https://earthengine-stac.storage.googleapis.com/catalog/catalog.json",
+                                "https://storage.googleapis.com/earthengine-stac/catalog/catalog.json"
+                            ]
+
+                            success = False
+                            for url in urls_to_try:
+                                logger.info(f"Trying URL: {url}")
+                                try:
+                                    data = await self.fetch_url(url)
+                                    if data:
+                                        logger.info(f"Successfully connected to {url}")
+
+                                        # Directly extract assets if possible
+                                        features = [assets["href"] for assets in data.get("links", [])
+                                                  if assets.get("rel") == "child"]
+
+                                        for feature in features:
+                                            if not feature.endswith("catalog.json"):
+                                                self.asset_list.append(feature)
+                                            else:
+                                                await self.fetch_catalog_tree(feature)
+
+                                        success = True
+                                        break
+                                except Exception as e:
+                                    logger.warning(f"Failed to fetch from {url}: {str(e)}")
+
+                            if not success:
+                                # Fallback to loading from a local file if exists
+                                logger.warning("Could not connect to any GEE catalog URLs. Checking for local cache...")
+                                if Path("gee_catalog_previous.json").exists():
+                                    logger.info("Loading from previous catalog cache")
+                                    with open("gee_catalog_previous.json", "r") as f:
+                                        self.catalog = json.load(f)
+                                    return
+                                else:
+                                    logger.error("No local cache found and could not connect to catalog URLs.")
+
+                            # Step 2: Remove duplicates and sort
+                            self.asset_list = natsorted(list(set(self.asset_list)))
+                            logger.info(f"Found {len(self.asset_list)} unique assets to process")
+
+                            if not self.asset_list:
+                                logger.error("No assets found to process. Check the catalog URL or network connection.")
+                                return
+
+                            # Step 3: Process all assets concurrently with rate limiting
+                            logger.info("Processing assets...")
+                            semaphore = asyncio.Semaphore(10)  # Limit concurrent requests
+
+                            async def limited_parse(url, pbar):
+                                async with semaphore:
+                                    return await self.parse_url(url, pbar)
+
+                            with tqdm(total=len(self.asset_list), desc="Processing") as pbar:
+                                tasks = [limited_parse(url, pbar) for url in self.asset_list]
+                                results = await asyncio.gather(*tasks, return_exceptions=True)
+
+                            # Step 4: Filter out None results, exceptions, and any remaining deprecated assets
+                            self.catalog = [
+                                item for item in results
+                                if item and not isinstance(item, Exception) and not "[deprecated]" in item.get("title", "").lower()
+                            ]
+                            logger.info(f"Successfully processed {len(self.catalog)} assets (after filtering deprecated items)")
+
+                            # Backup the current catalog for future fallback
+                            if self.catalog:
+                                with open("gee_catalog_previous.json", "w") as f:
+                                    json.dump(self.catalog, f, indent=2, sort_keys=True)
+
+                    except Exception as e:
+                        logger.error(f"Error building catalog: {str(e)}")
+                        import traceback
+                        logger.error(traceback.format_exc())
+                    finally:
+                        # Save results even if there's an error
+                        if self.catalog:
+                            self.save_outputs()
+                        else:
+                            logger.error("No catalog data to save.")
+
+                def save_outputs(self):
+                    """Save the catalog to JSON file in community catalog format."""
+                    try:
+                        if not self.catalog:
+                            logger.warning("No data to save. Catalog is empty.")
+                            return
+
+                        # Final processing to ensure clean data
+                        processed_catalog = []
+                        for item in self.catalog:
+                            # Skip any item with "[deprecated]" in title
+                            if "[deprecated]" in item.get("title", "").lower():
+                                continue
+
+                            # Clean URLs by removing fragments
+                            if 'docs' in item and '#' in item["docs"]:
+                                item["docs"] = item["docs"].split('#')[0]
+
+                            if 'thumbnail' in item and '#' in item["thumbnail"]:
+                                item["thumbnail"] = item["thumbnail"].split('#')[0]
+
+                            processed_catalog.append(item)
+
+                        # Save JSON in community catalog format
+                        logger.info(f"Saving {len(processed_catalog)} items to {OUTPUT_JSON}")
+                        with open(OUTPUT_JSON, "w") as file:
+                            json.dump(processed_catalog, file, indent=2, sort_keys=True)
+
+                        logger.info(f"All data saved successfully. Processed {len(processed_catalog)} non-deprecated assets.")
+
+                    except Exception as e:
+                        logger.error(f"Error saving outputs: {str(e)}")
+                        import traceback
+                        logger.error(traceback.format_exc())
+
+            async def main():
+                start_time = time.time()
+                logger.info("Starting GEE catalog extraction")
+
+                builder = GEECatalogBuilder()
+                await builder.build_catalog()
+
+                # If no results were found, try alternative methods
+                if not builder.catalog:
+                    logger.info("Primary method failed. Trying alternative methods...")
+                    try:
+                        await try_alternative_methods()
+                    except Exception as e:
+                        logger.error(f"Alternative methods also failed: {str(e)}")
+
+                elapsed_time = time.time() - start_time
+                logger.info(f"Completed in {elapsed_time:.2f} seconds")
+
+            async def try_alternative_methods():
+                """Try alternative methods to get GEE catalog data."""
+                logger.info("Attempting to use Earth Engine Python API...")
+
+                try:
+                    # Try to import Earth Engine Python API
+                    import ee
+
+                    # Initialize Earth Engine
+                    try:
+                        ee.Initialize()
+                        logger.info("Successfully initialized Earth Engine API")
+                    except:
+                        # Try to authenticate if needed
+                        ee.Authenticate()
+                        ee.Initialize()
+                        logger.info("Successfully authenticated and initialized Earth Engine API")
+
+                    # Get all assets
+                    catalog = []
+
+                    # Get root collections
+                    collections = ee.data.listAssets({'parent': 'projects/earthengine-public/assets'})
+
+                    # Process each collection
+                    for collection in collections.get('assets', []):
+                        try:
+                            collection_id = collection['name'].split('/')[-1]
+                            logger.info(f"Processing collection: {collection_id}")
+
+                            # Get metadata
+                            info = ee.data.getAsset(collection['name'])
+
+                            # Extract basic metadata in community catalog format
+                            asset = {
+                                "title": info.get('displayName', collection_id),
+                                "sample_code": f"https://code.earthengine.google.com/?scriptPath=Examples:Datasets/{collection_id}",
+                                "type": info.get('type', ''),
+                                "id": collection_id,
+                                "provider": "Google Earth Engine",
+                                "tags": ", ".join(info.get('tags', [])),
+                                "license": "",  # Usually not available via this method
+                                "terms_of_use": "",  # Usually not available via this method
+                                "docs": f"https://developers.google.com/earth-engine/datasets/catalog/{collection_id}",
+                                "thematic_group": "Global Events Layers",  # Default thematic group
+                                "thumbnail": "",  # Usually not available via this method
+                            }
+
+                            catalog.append(asset)
+
+                            # Save as we go to capture partial results
+                            with open("gee_catalog_formatted.json", "w") as file:
+                                json.dump(catalog, file, indent=2, sort_keys=True)
+
+                        except Exception as e:
+                            logger.error(f"Error processing collection {collection.get('name')}: {str(e)}")
+
+                    # Save final results
+                    if catalog:
+                        logger.info(f"Found {len(catalog)} collections using EE API")
+                        with open("gee_catalog_formatted.json", "w") as file:
+                            json.dump(catalog, file, indent=2, sort_keys=True)
+
+                except ImportError:
+                    logger.warning("Earth Engine Python API not installed. Trying direct scraping...")
+                    # Could implement a web scraping fallback here if needed
+
+                except Exception as e:
+                    logger.error(f"Error in alternative methods: {str(e)}")
+                    import traceback
+                    logger.error(traceback.format_exc())
+
+            if __name__ == "__main__":
+                # Run with asyncio
+                asyncio.run(main())
+            
+            # When running within GitHub Actions, we need to execute the main function
+            asyncio.run(main())
+
+      - name: file_check
+        run: ls -l -a
+        
+      - name: commit files
+        continue-on-error: true
+        run: |
+          today=$(date +"%Y-%m-%d")
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "updated datasets ${today} UTC" -a
+          git pull origin main
+          
+      - name: push changes
+        continue-on-error: true
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
