@@ -16,38 +16,16 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Download and compare community catalog
+      - name: Download community catalog
         run: |
-          # Download the latest community catalog
-          curl -s https://raw.githubusercontent.com/samapriya/awesome-gee-community-datasets/master/community_datasets.json -o latest_community_datasets.json
-          
-          # Check if file exists in the repo
-          if [ -f "community_datasets.json" ]; then
-            # Compare the downloaded file with existing one
-            if cmp -s "latest_community_datasets.json" "community_datasets.json"; then
-              echo "No changes detected in community catalog"
-              rm latest_community_datasets.json
-              exit 0
-            else
-              echo "Changes detected in community catalog"
-              mv latest_community_datasets.json community_datasets.json
-            fi
-          else
-            echo "Community catalog file does not exist yet, creating it"
-            mv latest_community_datasets.json community_datasets.json
-          fi
+          # Download the latest community catalog and override existing one
+          curl -s https://raw.githubusercontent.com/samapriya/awesome-gee-community-datasets/master/community_datasets.json -o community_datasets.json
           
           # Add timestamp file to track updates
           echo "Last updated: $(date)" > community_datasets_last_updated.txt
 
       - name: Commit changes
         run: |
-          # Only proceed if there are changes to commit
-          if git diff --quiet community_datasets.json community_datasets_last_updated.txt; then
-            echo "No changes to commit"
-            exit 0
-          fi
-          
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add community_datasets.json community_datasets_last_updated.txt
