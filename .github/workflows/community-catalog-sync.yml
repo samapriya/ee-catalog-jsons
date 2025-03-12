@@ -1,0 +1,60 @@
+name: sync_community_catalog
+on:
+  workflow_dispatch:  # Allow manual trigger
+  schedule:
+    - cron: '0 */12 * * *'  # Run every 12 hours
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.10'
+
+      - name: Download and compare community catalog
+        run: |
+          # Download the latest community catalog
+          curl -s https://raw.githubusercontent.com/samapriya/awesome-gee-community-datasets/master/community_datasets.json -o latest_community_datasets.json
+          
+          # Check if file exists in the repo
+          if [ -f "community_datasets.json" ]; then
+            # Compare the downloaded file with existing one
+            if cmp -s "latest_community_datasets.json" "community_datasets.json"; then
+              echo "No changes detected in community catalog"
+              rm latest_community_datasets.json
+              exit 0
+            else
+              echo "Changes detected in community catalog"
+              mv latest_community_datasets.json community_datasets.json
+            fi
+          else
+            echo "Community catalog file does not exist yet, creating it"
+            mv latest_community_datasets.json community_datasets.json
+          fi
+          
+          # Add timestamp file to track updates
+          echo "Last updated: $(date)" > community_datasets_last_updated.txt
+
+      - name: Commit changes
+        run: |
+          # Only proceed if there are changes to commit
+          if git diff --quiet community_datasets.json community_datasets_last_updated.txt; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add community_datasets.json community_datasets_last_updated.txt
+          git commit -m "Update community datasets catalog $(date +%Y-%m-%d)"
+        
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
