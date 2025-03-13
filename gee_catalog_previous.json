@@ -7,7 +7,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/AAFC/ACI",
     "tags": "aafc, agriculture, canada, crop, landcover",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/AAFC/AAFC_ACI_sample.png",
     "title": "Canada AAFC Annual Crop Inventory",
     "type": "image_collection"
@@ -150,7 +150,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/BIOPAMA/GlobalOilPalm/v1",
     "tags": "agriculture, biodiversity, biopama, conservation, crop, global, landuse, palm, plantation",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/BIOPAMA/BIOPAMA_GlobalOilPalm_v1_sample.png",
     "title": "Global Map of Oil Palm Plantations",
     "type": "image_collection"
@@ -176,7 +176,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/BNETD/land_cover/v1",
     "tags": "classification, deforestation, forest, landcover, landuse-landcover",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/BNETD/BNETD_land_cover_v1_sample.png",
     "title": "Cote d'Ivoire BNETD 2020 Land Cover Map",
     "type": "image_collection"
@@ -202,7 +202,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/CANADA/NFIS/NTEMS/CA_FOREST_AGE",
     "tags": "canada, forest, forest-biomass",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/CANADA/CANADA_NFIS_NTEMS_CA_FOREST_AGE_sample.png",
     "title": "Landsat-derived forest age for Canada 2019",
     "type": "image_collection"
@@ -213,7 +213,7 @@
     "license": "CC-BY-4.0",
     "provider": "PML_V2",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/CAS/IGSNRR/PML/V2_v018",
-    "tags": "evapotranspiration, gpp, plant-productivity",
+    "tags": "evapotranspiration, gpp, plant-productivity, water-vapor",
     "terms_of_use": "",
     "thematic_group": "Global Events Layers",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/CAS/CAS_IGSNRR_PML_V2_v018_sample.png",
@@ -423,7 +423,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/COPERNICUS/S1_GRD",
     "tags": "backscatter, copernicus, esa, eu, polarization, radar, sar, satellite-imagery, sentinel",
     "terms_of_use": "The use of Sentinel data is governed by the [Copernicus\nSentinel Data Terms and Conditions.](https://scihub.copernicus.eu/twiki/pub/SciHubWebPortal/TermsConditions/Sentinel_Data_Terms_and_Conditions.pdf)\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_S1_GRD_sample.png",
     "title": "Sentinel-1 SAR GRD: C-band Synthetic Aperture Radar Ground Range Detected, log scaling",
     "type": "image_collection"
@@ -436,7 +436,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/COPERNICUS/S2_CLOUD_PROBABILITY",
     "tags": "cloud, copernicus, esa, eu, msi, radiance, satellite-imagery, sentinel, sentinelhub",
     "terms_of_use": "The use of Sentinel data is governed by the [Copernicus\nSentinel Data Terms and Conditions.](https://scihub.copernicus.eu/twiki/pub/SciHubWebPortal/TermsConditions/Sentinel_Data_Terms_and_Conditions.pdf)\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_S2_CLOUD_PROBABILITY_sample.png",
     "title": "Sentinel-2: Cloud Probability",
     "type": "image_collection"
@@ -449,7 +449,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/COPERNICUS/S2_HARMONIZED",
     "tags": "copernicus, esa, eu, msi, radiance, satellite-imagery, sentinel",
     "terms_of_use": "The use of Sentinel data is governed by the [Copernicus\nSentinel Data Terms and Conditions.](https://sentinels.copernicus.eu/documents/247904/690755/Sentinel_Data_Legal_Notice)\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_S2_HARMONIZED_sample.png",
     "title": "Harmonized Sentinel-2 MSI: MultiSpectral Instrument, Level-1C (TOA)",
     "type": "image_collection"
@@ -462,7 +462,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/COPERNICUS/S2_SR_HARMONIZED",
     "tags": "copernicus, esa, eu, msi, reflectance, satellite-imagery, sentinel, sr",
     "terms_of_use": "The use of Sentinel data is governed by the [Copernicus\nSentinel Data Terms and Conditions.](https://scihub.copernicus.eu/twiki/pub/SciHubWebPortal/TermsConditions/Sentinel_Data_Terms_and_Conditions.pdf)\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_S2_SR_HARMONIZED_sample.png",
     "title": "Harmonized Sentinel-2 MSI: MultiSpectral Instrument, Level-2A (SR)",
     "type": "image_collection"
@@ -475,7 +475,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/COPERNICUS/S3/OLCI",
     "tags": "copernicus, esa, eu, olci, radiance, satellite-imagery, sentinel, toa",
     "terms_of_use": "The use of Sentinel data is governed by the [Copernicus\nSentinel Data Terms and Conditions.](https://sentinel.esa.int/documents/247904/690755/Sentinel_Data_Legal_Notice)\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_S3_OLCI_sample.png",
     "title": "Sentinel-3 OLCI EFR: Ocean and Land Color Instrument Earth Observation Full Resolution",
     "type": "image_collection"
@@ -733,7 +733,7 @@
     "license": "CC-BY-4.0",
     "provider": "Spanish National Research Council (CSIC)",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/CSIC/SPEI/2_10",
-    "tags": "climate, climate_change, drought, evapotranspiration, global, monthly, palmer, precipitation, temperature",
+    "tags": "climate, climate_change, drought, evapotranspiration, global, monthly, palmer, precipitation, temperature, water-vapor",
     "terms_of_use": "",
     "thematic_group": "Weather and Climate Layers",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/CSIC/CSIC_SPEI_2_10_sample.png",
@@ -1203,7 +1203,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/ESA/WorldCereal/2021/MARKERS/v100",
     "tags": "agriculture, copernicus, crop, esa, global, landcover, landsat, sentinel1_derived, sentinel2_derived",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/ESA/ESA_WorldCereal_2021_MARKERS_v100_sample.png",
     "title": "ESA WorldCereal Active Cropland 10 m v100",
     "type": "image_collection"
@@ -1216,7 +1216,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/ESA/WorldCereal/2021/MODELS/v100",
     "tags": "agriculture, copernicus, crop, esa, global, landcover, landsat, sentinel1_derived, sentinel2_derived",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/ESA/ESA_WorldCereal_2021_MODELS_v100_sample.png",
     "title": "ESA WorldCereal 10 m v100",
     "type": "image_collection"
@@ -1229,7 +1229,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/ESA/WorldCereal/AEZ/v100",
     "tags": "agriculture, boundaries, crop, esa, global",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/ESA/ESA_WorldCereal_AEZ_v100_sample.png",
     "title": "ESA WorldCereal AEZ v100",
     "type": "table"
@@ -1424,7 +1424,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/FAO/SOFO/1/FPP",
     "tags": "agriculture, fao, forest, global, plant-productivity, population, rural_area",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/FAO/FAO_SOFO_1_FPP_sample.png",
     "title": "Forest proximate people (FPP) 1.0",
     "type": "image_collection"
@@ -1437,7 +1437,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/FAO/SOFO/1/TPP",
     "tags": "agriculture, fao, forest, global, plant-productivity, population, rural_area",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/FAO/FAO_SOFO_1_TPP_sample.png",
     "title": "Tree proximate people (TPP) 1.0",
     "type": "image_collection"
@@ -1448,9 +1448,9 @@
     "license": "proprietary",
     "provider": "FAO UN",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/FAO/WAPOR/2/L1_AETI_D",
-    "tags": "agriculture, fao, wapor, water",
+    "tags": "agriculture, fao, wapor, water, water-vapor",
     "terms_of_use": "The Food and Agriculture Organization of the United Nations (FAO) is\nmandated to collect, analyze, interpret, and disseminate information related\nto nutrition, food, and agriculture. In this regard, it publishes a number\nof databases on topics related to FAO's mandate, and encourages the use of\nthem for scientific and research purposes.  Consistent with the principles\nof openness and sharing envisioned under the [Open Data Licensing For\nStatistical Databases](http://www.fao.org/3/ca7570en/ca7570en.pdf), and\nconsistent with the mandate of FAO, data from the [Water Productivity Open\nAccess Portal (WaPOR)](https://wapor.apps.fao.org/home/WAPOR_2/1), as part\nof [AQUASTAT](http://www.fao.org/aquastat/en/) - FAO's Global Information\nSystem on Water and Agriculture, is available free to the user community.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/FAO/FAO_WAPOR_2_L1_AETI_D_sample.png",
     "title": "WAPOR Actual Evapotranspiration and Interception 2.0",
     "type": "image_collection"
@@ -1461,9 +1461,9 @@
     "license": "proprietary",
     "provider": "FAO UN",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/FAO/WAPOR/2/L1_E_D",
-    "tags": "agriculture, fao, wapor, water",
+    "tags": "agriculture, fao, wapor, water, water-vapor",
     "terms_of_use": "The Food and Agriculture Organization of the United Nations (FAO) is\nmandated to collect, analyze, interpret, and disseminate information related\nto nutrition, food, and agriculture. In this regard, it publishes a number\nof databases on topics related to FAO's mandate, and encourages the use of\nthem for scientific and research purposes.  Consistent with the principles\nof openness and sharing envisioned under the [Open Data Licensing For\nStatistical Databases](http://www.fao.org/3/ca7570en/ca7570en.pdf), and\nconsistent with the mandate of FAO, data from the [Water Productivity Open\nAccess Portal (WaPOR)](https://wapor.apps.fao.org/home/WAPOR_2/1), as part\nof [AQUASTAT](http://www.fao.org/aquastat/en/) - FAO's Global Information\nSystem on Water and Agriculture, is available free to the user community.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/FAO/FAO_WAPOR_2_L1_E_D_sample.png",
     "title": "WAPOR Dekadal Evaporation 2.0",
     "type": "image_collection"
@@ -1474,9 +1474,9 @@
     "license": "proprietary",
     "provider": "FAO UN",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/FAO/WAPOR/2/L1_I_D",
-    "tags": "agriculture, fao, wapor, water",
+    "tags": "agriculture, fao, wapor, water, water-vapor",
     "terms_of_use": "The Food and Agriculture Organization of the United Nations (FAO) is\nmandated to collect, analyze, interpret, and disseminate information related\nto nutrition, food, and agriculture. In this regard, it publishes a number\nof databases on topics related to FAO's mandate, and encourages the use of\nthem for scientific and research purposes.  Consistent with the principles\nof openness and sharing envisioned under the [Open Data Licensing For\nStatistical Databases](http://www.fao.org/3/ca7570en/ca7570en.pdf), and\nconsistent with the mandate of FAO, data from the [Water Productivity Open\nAccess Portal (WaPOR)](https://wapor.apps.fao.org/home/WAPOR_2/1), as part\nof [AQUASTAT](http://www.fao.org/aquastat/en/) - FAO's Global Information\nSystem on Water and Agriculture, is available free to the user community.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/FAO/FAO_WAPOR_2_L1_I_D_sample.png",
     "title": "WAPOR Dekadal Interception 2.0",
     "type": "image_collection"
@@ -1489,7 +1489,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/FAO/WAPOR/2/L1_NPP_D",
     "tags": "agriculture, fao, plant-productivity, wapor, water",
     "terms_of_use": "The Food and Agriculture Organization of the United Nations (FAO) is\nmandated to collect, analyze, interpret, and disseminate information related\nto nutrition, food, and agriculture. In this regard, it publishes a number\nof databases on topics related to FAO's mandate, and encourages the use of\nthem for scientific and research purposes.  Consistent with the principles\nof openness and sharing envisioned under the [Open Data Licensing For\nStatistical Databases](http://www.fao.org/3/ca7570en/ca7570en.pdf), and\nconsistent with the mandate of FAO, data from the [Water Productivity Open\nAccess Portal (WaPOR)](https://wapor.apps.fao.org/home/WAPOR_2/1), as part\nof [AQUASTAT](http://www.fao.org/aquastat/en/) - FAO's Global Information\nSystem on Water and Agriculture, is available free to the user community.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/FAO/FAO_WAPOR_2_L1_NPP_D_sample.png",
     "title": "WAPOR Dekadal Net Primary Production 2.0",
     "type": "image_collection"
@@ -1500,9 +1500,9 @@
     "license": "proprietary",
     "provider": "FAO UN",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/FAO/WAPOR/2/L1_RET_D",
-    "tags": "agriculture, fao, wapor, water",
+    "tags": "agriculture, fao, wapor, water, water-vapor",
     "terms_of_use": "The Food and Agriculture Organization of the United Nations (FAO) is\nmandated to collect, analyze, interpret, and disseminate information related\nto nutrition, food, and agriculture. In this regard, it publishes a number\nof databases on topics related to FAO's mandate, and encourages the use of\nthem for scientific and research purposes.  Consistent with the principles\nof openness and sharing envisioned under the [Open Data Licensing For\nStatistical Databases](http://www.fao.org/3/ca7570en/ca7570en.pdf), and\nconsistent with the mandate of FAO, data from the [Water Productivity Open\nAccess Portal (WaPOR)](https://wapor.apps.fao.org/home/WAPOR_2/1), as part\nof [AQUASTAT](http://www.fao.org/aquastat/en/) - FAO's Global Information\nSystem on Water and Agriculture, is available free to the user community.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/FAO/FAO_WAPOR_2_L1_RET_D_sample.png",
     "title": "WAPOR Dekadal Reference Evapotranspiration 2.0",
     "type": "image_collection"
@@ -1513,9 +1513,9 @@
     "license": "proprietary",
     "provider": "FAO UN",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/FAO/WAPOR/2/L1_RET_E",
-    "tags": "agriculture, fao, wapor, water",
+    "tags": "agriculture, fao, wapor, water, water-vapor",
     "terms_of_use": "The Food and Agriculture Organization of the United Nations (FAO) is\nmandated to collect, analyze, interpret, and disseminate information related\nto nutrition, food, and agriculture. In this regard, it publishes a number\nof databases on topics related to FAO's mandate, and encourages the use of\nthem for scientific and research purposes.  Consistent with the principles\nof openness and sharing envisioned under the [Open Data Licensing For\nStatistical Databases](http://www.fao.org/3/ca7570en/ca7570en.pdf), and\nconsistent with the mandate of FAO, data from the [Water Productivity Open\nAccess Portal (WaPOR)](https://wapor.apps.fao.org/home/WAPOR_2/1), as part\nof [AQUASTAT](http://www.fao.org/aquastat/en/) - FAO's Global Information\nSystem on Water and Agriculture, is available free to the user community.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/FAO/FAO_WAPOR_2_L1_RET_E_sample.png",
     "title": "WAPOR Daily Reference Evapotranspiration 2.0",
     "type": "image_collection"
@@ -1526,9 +1526,9 @@
     "license": "proprietary",
     "provider": "FAO UN",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/FAO/WAPOR/2/L1_T_D",
-    "tags": "agriculture, fao, wapor, water",
+    "tags": "agriculture, fao, wapor, water, water-vapor",
     "terms_of_use": "The Food and Agriculture Organization of the United Nations (FAO) is\nmandated to collect, analyze, interpret, and disseminate information related\nto nutrition, food, and agriculture. In this regard, it publishes a number\nof databases on topics related to FAO's mandate, and encourages the use of\nthem for scientific and research purposes.  Consistent with the principles\nof openness and sharing envisioned under the [Open Data Licensing For\nStatistical Databases](http://www.fao.org/3/ca7570en/ca7570en.pdf), and\nconsistent with the mandate of FAO, data from the [Water Productivity Open\nAccess Portal (WaPOR)](https://wapor.apps.fao.org/home/WAPOR_2/1), as part\nof [AQUASTAT](http://www.fao.org/aquastat/en/) - FAO's Global Information\nSystem on Water and Agriculture, is available free to the user community.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/FAO/FAO_WAPOR_2_L1_T_D_sample.png",
     "title": "WAPOR Dekadal Transpiration 2.0",
     "type": "image_collection"
@@ -1734,7 +1734,7 @@
     "license": "proprietary",
     "provider": "University of California Merced",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/GRIDMET/DROUGHT",
-    "tags": "climate, climatic_water_balance, conus, crop, drought, eddi, evapotranspiration, geophysical, gridmet, merced, metdata, palmer, pdsi, precipitation, spei, spi, surface-ground-water",
+    "tags": "climate, climatic_water_balance, conus, crop, drought, eddi, evapotranspiration, geophysical, gridmet, merced, metdata, palmer, pdsi, precipitation, spei, spi, surface-ground-water, water-vapor",
     "terms_of_use": "This work (METDATA, by John Abatzoglou) is in the public\ndomain and is free of known copyright restrictions. Users should\nproperly cite the source used in the creation of any reports and\npublications resulting from the use of this dataset and note the\ndate when the data was acquired.\n",
     "thematic_group": "Weather and Climate Layers",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/GRIDMET/GRIDMET_DROUGHT_sample.png",
@@ -1762,7 +1762,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/HU_BERLIN/EPFD/V2/points",
     "tags": "europe, forest, forest-biomass",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/HU_BERLIN/HU_BERLIN_EPFD_V2_points_sample.png",
     "title": "European Primary Forest Dataset - Points",
     "type": "table"
@@ -1775,7 +1775,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/HU_BERLIN/EPFD/V2/polygons",
     "tags": "europe, forest, forest-biomass",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/HU_BERLIN/HU_BERLIN_EPFD_V2_polygons_sample.png",
     "title": "European Primary Forest Dataset - Polygons",
     "type": "table"
@@ -1825,7 +1825,7 @@
     "license": "proprietary",
     "provider": "University of California Merced",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/IDAHO_EPSCOR/GRIDMET",
-    "tags": "climate, fireburning, gridmet, humidity, merced, metdata, nfdrs, precipitation, radiation, temperature, wind",
+    "tags": "climate, fireburning, gridmet, humidity, merced, metdata, nfdrs, precipitation, radiation, temperature, water-vapor, wind",
     "terms_of_use": "This work (METDATA, by John Abatzoglou) is in the public\ndomain and is free of known copyright restrictions. Users should\nproperly cite the source used in the creation of any reports and\npublications resulting from the use of this dataset and note the\ndate when the data was acquired.\n",
     "thematic_group": "Weather and Climate Layers",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/IDAHO_EPSCOR/IDAHO_EPSCOR_GRIDMET_sample.png",
@@ -1864,7 +1864,7 @@
     "license": "CC0-1.0",
     "provider": "University of California Merced",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/IDAHO_EPSCOR/TERRACLIMATE",
-    "tags": "climate, drought, evapotranspiration, geophysical, global, merced, monthly, palmer, pdsi, precipitation, runoff, temperature, vapor, wind",
+    "tags": "climate, drought, evapotranspiration, geophysical, global, merced, monthly, palmer, pdsi, precipitation, runoff, temperature, vapor, water-vapor, wind",
     "terms_of_use": "",
     "thematic_group": "Weather and Climate Layers",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/IDAHO_EPSCOR/IDAHO_EPSCOR_TERRACLIMATE_sample.png",
@@ -2256,7 +2256,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/JAXA/ALOS/PALSAR/YEARLY/FNF4",
     "tags": "alos, alos2, classification, eroc, forest, forest-biomass, jaxa, landcover, palsar, palsar2, sar",
     "terms_of_use": "JAXA retains ownership of the dataset and cannot guarantee\nany problem caused by or possibly caused by using the datasets.\nAnyone wishing to publish any results using the datasets should\nclearly acknowledge the ownership of the data in the publication.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/JAXA/JAXA_ALOS_PALSAR_YEARLY_FNF4_sample.png",
     "title": "Global 4-class PALSAR-2/PALSAR Forest/Non-Forest Map",
     "type": "image_collection"
@@ -2269,7 +2269,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/JAXA/ALOS/PALSAR/YEARLY/FNF",
     "tags": "alos, alos2, classification, eroc, forest, forest-biomass, jaxa, landcover, palsar, palsar2, sar",
     "terms_of_use": "JAXA retains ownership of the dataset and cannot guarantee\nany problem caused by or possibly caused by using the datasets.\nAnyone wishing to publish any results using the datasets should\nclearly acknowledge the ownership of the data in the publication.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/JAXA/JAXA_ALOS_PALSAR_YEARLY_FNF_sample.png",
     "title": "Global 3-class PALSAR-2/PALSAR Forest/Non-Forest Map",
     "type": "image_collection"
@@ -2542,7 +2542,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/JRC/D5/EUCROPMAP/V1",
     "tags": "agriculture, crop, eu, jrc, lucas, sentinel1_derived",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/JRC/JRC_D5_EUCROPMAP_V1_sample.png",
     "title": "EUCROPMAP",
     "type": "image_collection"
@@ -2555,7 +2555,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/JRC/GFC2020/V2",
     "tags": "eudr, forest, forest-biomass, jrc",
     "terms_of_use": "The data may be used by anyone, anywhere, anytime without permission,\nlicense or royalty payment. Attribution using the recommended citation\nis requested.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/JRC/JRC_GFC2020_V2_sample.png",
     "title": "EC JRC global map of forest cover 2020, V2",
     "type": "image_collection"
@@ -2568,7 +2568,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/JRC/GFC2020_subtypes/V0",
     "tags": "eudr, forest, forest-biomass, jrc, landcover, primary_forest",
     "terms_of_use": "The data may be used by anyone, anywhere, anytime without permission,\nlicense or royalty payment. Attribution using the recommended citation is\nrequested.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/JRC/JRC_GFC2020_subtypes_V0_sample.png",
     "title": "Global map of forest types 2020",
     "type": "image_collection"
@@ -2997,7 +2997,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/COMPOSITES/C02/T1_L2_8DAY_BAI",
     "tags": "bai, landsat, usgs, vegetation-indices",
     "terms_of_use": "Landsat datasets are federally created data\nand therefore reside in the public domain and may be used, transferred, or reproduced without copyright restriction.\n\nAcknowledgement or credit of the USGS as data source should be provided\nby including a line of text citation such as the example shown below.\n\n(Product, Image, Photograph, or Dataset Name) courtesy of\nthe U.S. Geological Survey\n\nExample: Landsat-7 image courtesy of the U.S. Geological Survey\n\nSee the\n[USGS Visual Identity System Guidance](https://www.usgs.gov/information-policies-and-instructions/usgs-visual-identity-system)\nfor further details on proper citation and acknowledgement of USGS products.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_COMPOSITES_C02_T1_L2_8DAY_BAI_sample.png",
     "title": "Landsat Collection 2 Tier 1 Level 2 8-Day BAI Composite",
     "type": "image_collection"
@@ -3010,7 +3010,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/COMPOSITES/C02/T1_L2_8DAY_EVI",
     "tags": "evi, landsat, usgs, vegetation-indices",
     "terms_of_use": "Landsat datasets are federally created data\nand therefore reside in the public domain and may be used, transferred, or reproduced without copyright restriction.\n\nAcknowledgement or credit of the USGS as data source should be provided\nby including a line of text citation such as the example shown below.\n\n(Product, Image, Photograph, or Dataset Name) courtesy of\nthe U.S. Geological Survey\n\nExample: Landsat-7 image courtesy of the U.S. Geological Survey\n\nSee the\n[USGS Visual Identity System Guidance](https://www.usgs.gov/information-policies-and-instructions/usgs-visual-identity-system)\nfor further details on proper citation and acknowledgement of USGS products.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_COMPOSITES_C02_T1_L2_8DAY_EVI_sample.png",
     "title": "Landsat Collection 2 Tier 1 Level 2 8-Day EVI Composite",
     "type": "image_collection"
@@ -3023,7 +3023,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/COMPOSITES/C02/T1_L2_8DAY_NBR",
     "tags": "landsat, nbrt, usgs, vegetation-indices",
     "terms_of_use": "Landsat datasets are federally created data\nand therefore reside in the public domain and may be used, transferred, or reproduced without copyright restriction.\n\nAcknowledgement or credit of the USGS as data source should be provided\nby including a line of text citation such as the example shown below.\n\n(Product, Image, Photograph, or Dataset Name) courtesy of\nthe U.S. Geological Survey\n\nExample: Landsat-7 image courtesy of the U.S. Geological Survey\n\nSee the\n[USGS Visual Identity System Guidance](https://www.usgs.gov/information-policies-and-instructions/usgs-visual-identity-system)\nfor further details on proper citation and acknowledgement of USGS products.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_COMPOSITES_C02_T1_L2_8DAY_NBR_sample.png",
     "title": "Landsat Collection 2 Tier 1 Level 2 8-Day NBR Composite",
     "type": "image_collection"
@@ -3036,7 +3036,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/COMPOSITES/C02/T1_L2_8DAY_NDVI",
     "tags": "landsat, ndvi, usgs, vegetation-indices",
     "terms_of_use": "Landsat datasets are federally created data\nand therefore reside in the public domain and may be used, transferred, or reproduced without copyright restriction.\n\nAcknowledgement or credit of the USGS as data source should be provided\nby including a line of text citation such as the example shown below.\n\n(Product, Image, Photograph, or Dataset Name) courtesy of\nthe U.S. Geological Survey\n\nExample: Landsat-7 image courtesy of the U.S. Geological Survey\n\nSee the\n[USGS Visual Identity System Guidance](https://www.usgs.gov/information-policies-and-instructions/usgs-visual-identity-system)\nfor further details on proper citation and acknowledgement of USGS products.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_COMPOSITES_C02_T1_L2_8DAY_NDVI_sample.png",
     "title": "Landsat Collection 2 Tier 1 Level 2 8-Day NDVI Composite",
     "type": "image_collection"
@@ -3049,7 +3049,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/COMPOSITES/C02/T1_L2_8DAY_NDWI",
     "tags": "landsat, ndwi, usgs, vegetation-indices",
     "terms_of_use": "Landsat datasets are federally created data\nand therefore reside in the public domain and may be used, transferred, or reproduced without copyright restriction.\n\nAcknowledgement or credit of the USGS as data source should be provided\nby including a line of text citation such as the example shown below.\n\n(Product, Image, Photograph, or Dataset Name) courtesy of\nthe U.S. Geological Survey\n\nExample: Landsat-7 image courtesy of the U.S. Geological Survey\n\nSee the\n[USGS Visual Identity System Guidance](https://www.usgs.gov/information-policies-and-instructions/usgs-visual-identity-system)\nfor further details on proper citation and acknowledgement of USGS products.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_COMPOSITES_C02_T1_L2_8DAY_NDWI_sample.png",
     "title": "Landsat Collection 2 Tier 1 Level 2 8-Day NDWI Composite",
     "type": "image_collection"
@@ -3062,7 +3062,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/COMPOSITES/C02/T1_L2_32DAY_BAI",
     "tags": "bai, landsat, usgs, vegetation-indices",
     "terms_of_use": "Landsat datasets are federally created data\nand therefore reside in the public domain and may be used, transferred, or reproduced without copyright restriction.\n\nAcknowledgement or credit of the USGS as data source should be provided\nby including a line of text citation such as the example shown below.\n\n(Product, Image, Photograph, or Dataset Name) courtesy of\nthe U.S. Geological Survey\n\nExample: Landsat-7 image courtesy of the U.S. Geological Survey\n\nSee the\n[USGS Visual Identity System Guidance](https://www.usgs.gov/information-policies-and-instructions/usgs-visual-identity-system)\nfor further details on proper citation and acknowledgement of USGS products.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_COMPOSITES_C02_T1_L2_32DAY_BAI_sample.png",
     "title": "Landsat Collection 2 Tier 1 Level 2 32-Day BAI Composite",
     "type": "image_collection"
@@ -3075,7 +3075,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/COMPOSITES/C02/T1_L2_32DAY_EVI",
     "tags": "evi, landsat, usgs, vegetation-indices",
     "terms_of_use": "Landsat datasets are federally created data\nand therefore reside in the public domain and may be used, transferred, or reproduced without copyright restriction.\n\nAcknowledgement or credit of the USGS as data source should be provided\nby including a line of text citation such as the example shown below.\n\n(Product, Image, Photograph, or Dataset Name) courtesy of\nthe U.S. Geological Survey\n\nExample: Landsat-7 image courtesy of the U.S. Geological Survey\n\nSee the\n[USGS Visual Identity System Guidance](https://www.usgs.gov/information-policies-and-instructions/usgs-visual-identity-system)\nfor further details on proper citation and acknowledgement of USGS products.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_COMPOSITES_C02_T1_L2_32DAY_EVI_sample.png",
     "title": "Landsat Collection 2 Tier 1 Level 2 32-Day EVI Composite",
     "type": "image_collection"
@@ -3088,7 +3088,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/COMPOSITES/C02/T1_L2_32DAY_NBR",
     "tags": "landsat, nbrt, usgs, vegetation-indices",
     "terms_of_use": "Landsat datasets are federally created data\nand therefore reside in the public domain and may be used, transferred, or reproduced without copyright restriction.\n\nAcknowledgement or credit of the USGS as data source should be provided\nby including a line of text citation such as the example shown below.\n\n(Product, Image, Photograph, or Dataset Name) courtesy of\nthe U.S. Geological Survey\n\nExample: Landsat-7 image courtesy of the U.S. Geological Survey\n\nSee the\n[USGS Visual Identity System Guidance](https://www.usgs.gov/information-policies-and-instructions/usgs-visual-identity-system)\nfor further details on proper citation and acknowledgement of USGS products.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_COMPOSITES_C02_T1_L2_32DAY_NBR_sample.png",
     "title": "Landsat Collection 2 Tier 1 Level 2 32-Day NBR Composite",
     "type": "image_collection"
@@ -3101,7 +3101,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/COMPOSITES/C02/T1_L2_32DAY_NDVI",
     "tags": "landsat, ndvi, usgs, vegetation-indices",
     "terms_of_use": "Landsat datasets are federally created data\nand therefore reside in the public domain and may be used, transferred, or reproduced without copyright restriction.\n\nAcknowledgement or credit of the USGS as data source should be provided\nby including a line of text citation such as the example shown below.\n\n(Product, Image, Photograph, or Dataset Name) courtesy of\nthe U.S. Geological Survey\n\nExample: Landsat-7 image courtesy of the U.S. Geological Survey\n\nSee the\n[USGS Visual Identity System Guidance](https://www.usgs.gov/information-policies-and-instructions/usgs-visual-identity-system)\nfor further details on proper citation and acknowledgement of USGS products.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_COMPOSITES_C02_T1_L2_32DAY_NDVI_sample.png",
     "title": "Landsat Collection 2 Tier 1 Level 2 32-Day NDVI Composite",
     "type": "image_collection"
@@ -3114,7 +3114,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/COMPOSITES/C02/T1_L2_32DAY_NDWI",
     "tags": "landsat, ndwi, usgs, vegetation-indices",
     "terms_of_use": "Landsat datasets are federally created data\nand therefore reside in the public domain and may be used, transferred, or reproduced without copyright restriction.\n\nAcknowledgement or credit of the USGS as data source should be provided\nby including a line of text citation such as the example shown below.\n\n(Product, Image, Photograph, or Dataset Name) courtesy of\nthe U.S. Geological Survey\n\nExample: Landsat-7 image courtesy of the U.S. Geological Survey\n\nSee the\n[USGS Visual Identity System Guidance](https://www.usgs.gov/information-policies-and-instructions/usgs-visual-identity-system)\nfor further details on proper citation and acknowledgement of USGS products.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_COMPOSITES_C02_T1_L2_32DAY_NDWI_sample.png",
     "title": "Landsat Collection 2 Tier 1 Level 2 32-Day NDWI Composite",
     "type": "image_collection"
@@ -3127,7 +3127,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/COMPOSITES/C02/T1_L2_ANNUAL_BAI",
     "tags": "bai, landsat, usgs, vegetation-indices",
     "terms_of_use": "Landsat datasets are federally created data\nand therefore reside in the public domain and may be used, transferred, or reproduced without copyright restriction.\n\nAcknowledgement or credit of the USGS as data source should be provided\nby including a line of text citation such as the example shown below.\n\n(Product, Image, Photograph, or Dataset Name) courtesy of\nthe U.S. Geological Survey\n\nExample: Landsat-7 image courtesy of the U.S. Geological Survey\n\nSee the\n[USGS Visual Identity System Guidance](https://www.usgs.gov/information-policies-and-instructions/usgs-visual-identity-system)\nfor further details on proper citation and acknowledgement of USGS products.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_COMPOSITES_C02_T1_L2_ANNUAL_BAI_sample.png",
     "title": "Landsat Collection 2 Tier 1 Level 2 Annual BAI Composite",
     "type": "image_collection"
@@ -3140,7 +3140,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/COMPOSITES/C02/T1_L2_ANNUAL_EVI",
     "tags": "evi, landsat, usgs, vegetation-indices",
     "terms_of_use": "Landsat datasets are federally created data\nand therefore reside in the public domain and may be used, transferred, or reproduced without copyright restriction.\n\nAcknowledgement or credit of the USGS as data source should be provided\nby including a line of text citation such as the example shown below.\n\n(Product, Image, Photograph, or Dataset Name) courtesy of\nthe U.S. Geological Survey\n\nExample: Landsat-7 image courtesy of the U.S. Geological Survey\n\nSee the\n[USGS Visual Identity System Guidance](https://www.usgs.gov/information-policies-and-instructions/usgs-visual-identity-system)\nfor further details on proper citation and acknowledgement of USGS products.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_COMPOSITES_C02_T1_L2_ANNUAL_EVI_sample.png",
     "title": "Landsat Collection 2 Tier 1 Level 2 Annual EVI Composite",
     "type": "image_collection"
@@ -3153,7 +3153,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/COMPOSITES/C02/T1_L2_ANNUAL_NBR",
     "tags": "landsat, nbrt, usgs, vegetation-indices",
     "terms_of_use": "Landsat datasets are federally created data\nand therefore reside in the public domain and may be used, transferred, or reproduced without copyright restriction.\n\nAcknowledgement or credit of the USGS as data source should be provided\nby including a line of text citation such as the example shown below.\n\n(Product, Image, Photograph, or Dataset Name) courtesy of\nthe U.S. Geological Survey\n\nExample: Landsat-7 image courtesy of the U.S. Geological Survey\n\nSee the\n[USGS Visual Identity System Guidance](https://www.usgs.gov/information-policies-and-instructions/usgs-visual-identity-system)\nfor further details on proper citation and acknowledgement of USGS products.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_COMPOSITES_C02_T1_L2_ANNUAL_NBR_sample.png",
     "title": "Landsat Collection 2 Tier 1 Level 2 Annual NBR Composite",
     "type": "image_collection"
@@ -3166,7 +3166,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/COMPOSITES/C02/T1_L2_ANNUAL_NDVI",
     "tags": "landsat, ndvi, usgs, vegetation-indices",
     "terms_of_use": "Landsat datasets are federally created data\nand therefore reside in the public domain and may be used, transferred, or reproduced without copyright restriction.\n\nAcknowledgement or credit of the USGS as data source should be provided\nby including a line of text citation such as the example shown below.\n\n(Product, Image, Photograph, or Dataset Name) courtesy of\nthe U.S. Geological Survey\n\nExample: Landsat-7 image courtesy of the U.S. Geological Survey\n\nSee the\n[USGS Visual Identity System Guidance](https://www.usgs.gov/information-policies-and-instructions/usgs-visual-identity-system)\nfor further details on proper citation and acknowledgement of USGS products.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_COMPOSITES_C02_T1_L2_ANNUAL_NDVI_sample.png",
     "title": "Landsat Collection 2 Tier 1 Level 2 Annual NDVI Composite",
     "type": "image_collection"
@@ -3179,7 +3179,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/COMPOSITES/C02/T1_L2_ANNUAL_NDWI",
     "tags": "landsat, ndwi, usgs, vegetation-indices",
     "terms_of_use": "Landsat datasets are federally created data\nand therefore reside in the public domain and may be used, transferred, or reproduced without copyright restriction.\n\nAcknowledgement or credit of the USGS as data source should be provided\nby including a line of text citation such as the example shown below.\n\n(Product, Image, Photograph, or Dataset Name) courtesy of\nthe U.S. Geological Survey\n\nExample: Landsat-7 image courtesy of the U.S. Geological Survey\n\nSee the\n[USGS Visual Identity System Guidance](https://www.usgs.gov/information-policies-and-instructions/usgs-visual-identity-system)\nfor further details on proper citation and acknowledgement of USGS products.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_COMPOSITES_C02_T1_L2_ANNUAL_NDWI_sample.png",
     "title": "Landsat Collection 2 Tier 1 Level 2 Annual NDWI Composite",
     "type": "image_collection"
@@ -3192,7 +3192,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/GLS1975",
     "tags": "global, gls, landsat, radiance, satellite-imagery, usgs",
     "terms_of_use": "Landsat datasets are federally created data\nand therefore reside in the public domain and may be used, transferred, or reproduced without copyright restriction.\n\nAcknowledgement or credit of the USGS as data source should be provided\nby including a line of text citation such as the example shown below.\n\n(Product, Image, Photograph, or Dataset Name) courtesy of\nthe U.S. Geological Survey\n\nExample: Landsat-7 image courtesy of the U.S. Geological Survey\n\nSee the\n[USGS Visual Identity System Guidance](https://www.usgs.gov/information-policies-and-instructions/usgs-visual-identity-system)\nfor further details on proper citation and acknowledgement of USGS products.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_GLS1975_sample.png",
     "title": "Landsat Global Land Survey 1975",
     "type": "image_collection"
@@ -3205,7 +3205,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/GLS1975_MOSAIC",
     "tags": "gls, landsat, radiance, satellite-imagery, usgs",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_GLS1975_MOSAIC_sample.png",
     "title": "Landsat Global Land Survey 1975 Mosaic",
     "type": "image_collection"
@@ -3218,7 +3218,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/GLS2005",
     "tags": "gls, landsat, radiance, satellite-imagery, usgs",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_GLS2005_sample.png",
     "title": "Landsat Global Land Survey 2005, Landsat 5+7 scenes",
     "type": "image_collection"
@@ -3231,7 +3231,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/GLS2005_L5",
     "tags": "etm, gls, l5, landsat, radiance, satellite-imagery, usgs",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_GLS2005_L5_sample.png",
     "title": "Landsat Global Land Survey 2005, Landsat 5 scenes",
     "type": "image_collection"
@@ -3244,7 +3244,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/GLS2005_L7",
     "tags": "etm, gls, l7, landsat, radiance, satellite-imagery, usgs",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_GLS2005_L7_sample.png",
     "title": "Landsat Global Land Survey 2005, Landsat 7 scenes",
     "type": "image_collection"
@@ -3257,7 +3257,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LC08/C02/T1",
     "tags": "c2, global, l8, landsat, lc8, oli_tirs, radiance, satellite-imagery, t1, tier1, usgs",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LC08_C02_T1_sample.png",
     "title": "USGS Landsat 8 Collection 2 Tier 1 Raw Scenes",
     "type": "image_collection"
@@ -3270,7 +3270,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LC08/C02/T1_L2",
     "tags": "cfmask, cloud, fmask, global, l8sr, landsat, lasrc, lc08, lst, reflectance, satellite-imagery, sr, usgs",
     "terms_of_use": "Landsat datasets are federally created data\nand therefore reside in the public domain and may be used, transferred, or reproduced without copyright restriction.\n\nAcknowledgement or credit of the USGS as data source should be provided\nby including a line of text citation such as the example shown below.\n\n(Product, Image, Photograph, or Dataset Name) courtesy of\nthe U.S. Geological Survey\n\nExample: Landsat-7 image courtesy of the U.S. Geological Survey\n\nSee the\n[USGS Visual Identity System Guidance](https://www.usgs.gov/information-policies-and-instructions/usgs-visual-identity-system)\nfor further details on proper citation and acknowledgement of USGS products.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LC08_C02_T1_L2_sample.png",
     "title": "USGS Landsat 8 Level 2, Collection 2, Tier 1",
     "type": "image_collection"
@@ -3283,7 +3283,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LC08/C02/T1_RT",
     "tags": "c2, global, l8, landsat, lc8, nrt, oli_tirs, radiance, rt, satellite-imagery, t1, tier1, usgs",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LC08_C02_T1_RT_sample.png",
     "title": "USGS Landsat 8 Collection 2 Tier 1 and Real-Time data Raw Scenes",
     "type": "image_collection"
@@ -3296,7 +3296,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LC08/C02/T1_RT_TOA",
     "tags": "c2, global, l8, landsat, lc8, satellite-imagery, toa, usgs",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LC08_C02_T1_RT_TOA_sample.png",
     "title": "USGS Landsat 8 Collection 2 Tier 1 and Real-Time data TOA Reflectance",
     "type": "image_collection"
@@ -3309,7 +3309,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LC08/C02/T1_TOA",
     "tags": "c2, global, landsat, satellite-imagery, toa, usgs",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LC08_C02_T1_TOA_sample.png",
     "title": "USGS Landsat 8 Collection 2 Tier 1 TOA Reflectance",
     "type": "image_collection"
@@ -3322,7 +3322,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LC08/C02/T2",
     "tags": "c2, global, l8, landsat, lc8, oli_tirs, radiance, satellite-imagery, t2, tier2, usgs",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LC08_C02_T2_sample.png",
     "title": "USGS Landsat 8 Collection 2 Tier 2 Raw Scenes",
     "type": "image_collection"
@@ -3335,7 +3335,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LC08/C02/T2_L2",
     "tags": "cfmask, cloud, fmask, global, l8sr, landsat, lasrc, lc08, lst, reflectance, satellite-imagery, sr, usgs",
     "terms_of_use": "Landsat datasets are federally created data\nand therefore reside in the public domain and may be used, transferred, or reproduced without copyright restriction.\n\nAcknowledgement or credit of the USGS as data source should be provided\nby including a line of text citation such as the example shown below.\n\n(Product, Image, Photograph, or Dataset Name) courtesy of\nthe U.S. Geological Survey\n\nExample: Landsat-7 image courtesy of the U.S. Geological Survey\n\nSee the\n[USGS Visual Identity System Guidance](https://www.usgs.gov/information-policies-and-instructions/usgs-visual-identity-system)\nfor further details on proper citation and acknowledgement of USGS products.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LC08_C02_T2_L2_sample.png",
     "title": "USGS Landsat 8 Level 2, Collection 2, Tier 2",
     "type": "image_collection"
@@ -3348,7 +3348,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LC08/C02/T2_TOA",
     "tags": "c2, global, landsat, satellite-imagery, toa, usgs",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LC08_C02_T2_TOA_sample.png",
     "title": "USGS Landsat 8 Collection 2 Tier 2 TOA Reflectance",
     "type": "image_collection"
@@ -3361,7 +3361,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LC09/C02/T1",
     "tags": "c2, global, l9, landsat, lc9, oli_tirs, radiance, satellite-imagery, t1, tier1, usgs",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LC09_C02_T1_sample.png",
     "title": "USGS Landsat 9 Collection 2 Tier 1 Raw Scenes",
     "type": "image_collection"
@@ -3374,7 +3374,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LC09/C02/T1_L2",
     "tags": "cfmask, cloud, fmask, global, l9sr, landsat, lasrc, lc09, lst, reflectance, satellite-imagery, sr, usgs",
     "terms_of_use": "Landsat datasets are federally created data\nand therefore reside in the public domain and may be used, transferred, or reproduced without copyright restriction.\n\nAcknowledgement or credit of the USGS as data source should be provided\nby including a line of text citation such as the example shown below.\n\n(Product, Image, Photograph, or Dataset Name) courtesy of\nthe U.S. Geological Survey\n\nExample: Landsat-7 image courtesy of the U.S. Geological Survey\n\nSee the\n[USGS Visual Identity System Guidance](https://www.usgs.gov/information-policies-and-instructions/usgs-visual-identity-system)\nfor further details on proper citation and acknowledgement of USGS products.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LC09_C02_T1_L2_sample.png",
     "title": "USGS Landsat 9 Level 2, Collection 2, Tier 1",
     "type": "image_collection"
@@ -3387,7 +3387,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LC09/C02/T1_TOA",
     "tags": "c2, global, landsat, satellite-imagery, toa, usgs",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LC09_C02_T1_TOA_sample.png",
     "title": "USGS Landsat 9 Collection 2 Tier 1 TOA Reflectance",
     "type": "image_collection"
@@ -3400,7 +3400,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LC09/C02/T2",
     "tags": "c2, global, l9, landsat, lc9, oli_tirs, radiance, satellite-imagery, t2, tier2, usgs",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LC09_C02_T2_sample.png",
     "title": "USGS Landsat 9 Collection 2 Tier 2 Raw Scenes",
     "type": "image_collection"
@@ -3413,7 +3413,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LC09/C02/T2_L2",
     "tags": "cfmask, cloud, fmask, global, l9sr, landsat, lasrc, lc09, lst, reflectance, satellite-imagery, sr, usgs",
     "terms_of_use": "Landsat datasets are federally created data\nand therefore reside in the public domain and may be used, transferred, or reproduced without copyright restriction.\n\nAcknowledgement or credit of the USGS as data source should be provided\nby including a line of text citation such as the example shown below.\n\n(Product, Image, Photograph, or Dataset Name) courtesy of\nthe U.S. Geological Survey\n\nExample: Landsat-7 image courtesy of the U.S. Geological Survey\n\nSee the\n[USGS Visual Identity System Guidance](https://www.usgs.gov/information-policies-and-instructions/usgs-visual-identity-system)\nfor further details on proper citation and acknowledgement of USGS products.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LC09_C02_T2_L2_sample.png",
     "title": "USGS Landsat 9 Level 2, Collection 2, Tier 2",
     "type": "image_collection"
@@ -3426,7 +3426,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LC09/C02/T2_TOA",
     "tags": "c2, global, l9, landsat, lc9, satellite-imagery, toa, usgs",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LC09_C02_T2_TOA_sample.png",
     "title": "USGS Landsat 9 Collection 2 Tier 2 TOA Reflectance",
     "type": "image_collection"
@@ -3439,7 +3439,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LE07/C02/T1",
     "tags": "c2, etm, global, l7, landsat, le7, radiance, satellite-imagery, t1, tier1, usgs",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LE07_C02_T1_sample.png",
     "title": "USGS Landsat 7 Collection 2 Tier 1 Raw Scenes",
     "type": "image_collection"
@@ -3452,7 +3452,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LE07/C02/T1_L2",
     "tags": "cfmask, cloud, etm, fmask, global, landsat, lasrc, le07, lst, reflectance, satellite-imagery, sr, usgs",
     "terms_of_use": "Landsat datasets are federally created data\nand therefore reside in the public domain and may be used, transferred, or reproduced without copyright restriction.\n\nAcknowledgement or credit of the USGS as data source should be provided\nby including a line of text citation such as the example shown below.\n\n(Product, Image, Photograph, or Dataset Name) courtesy of\nthe U.S. Geological Survey\n\nExample: Landsat-7 image courtesy of the U.S. Geological Survey\n\nSee the\n[USGS Visual Identity System Guidance](https://www.usgs.gov/information-policies-and-instructions/usgs-visual-identity-system)\nfor further details on proper citation and acknowledgement of USGS products.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LE07_C02_T1_L2_sample.png",
     "title": "USGS Landsat 7 Level 2, Collection 2, Tier 1",
     "type": "image_collection"
@@ -3465,7 +3465,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LE07/C02/T1_RT",
     "tags": "c2, etm, global, l7, landsat, le7, nrt, radiance, rt, satellite-imagery, t1, tier1, usgs",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LE07_C02_T1_RT_sample.png",
     "title": "USGS Landsat 7 Collection 2 Tier 1 and Real-Time data Raw Scenes",
     "type": "image_collection"
@@ -3478,7 +3478,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LE07/C02/T1_RT_TOA",
     "tags": "c2, global, landsat, satellite-imagery, toa, usgs",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LE07_C02_T1_RT_TOA_sample.png",
     "title": "USGS Landsat 7 Collection 2 Tier 1 and Real-Time data TOA Reflectance",
     "type": "image_collection"
@@ -3491,7 +3491,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LE07/C02/T1_TOA",
     "tags": "c2, global, landsat, satellite-imagery, toa, usgs",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LE07_C02_T1_TOA_sample.png",
     "title": "USGS Landsat 7 Collection 2 Tier 1 TOA Reflectance",
     "type": "image_collection"
@@ -3504,7 +3504,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LE07/C02/T2",
     "tags": "c2, etm, global, l7, landsat, le7, radiance, satellite-imagery, t2, tier2, usgs",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LE07_C02_T2_sample.png",
     "title": "USGS Landsat 7 Collection 2 Tier 2 Raw Scenes",
     "type": "image_collection"
@@ -3517,7 +3517,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LE07/C02/T2_L2",
     "tags": "cfmask, cloud, etm, fmask, global, landsat, lasrc, le07, lst, reflectance, satellite-imagery, sr, usgs",
     "terms_of_use": "Landsat datasets are federally created data\nand therefore reside in the public domain and may be used, transferred, or reproduced without copyright restriction.\n\nAcknowledgement or credit of the USGS as data source should be provided\nby including a line of text citation such as the example shown below.\n\n(Product, Image, Photograph, or Dataset Name) courtesy of\nthe U.S. Geological Survey\n\nExample: Landsat-7 image courtesy of the U.S. Geological Survey\n\nSee the\n[USGS Visual Identity System Guidance](https://www.usgs.gov/information-policies-and-instructions/usgs-visual-identity-system)\nfor further details on proper citation and acknowledgement of USGS products.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LE07_C02_T2_L2_sample.png",
     "title": "USGS Landsat 7 Level 2, Collection 2, Tier 2",
     "type": "image_collection"
@@ -3530,7 +3530,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LE07/C02/T2_TOA",
     "tags": "c2, global, landsat, satellite-imagery, toa, usgs",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LE07_C02_T2_TOA_sample.png",
     "title": "USGS Landsat 7 Collection 2 Tier 2 TOA Reflectance",
     "type": "image_collection"
@@ -3543,7 +3543,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LM01/C02/T1",
     "tags": "c2, global, l1, landsat, lm1, mss, radiance, satellite-imagery, t1, tier1, usgs",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LM01_C02_T1_sample.png",
     "title": "USGS Landsat 1 MSS Collection 2 Tier 1 Raw Scenes",
     "type": "image_collection"
@@ -3556,7 +3556,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LM01/C02/T2",
     "tags": "c2, global, l1, landsat, lm1, mss, radiance, satellite-imagery, t2, tier2, usgs",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LM01_C02_T2_sample.png",
     "title": "USGS Landsat 1 MSS Collection 2 Tier 2 Raw Scenes",
     "type": "image_collection"
@@ -3569,7 +3569,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LM02/C02/T1",
     "tags": "c2, global, l2, landsat, lm2, mss, radiance, satellite-imagery, t1, tier1, usgs",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LM02_C02_T1_sample.png",
     "title": "USGS Landsat 2 MSS Collection 2 Tier 1 Raw Scenes",
     "type": "image_collection"
@@ -3582,7 +3582,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LM02/C02/T2",
     "tags": "c2, global, l2, landsat, lm2, mss, radiance, satellite-imagery, t2, tier2, usgs",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LM02_C02_T2_sample.png",
     "title": "USGS Landsat 2 MSS Collection 2 Tier 2 Raw Scenes",
     "type": "image_collection"
@@ -3595,7 +3595,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LM03/C02/T1",
     "tags": "c2, global, l3, landsat, lm3, mss, radiance, satellite-imagery, t1, tier1, usgs",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LM03_C02_T1_sample.png",
     "title": "USGS Landsat 3 MSS Collection 2 Tier 1 Raw Scenes",
     "type": "image_collection"
@@ -3608,7 +3608,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LM03/C02/T2",
     "tags": "c2, global, l3, landsat, lm3, mss, radiance, satellite-imagery, t2, tier2, usgs",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LM03_C02_T2_sample.png",
     "title": "USGS Landsat 3 MSS Collection 2 Tier 2 Raw Scenes",
     "type": "image_collection"
@@ -3621,7 +3621,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LM04/C02/T1",
     "tags": "c2, global, l4, landsat, lm4, mss, radiance, satellite-imagery, t1, tier1, usgs",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LM04_C02_T1_sample.png",
     "title": "USGS Landsat 4 MSS Collection 2 Tier 1 Raw Scenes",
     "type": "image_collection"
@@ -3634,7 +3634,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LM04/C02/T2",
     "tags": "c2, global, l4, landsat, lm4, mss, radiance, satellite-imagery, t2, tier2, usgs",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LM04_C02_T2_sample.png",
     "title": "USGS Landsat 4 MSS Collection 2 Tier 2 Raw Scenes",
     "type": "image_collection"
@@ -3647,7 +3647,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LM05/C02/T1",
     "tags": "c2, global, l5, landsat, lm5, mss, radiance, satellite-imagery, t1, tier1, usgs",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LM05_C02_T1_sample.png",
     "title": "USGS Landsat 5 MSS Collection 2 Tier 1 Raw Scenes",
     "type": "image_collection"
@@ -3660,7 +3660,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LM05/C02/T2",
     "tags": "c2, global, l5, landsat, lm5, mss, radiance, satellite-imagery, t2, tier2, usgs",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LM05_C02_T2_sample.png",
     "title": "USGS Landsat 5 MSS Collection 2 Tier 2 Raw Scenes",
     "type": "image_collection"
@@ -3673,7 +3673,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LT04/C02/T1",
     "tags": "c2, global, l4, landsat, lt4, radiance, satellite-imagery, t1, tier1, tm, usgs",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LT04_C02_T1_sample.png",
     "title": "USGS Landsat 4 TM Collection 2 Tier 1 Raw Scenes",
     "type": "image_collection"
@@ -3686,7 +3686,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LT04/C02/T1_L2",
     "tags": "cfmask, cloud, fmask, global, landsat, lasrc, lst, lt04, reflectance, satellite-imagery, sr, tm, usgs",
     "terms_of_use": "Landsat datasets are federally created data\nand therefore reside in the public domain and may be used, transferred, or reproduced without copyright restriction.\n\nAcknowledgement or credit of the USGS as data source should be provided\nby including a line of text citation such as the example shown below.\n\n(Product, Image, Photograph, or Dataset Name) courtesy of\nthe U.S. Geological Survey\n\nExample: Landsat-7 image courtesy of the U.S. Geological Survey\n\nSee the\n[USGS Visual Identity System Guidance](https://www.usgs.gov/information-policies-and-instructions/usgs-visual-identity-system)\nfor further details on proper citation and acknowledgement of USGS products.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LT04_C02_T1_L2_sample.png",
     "title": "USGS Landsat 4 Level 2, Collection 2, Tier 1",
     "type": "image_collection"
@@ -3699,7 +3699,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LT04/C02/T1_TOA",
     "tags": "global, landsat, satellite-imagery, toa, usgs",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LT04_C02_T1_TOA_sample.png",
     "title": "USGS Landsat 4 TM Collection 2 Tier 1 TOA Reflectance",
     "type": "image_collection"
@@ -3712,7 +3712,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LT04/C02/T2",
     "tags": "c2, global, l4, landsat, lt4, radiance, satellite-imagery, t2, tier2, tm, usgs",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LT04_C02_T2_sample.png",
     "title": "USGS Landsat 4 TM Collection 2 Tier 2 Raw Scenes",
     "type": "image_collection"
@@ -3725,7 +3725,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LT04/C02/T2_L2",
     "tags": "cfmask, cloud, fmask, global, landsat, lasrc, lst, lt04, reflectance, satellite-imagery, sr, tm, usgs",
     "terms_of_use": "Landsat datasets are federally created data\nand therefore reside in the public domain and may be used, transferred, or reproduced without copyright restriction.\n\nAcknowledgement or credit of the USGS as data source should be provided\nby including a line of text citation such as the example shown below.\n\n(Product, Image, Photograph, or Dataset Name) courtesy of\nthe U.S. Geological Survey\n\nExample: Landsat-7 image courtesy of the U.S. Geological Survey\n\nSee the\n[USGS Visual Identity System Guidance](https://www.usgs.gov/information-policies-and-instructions/usgs-visual-identity-system)\nfor further details on proper citation and acknowledgement of USGS products.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LT04_C02_T2_L2_sample.png",
     "title": "USGS Landsat 4 Level 2, Collection 2, Tier 2",
     "type": "image_collection"
@@ -3738,7 +3738,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LT04/C02/T2_TOA",
     "tags": "global, landsat, satellite-imagery, toa, usgs",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LT04_C02_T2_TOA_sample.png",
     "title": "USGS Landsat 4 TM Collection 2 Tier 2 TOA Reflectance",
     "type": "image_collection"
@@ -3751,7 +3751,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LT05/C02/T1",
     "tags": "c2, global, l5, landsat, lt5, radiance, satellite-imagery, t1, tier1, tm, usgs",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LT05_C02_T1_sample.png",
     "title": "USGS Landsat 5 TM Collection 2 Tier 1 Raw Scenes",
     "type": "image_collection"
@@ -3764,7 +3764,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LT05/C02/T1_L2",
     "tags": "cfmask, cloud, fmask, global, landsat, lasrc, lst, lt05, reflectance, satellite-imagery, sr, tm, usgs",
     "terms_of_use": "Landsat datasets are federally created data\nand therefore reside in the public domain and may be used, transferred, or reproduced without copyright restriction.\n\nAcknowledgement or credit of the USGS as data source should be provided\nby including a line of text citation such as the example shown below.\n\n(Product, Image, Photograph, or Dataset Name) courtesy of\nthe U.S. Geological Survey\n\nExample: Landsat-7 image courtesy of the U.S. Geological Survey\n\nSee the\n[USGS Visual Identity System Guidance](https://www.usgs.gov/information-policies-and-instructions/usgs-visual-identity-system)\nfor further details on proper citation and acknowledgement of USGS products.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LT05_C02_T1_L2_sample.png",
     "title": "USGS Landsat 5 Level 2, Collection 2, Tier 1",
     "type": "image_collection"
@@ -3777,7 +3777,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LT05/C02/T1_TOA",
     "tags": "global, landsat, satellite-imagery, toa, usgs",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LT05_C02_T1_TOA_sample.png",
     "title": "USGS Landsat 5 TM Collection 2 Tier 1 TOA Reflectance",
     "type": "image_collection"
@@ -3790,7 +3790,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LT05/C02/T2",
     "tags": "c2, global, l5, landsat, lt5, radiance, satellite-imagery, t2, tier2, tm, usgs",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LT05_C02_T2_sample.png",
     "title": "USGS Landsat 5 TM Collection 2 Tier 2 Raw Scenes",
     "type": "image_collection"
@@ -3803,7 +3803,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LT05/C02/T2_L2",
     "tags": "cfmask, cloud, fmask, global, landsat, lasrc, lst, lt05, reflectance, satellite-imagery, sr, tm, usgs",
     "terms_of_use": "Landsat datasets are federally created data\nand therefore reside in the public domain and may be used, transferred, or reproduced without copyright restriction.\n\nAcknowledgement or credit of the USGS as data source should be provided\nby including a line of text citation such as the example shown below.\n\n(Product, Image, Photograph, or Dataset Name) courtesy of\nthe U.S. Geological Survey\n\nExample: Landsat-7 image courtesy of the U.S. Geological Survey\n\nSee the\n[USGS Visual Identity System Guidance](https://www.usgs.gov/information-policies-and-instructions/usgs-visual-identity-system)\nfor further details on proper citation and acknowledgement of USGS products.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LT05_C02_T2_L2_sample.png",
     "title": "USGS Landsat 5 Level 2, Collection 2, Tier 2",
     "type": "image_collection"
@@ -3816,7 +3816,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/LT05/C02/T2_TOA",
     "tags": "global, landsat, satellite-imagery, toa, usgs",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_LT05_C02_T2_TOA_sample.png",
     "title": "USGS Landsat 5 TM Collection 2 Tier 2 TOA Reflectance",
     "type": "image_collection"
@@ -3972,7 +3972,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LARSE/GEDI/GRIDDEDVEG_002/COUNTS/V1/1KM",
     "tags": "biomass, canopy, forest, forest-biomass, gedi, larse, lidar, nasa, vegetation",
     "terms_of_use": "This dataset is in the public domain and is available\nwithout restriction on use and distribution. See [NASA's\nEarth Science Data & Information Policy]\n(https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy)\nfor additional information.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LARSE/LARSE_GEDI_GRIDDEDVEG_002_COUNTS_V1_1KM_sample.png",
     "title": "Gridded GEDI Vegetation Structure Metrics and Biomass Density with COUNTS metrics, 1KM pixel size",
     "type": "image_collection"
@@ -3985,7 +3985,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LARSE/GEDI/GRIDDEDVEG_002/COUNTS/V1/6KM",
     "tags": "biomass, canopy, forest, forest-biomass, gedi, larse, lidar, nasa, vegetation",
     "terms_of_use": "This dataset is in the public domain and is available\nwithout restriction on use and distribution. See [NASA's\nEarth Science Data & Information Policy]\n(https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy)\nfor additional information.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LARSE/LARSE_GEDI_GRIDDEDVEG_002_COUNTS_V1_6KM_sample.png",
     "title": "Gridded GEDI Vegetation Structure Metrics and Biomass Density with COUNTS metrics, 6KM pixel size",
     "type": "image_collection"
@@ -3998,7 +3998,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LARSE/GEDI/GRIDDEDVEG_002/COUNTS/V1/12KM",
     "tags": "biomass, canopy, forest, forest-biomass, gedi, larse, lidar, nasa, vegetation",
     "terms_of_use": "This dataset is in the public domain and is available\nwithout restriction on use and distribution. See [NASA's\nEarth Science Data & Information Policy]\n(https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy)\nfor additional information.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LARSE/LARSE_GEDI_GRIDDEDVEG_002_COUNTS_V1_12KM_sample.png",
     "title": "Gridded GEDI Vegetation Structure Metrics and Biomass Density with COUNTS metrics, 12KM pixel size",
     "type": "image_collection"
@@ -4011,7 +4011,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LARSE/GEDI/GRIDDEDVEG_002/V1/1KM",
     "tags": "biomass, canopy, forest, forest-biomass, gedi, larse, lidar, nasa, vegetation",
     "terms_of_use": "This dataset is in the public domain and is available\nwithout restriction on use and distribution. See [NASA's\nEarth Science Data & Information Policy]\n(https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy)\nfor additional information.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LARSE/LARSE_GEDI_GRIDDEDVEG_002_V1_1KM_sample.png",
     "title": "Gridded GEDI Vegetation Structure Metrics and Biomass Density, 1KM pixel size",
     "type": "image_collection"
@@ -4024,7 +4024,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LARSE/GEDI/GRIDDEDVEG_002/V1/6KM",
     "tags": "biomass, canopy, forest, forest-biomass, gedi, larse, lidar, nasa, vegetation",
     "terms_of_use": "This dataset is in the public domain and is available\nwithout restriction on use and distribution. See [NASA's\nEarth Science Data & Information Policy]\n(https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy)\nfor additional information.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LARSE/LARSE_GEDI_GRIDDEDVEG_002_V1_6KM_sample.png",
     "title": "Gridded GEDI Vegetation Structure Metrics and Biomass Density, 6KM pixel size",
     "type": "image_collection"
@@ -4037,7 +4037,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LARSE/GEDI/GRIDDEDVEG_002/V1/12KM",
     "tags": "biomass, canopy, forest, forest-biomass, gedi, larse, lidar, nasa, vegetation",
     "terms_of_use": "This dataset is in the public domain and is available\nwithout restriction on use and distribution. See [NASA's\nEarth Science Data & Information Policy]\n(https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy)\nfor additional information.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LARSE/LARSE_GEDI_GRIDDEDVEG_002_V1_12KM_sample.png",
     "title": "Gridded GEDI Vegetation Structure Metrics and Biomass Density, 12KM pixel size",
     "type": "image_collection"
@@ -4128,7 +4128,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/006/MODOCGA",
     "tags": "daily, global, modis, modocga, nasa, ocean, reflectance, satellite-imagery, sr, terra, usgs",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC\nhave no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_006_MODOCGA_sample.png",
     "title": "MODOCGA.006 Terra Ocean Reflectance Daily Global 1km",
     "type": "image_collection"
@@ -4141,7 +4141,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/006/MYDOCGA",
     "tags": "aqua, daily, global, modis, mydocga, nasa, ocean, reflectance, satellite-imagery, sr, usgs",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC\nhave no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_006_MYDOCGA_sample.png",
     "title": "MYDOCGA.006 Aqua Ocean Reflectance Daily Global 1km",
     "type": "image_collection"
@@ -4180,7 +4180,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/061/MCD12Q2",
     "tags": "evi, global, landuse-landcover, modis, onset_greenness, phenology, usgs, yearly",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC\nhave no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MCD12Q2_sample.png",
     "title": "MCD12Q2.006 Land Cover Dynamics Yearly Global 500m",
     "type": "image_collection"
@@ -4193,7 +4193,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/061/MCD15A3H",
     "tags": "4_day, fpar, global, lai, mcd15a3h, modis, nasa, plant-productivity, usgs, vegetation",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC\nhave no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MCD15A3H_sample.png",
     "title": "MCD15A3H.061 MODIS Leaf Area Index/FPAR 4-Day Global 500m",
     "type": "image_collection"
@@ -4206,7 +4206,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/061/MCD19A1_GRANULES",
     "tags": "aerosol, aod, aqua, daily, global, maiac, modis, nasa, satellite-imagery, terra, usgs",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC\nhave no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MCD19A1_GRANULES_sample.png",
     "title": "MCD19A1.061: Land Surface BRF Daily L2G Global 500m and 1km",
     "type": "image_collection"
@@ -4232,7 +4232,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/061/MCD43A1",
     "tags": "albedo, brdf, daily, global, mcd43a1, modis, nasa, reflectance, satellite-imagery, usgs",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC\nhave no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MCD43A1_sample.png",
     "title": "MCD43A1.061 MODIS BRDF-Albedo Model Parameters Daily 500m",
     "type": "image_collection"
@@ -4245,7 +4245,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/061/MCD43A2",
     "tags": "albedo, brdf, daily, global, modis, nasa, quality, reflectance, satellite-imagery, usgs",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC\nhave no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MCD43A2_sample.png",
     "title": "MCD43A2.061 MODIS BRDF-Albedo Quality Daily 500m",
     "type": "image_collection"
@@ -4258,7 +4258,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/061/MCD43A3",
     "tags": "albedo, black_sky, daily, global, modis, nasa, satellite-imagery, usgs, white_sky",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC\nhave no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MCD43A3_sample.png",
     "title": "MCD43A3.061 MODIS Albedo Daily 500m",
     "type": "image_collection"
@@ -4271,7 +4271,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/061/MCD43A4",
     "tags": "albedo, brdf, daily, global, modis, nasa, reflectance, satellite-imagery, usgs",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC\nhave no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MCD43A4_sample.png",
     "title": "MCD43A4.061 MODIS Nadir BRDF-Adjusted Reflectance Daily 500m",
     "type": "image_collection"
@@ -4284,7 +4284,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/061/MCD43C3",
     "tags": "albedo, black_sky, brdf, daily, global, modis, nasa, satellite-imagery, usgs, white_sky",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC\nhave no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MCD43C3_sample.png",
     "title": "MCD43C3.061 BRDF/Albedo Daily L3 0.05 Deg CMG",
     "type": "image_collection"
@@ -4323,7 +4323,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/061/MOD09A1",
     "tags": "8_day, global, mod09a1, modis, nasa, satellite-imagery, sr, surface_reflectance, terra, usgs",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC\nhave no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MOD09A1_sample.png",
     "title": "MOD09A1.061 Terra Surface Reflectance 8-Day Global 500m",
     "type": "image_collection"
@@ -4349,7 +4349,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/061/MOD09GA",
     "tags": "daily, global, mod09ga, modis, nasa, satellite-imagery, sr, surface_reflectance, terra, usgs",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC\nhave no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MOD09GA_sample.png",
     "title": "MOD09GA.061 Terra Surface Reflectance Daily Global 1km and 500m",
     "type": "image_collection"
@@ -4362,7 +4362,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/061/MOD09GQ",
     "tags": "daily, global, mod09gq, modis, nasa, satellite-imagery, sr, surface_reflectance, terra, usgs",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC\nhave no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MOD09GQ_sample.png",
     "title": "MOD09GQ.061 Terra Surface Reflectance Daily Global 250m",
     "type": "image_collection"
@@ -4375,7 +4375,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/061/MOD09Q1",
     "tags": "8_day, global, mod09q1, modis, nasa, satellite-imagery, sr, surface_reflectance, terra, usgs",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC\nhave no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MOD09Q1_sample.png",
     "title": "MOD09Q1.061 Terra Surface Reflectance 8-Day Global 250m",
     "type": "image_collection"
@@ -4440,7 +4440,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/061/MOD13A1",
     "tags": "16_day, evi, global, mod13a1, modis, nasa, ndvi, terra, usgs, vegetation, vegetation-indices",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC\nhave no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MOD13A1_sample.png",
     "title": "MOD13A1.061 Terra Vegetation Indices 16-Day Global 500m",
     "type": "image_collection"
@@ -4453,7 +4453,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/061/MOD13A2",
     "tags": "16_day, evi, global, mod13a2, modis, nasa, ndvi, terra, usgs, vegetation, vegetation-indices",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC\nhave no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MOD13A2_sample.png",
     "title": "MOD13A2.061 Terra Vegetation Indices 16-Day Global 1km",
     "type": "image_collection"
@@ -4466,7 +4466,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/061/MOD13A3",
     "tags": "evi, global, modis, monthly, nasa, ndvi, terra, usgs, vegetation, vegetation-indices",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC\nhave no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MOD13A3_sample.png",
     "title": "MOD13A3.061 Vegetation Indices Monthly L3 Global 1 km SIN Grid",
     "type": "image_collection"
@@ -4479,7 +4479,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/061/MOD13C1",
     "tags": "16_day, global, nasa, terra, usgs, vegetation, vegetation-indices",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC\nhave no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MOD13C1_sample.png",
     "title": "MOD13C1.061: Terra Vegetation Indices 16-Day L3 Global 0.05 Deg Climate Modeling Grid",
     "type": "image_collection"
@@ -4492,7 +4492,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/061/MOD13Q1",
     "tags": "16_day, evi, global, mod13q1, modis, nasa, ndvi, terra, usgs, vegetation, vegetation-indices",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC\nhave no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MOD13Q1_sample.png",
     "title": "MOD13Q1.061 Terra Vegetation Indices 16-Day Global 250m",
     "type": "image_collection"
@@ -4531,7 +4531,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/061/MOD15A2H",
     "tags": "8_day, fpar, global, lai, mod15a2h, modis, nasa, plant-productivity, terra, usgs",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC\nhave no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MOD15A2H_sample.png",
     "title": "MOD15A2H.061: Terra Leaf Area Index/FPAR 8-Day Global 500m",
     "type": "image_collection"
@@ -4542,9 +4542,9 @@
     "license": "proprietary",
     "provider": "NASA LP DAAC at the USGS EROS Center",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/061/MOD16A2",
-    "tags": "8_day, evapotranspiration, global, mod16a2, modis, nasa",
+    "tags": "8_day, evapotranspiration, global, mod16a2, modis, nasa, water-vapor",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC\nhave no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MOD16A2_sample.png",
     "title": "MOD16A2.061: Terra Net Evapotranspiration 8-Day Global 500m",
     "type": "image_collection"
@@ -4555,9 +4555,9 @@
     "license": "proprietary",
     "provider": "NASA LP DAAC at the USGS EROS Center",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/061/MOD16A2GF",
-    "tags": "8_day, evapotranspiration, global, modis, nasa",
+    "tags": "8_day, evapotranspiration, global, modis, nasa, water-vapor",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC\nhave no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MOD16A2GF_sample.png",
     "title": "MOD16A2GF.061: Terra Net Evapotranspiration Gap-Filled 8-Day Global 500m",
     "type": "image_collection"
@@ -4570,7 +4570,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/061/MOD17A2H",
     "tags": "8_day, global, gpp, mod17a2, modis, nasa, photosynthesis, plant-productivity, productivity, psn, terra, usgs",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC\nhave no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MOD17A2H_sample.png",
     "title": "MOD17A2H.061: Terra Gross Primary Productivity 8-Day Global 500m",
     "type": "image_collection"
@@ -4583,7 +4583,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/061/MOD17A2HGF",
     "tags": "8_day, global, gpp, modis, nasa, photosynthesis, plant-productivity, productivity, psn, terra, usgs",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC\nhave no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MOD17A2HGF_sample.png",
     "title": "MOD17A2HGF.061: Terra Gross Primary Productivity 8-Day Global 500m",
     "type": "image_collection"
@@ -4700,7 +4700,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/061/MYD09A1",
     "tags": "8_day, aqua, global, modis, myd09a1, nasa, satellite-imagery, sr, surface_reflectance, usgs",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC\nhave no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MYD09A1_sample.png",
     "title": "MYD09A1.061 Aqua Surface Reflectance 8-Day Global 500m",
     "type": "image_collection"
@@ -4726,7 +4726,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/061/MYD09GA",
     "tags": "aqua, daily, global, modis, myd09ga, nasa, satellite-imagery, sr, surface_reflectance, usgs",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC\nhave no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MYD09GA_sample.png",
     "title": "MYD09GA.061 Aqua Surface Reflectance Daily Global 1km and 500m",
     "type": "image_collection"
@@ -4739,7 +4739,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/061/MYD09GQ",
     "tags": "aqua, daily, global, modis, myd09gq, nasa, satellite-imagery, sr, surface_reflectance, usgs",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC\nhave no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MYD09GQ_sample.png",
     "title": "MYD09GQ.061 Aqua Surface Reflectance Daily Global 250m",
     "type": "image_collection"
@@ -4752,7 +4752,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/061/MYD09Q1",
     "tags": "8_day, aqua, global, modis, myd09q1, nasa, satellite-imagery, sr, surface_reflectance, usgs",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC\nhave no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MYD09Q1_sample.png",
     "title": "MYD09Q1.061 Aqua Surface Reflectance 8-Day Global 250m",
     "type": "image_collection"
@@ -4804,7 +4804,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/061/MYD13A1",
     "tags": "16_day, aqua, evi, global, modis, myd13a1, nasa, ndvi, usgs, vegetation, vegetation-indices",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC\nhave no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MYD13A1_sample.png",
     "title": "MYD13A1.061 Aqua Vegetation Indices 16-Day Global 500m",
     "type": "image_collection"
@@ -4817,7 +4817,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/061/MYD13A2",
     "tags": "16_day, aqua, evi, global, modis, myd13a2, nasa, ndvi, usgs, vegetation, vegetation-indices",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC\nhave no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MYD13A2_sample.png",
     "title": "MYD13A2.061 Aqua Vegetation Indices 16-Day Global 1km",
     "type": "image_collection"
@@ -4830,7 +4830,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/061/MYD13A3",
     "tags": "aqua, evi, global, modis, monthly, nasa, ndvi, usgs, vegetation, vegetation-indices",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC\nhave no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MYD13A3_sample.png",
     "title": "MYD13A3.061 Aqua Vegetation Indices Monthly L3 Global 1 km SIN Grid",
     "type": "image_collection"
@@ -4843,7 +4843,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/061/MYD13C1",
     "tags": "16_day, aqua, global, nasa, usgs, vegetation, vegetation-indices",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC\nhave no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MYD13C1_sample.png",
     "title": "MYD13C1.061: Aqua Vegetation Indices 16-Day L3 Global 0.05 Deg CMG",
     "type": "image_collection"
@@ -4856,7 +4856,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/061/MYD13Q1",
     "tags": "16_day, aqua, evi, global, modis, myd13q1, nasa, ndvi, usgs, vegetation, vegetation-indices",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC\nhave no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MYD13Q1_sample.png",
     "title": "MYD13Q1.061 Aqua Vegetation Indices 16-Day Global 250m",
     "type": "image_collection"
@@ -4895,7 +4895,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/061/MYD15A2H",
     "tags": "8_day, aqua, fpar, global, lai, modis, myd15a2h, nasa, plant-productivity, usgs",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC\nhave no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MYD15A2H_sample.png",
     "title": "MYD15A2H.061: Aqua Leaf Area Index/FPAR 8-Day Global 500m",
     "type": "image_collection"
@@ -4908,7 +4908,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/061/MYD17A2H",
     "tags": "8_day, aqua, global, gpp, modis, myd17a2, nasa, photosynthesis, plant-productivity, productivity, psn, usgs",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC\nhave no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MYD17A2H_sample.png",
     "title": "MYD17A2H.061: Aqua Gross Primary Productivity 8-Day Global 500m",
     "type": "image_collection"
@@ -5025,7 +5025,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/MCD43A4_006_BAI",
     "tags": "albedo, bai, brdf, daily, global, mcd43a4, modis, nasa, reflectance, usgs, vegetation-indices",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_MCD43A4_006_BAI_sample.png",
     "title": "MODIS Combined 16-Day BAI",
     "type": "image_collection"
@@ -5038,7 +5038,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/MCD43A4_006_EVI",
     "tags": "albedo, brdf, daily, evi, global, mcd43a4, modis, nasa, reflectance, usgs, vegetation-indices",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_MCD43A4_006_EVI_sample.png",
     "title": "MODIS Combined 16-Day EVI",
     "type": "image_collection"
@@ -5051,7 +5051,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/MCD43A4_006_NDSI",
     "tags": "albedo, brdf, daily, global, mcd43a4, modis, nasa, ndsi, reflectance, usgs, vegetation-indices",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_MCD43A4_006_NDSI_sample.png",
     "title": "MODIS Combined 16-Day NDSI",
     "type": "image_collection"
@@ -5064,7 +5064,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/MCD43A4_006_NDVI",
     "tags": "albedo, brdf, daily, global, mcd43a4, modis, nasa, ndvi, reflectance, usgs, vegetation-indices",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_MCD43A4_006_NDVI_sample.png",
     "title": "MODIS Combined 16-Day NDVI",
     "type": "image_collection"
@@ -5077,7 +5077,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/MCD43A4_006_NDWI",
     "tags": "albedo, brdf, daily, global, mcd43a4, modis, nasa, ndwi, reflectance, usgs, vegetation-indices",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_MCD43A4_006_NDWI_sample.png",
     "title": "MODIS Combined 16-Day NDWI",
     "type": "image_collection"
@@ -5090,7 +5090,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/MOD09GA_006_BAI",
     "tags": "bai, daily, global, mod09ga, modis, surface_reflectance, terra, usgs, vegetation-indices",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_MOD09GA_006_BAI_sample.png",
     "title": "MODIS Terra Daily BAI",
     "type": "image_collection"
@@ -5103,7 +5103,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/MOD09GA_006_EVI",
     "tags": "daily, evi, global, mod09ga, modis, surface_reflectance, terra, usgs, vegetation-indices",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_MOD09GA_006_EVI_sample.png",
     "title": "MODIS Terra Daily EVI",
     "type": "image_collection"
@@ -5116,7 +5116,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/MOD09GA_006_NDSI",
     "tags": "daily, global, mod09ga, modis, ndsi, surface_reflectance, terra, usgs, vegetation-indices",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_MOD09GA_006_NDSI_sample.png",
     "title": "MODIS Terra Daily NDSI",
     "type": "image_collection"
@@ -5129,7 +5129,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/MOD09GA_006_NDVI",
     "tags": "daily, global, mod09ga, modis, ndvi, surface_reflectance, terra, usgs, vegetation-indices",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_MOD09GA_006_NDVI_sample.png",
     "title": "MODIS Terra Daily NDVI",
     "type": "image_collection"
@@ -5142,7 +5142,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/MOD09GA_006_NDWI",
     "tags": "daily, global, mod09ga, modis, ndwi, surface_reflectance, terra, usgs, vegetation-indices",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_MOD09GA_006_NDWI_sample.png",
     "title": "MODIS Terra Daily NDWI",
     "type": "image_collection"
@@ -5168,7 +5168,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/MYD09GA_006_BAI",
     "tags": "aqua, bai, daily, global, modis, myd09ga, surface_reflectance, usgs, vegetation-indices",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_MYD09GA_006_BAI_sample.png",
     "title": "MODIS Aqua Daily BAI",
     "type": "image_collection"
@@ -5181,7 +5181,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/MYD09GA_006_EVI",
     "tags": "aqua, daily, evi, global, modis, myd09ga, surface_reflectance, usgs, vegetation-indices",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_MYD09GA_006_EVI_sample.png",
     "title": "MODIS Aqua Daily EVI",
     "type": "image_collection"
@@ -5194,7 +5194,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/MYD09GA_006_NDSI",
     "tags": "aqua, daily, global, modis, myd09ga, ndsi, surface_reflectance, usgs, vegetation-indices",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_MYD09GA_006_NDSI_sample.png",
     "title": "MODIS Aqua Daily NDSI",
     "type": "image_collection"
@@ -5207,7 +5207,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/MYD09GA_006_NDVI",
     "tags": "aqua, daily, global, modis, myd09ga, ndvi, surface_reflectance, usgs, vegetation-indices",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_MYD09GA_006_NDVI_sample.png",
     "title": "MODIS Aqua Daily NDVI",
     "type": "image_collection"
@@ -5220,7 +5220,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/MYD09GA_006_NDWI",
     "tags": "aqua, daily, global, modis, myd09ga, ndwi, surface_reflectance, usgs, vegetation-indices",
     "terms_of_use": "MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_MYD09GA_006_NDWI_sample.png",
     "title": "MODIS Aqua Daily NDWI",
     "type": "image_collection"
@@ -5231,9 +5231,9 @@
     "license": "proprietary",
     "provider": "Numerical Terradynamic Simulation Group, The University of Montana",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/NTSG/MOD16A2/105",
-    "tags": "8_day, evapotranspiration, global, mod16a2, modis",
+    "tags": "8_day, evapotranspiration, global, mod16a2, modis, water-vapor",
     "terms_of_use": "All NTSG data distributed through this [site](http://files.ntsg.umt.edu/)\nhas no restrictions on subsequent use, sale, or redistribution.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_NTSG_MOD16A2_105_sample.png",
     "title": "MOD16A2: MODIS Global Terrestrial Evapotranspiration 8-Day Global 1km",
     "type": "image_collection"
@@ -5309,7 +5309,7 @@
     "license": "proprietary",
     "provider": "NASA GES DISC at NASA Goddard Space Flight Center",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NASA/FLDAS/NOAH01/C/GL/M/V001",
-    "tags": "climate, evapotranspiration, famine, fldas, humidity, ldas, monthly, nasa, precipitation, runoff, snow, soil, soil_moisture, soil_temperature, temperature, wind",
+    "tags": "climate, cryosphere, evapotranspiration, famine, fldas, humidity, ldas, monthly, nasa, precipitation, runoff, snow, soil, soil_moisture, soil_temperature, temperature, water-vapor, wind",
     "terms_of_use": "Distribution of data from the Goddard Earth Sciences\nData and Information Services Center (GES DISC) is funded by NASA's\nScience Mission Directorate (SMD). Consistent with NASA [Earth\nScience Data and Information Policy](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy/),\ndata from the GES DISC archive are available free to the user community.\nFor more information visit the GES DISC [Data Policy](https://disc.sci.gsfc.nasa.gov/citing)\npage.\n",
     "thematic_group": "Weather and Climate Layers",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NASA/NASA_FLDAS_NOAH01_C_GL_M_V001_sample.png",
@@ -5389,7 +5389,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NASA/GIMMS/3GV0",
     "tags": "avhrr, gimms, nasa, ndvi, noaa, vegetation, vegetation-indices",
     "terms_of_use": "This dataset is in the public domain and is available\nwithout restriction on use and distribution. See [NASA's\nEarth Science Data & Information Policy](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy)\nfor additional information.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NASA/NASA_GIMMS_3GV0_sample.png",
     "title": "GIMMS NDVI From AVHRR Sensors (3rd Generation)",
     "type": "image_collection"
@@ -5400,7 +5400,7 @@
     "license": "proprietary",
     "provider": "NASA GES DISC at NASA Goddard Space Flight Center",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NASA/GLDAS/V20/NOAH/G025/T3H",
-    "tags": "3_hourly, climate, evaporation, forcing, geophysical, gldas, humidity, ldas, nasa, precipitation, pressure, radiation, soil, soil_moisture, surface, temperature, wind",
+    "tags": "3_hourly, climate, cryosphere, evaporation, forcing, geophysical, gldas, humidity, ldas, nasa, precipitation, pressure, radiation, soil, soil_moisture, surface, temperature, water-vapor, wind",
     "terms_of_use": "Distribution of data from the Goddard Earth Sciences\nData and Information Services Center (GES DISC) is funded by NASA's\nScience Mission Directorate (SMD). Consistent with NASA [Earth\nScience Data and Information Policy](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy/),\ndata from the GES DISC archive are available free to the user community.\nFor more information visit the GES DISC [Data Policy](https://disc.sci.gsfc.nasa.gov/citing)\npage.\n",
     "thematic_group": "Weather and Climate Layers",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NASA/NASA_GLDAS_V20_NOAH_G025_T3H_sample.png",
@@ -5413,7 +5413,7 @@
     "license": "proprietary",
     "provider": "NASA GES DISC at NASA Goddard Space Flight Center",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NASA/GLDAS/V021/NOAH/G025/T3H",
-    "tags": "3_hourly, climate, evaporation, forcing, geophysical, gldas, humidity, ldas, nasa, precipitation, pressure, radiation, soil, soil_moisture, surface, temperature, wind",
+    "tags": "3_hourly, climate, cryosphere, evaporation, forcing, geophysical, gldas, humidity, ldas, nasa, precipitation, pressure, radiation, soil, soil_moisture, surface, temperature, water-vapor, wind",
     "terms_of_use": "Distribution of data from the Goddard Earth Sciences\nData and Information Services Center (GES DISC) is funded by NASA's\nScience Mission Directorate (SMD). Consistent with NASA [Earth\nScience Data and Information Policy](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy/),\ndata from the GES DISC archive are available free to the user community.\nFor more information visit the GES DISC [Data Policy](https://disc.sci.gsfc.nasa.gov/citing)\npage.\n",
     "thematic_group": "Weather and Climate Layers",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NASA/NASA_GLDAS_V021_NOAH_G025_T3H_sample.png",
@@ -5426,7 +5426,7 @@
     "license": "proprietary",
     "provider": "NASA GES DISC at NASA Goddard Earth Sciences Data and Information Services Center",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NASA/GLDAS/V022/CLSM/G025/DA1D",
-    "tags": "3_hourly, climate, evaporation, forcing, geophysical, gldas, humidity, ldas, nasa, precipitation, pressure, radiation, soil, soil_moisture, surface, temperature, wind",
+    "tags": "3_hourly, climate, cryosphere, evaporation, forcing, geophysical, gldas, humidity, ldas, nasa, precipitation, pressure, radiation, soil, soil_moisture, surface, temperature, water-vapor, wind",
     "terms_of_use": "Distribution of data from the Goddard Earth Sciences\nData and Information Services Center (GES DISC) is funded by NASA's\nScience Mission Directorate (SMD). Consistent with NASA [Earth\nScience Data and Information Policy](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy/),\ndata from the GES DISC archive are available free to the user community.\nFor more information visit the GES DISC [Data Policy](https://disc.sci.gsfc.nasa.gov/citing)\npage.\n",
     "thematic_group": "Weather and Climate Layers",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NASA/NASA_GLDAS_V022_CLSM_G025_DA1D_sample.png",
@@ -5623,7 +5623,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NASA/HLS/HLSL30/v002",
     "tags": "landsat, nasa, satellite-imagery, sentinel, usgs",
     "terms_of_use": "NASA promotes the full and open sharing of all data with research and\napplications communities, private industry, academia, and the general\npublic.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NASA/NASA_HLS_HLSL30_v002_sample.png",
     "title": "HLSL30: HLS-2 Landsat Operational Land Imager Surface Reflectance and TOA Brightness Daily Global 30m",
     "type": "image_collection"
@@ -5636,7 +5636,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NASA/HLS/HLSS30/v002",
     "tags": "landsat, nasa, satellite-imagery, sentinel, usgs",
     "terms_of_use": "NASA promotes the full and open sharing of all data with research and\napplications communities, private industry, academia, and the general\npublic.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NASA/NASA_HLS_HLSS30_v002_sample.png",
     "title": "HLSS30: HLS Sentinel-2 Multi-spectral Instrument Surface Reflectance Daily Global 30m",
     "type": "image_collection"
@@ -5649,7 +5649,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NASA/JPL/global_forest_canopy_height_2005",
     "tags": "canopy, forest, forest-biomass, geophysical, glas, jpl, nasa",
     "terms_of_use": "Most materials published on the Earth Observatory, including images, are\nfreely available for re-publication or re-use, including commercial\npurposes, except for where copyright is indicated.\n\nNASA's Earth Observatory must be given credit for its original materials;\nthe only mandatory credit is NASA.\n\nFor more information about using NASA imagery visit the [Earth Observatory\nImage Use Policy](https://earthobservatory.nasa.gov/ImageUse/) site.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NASA/NASA_JPL_global_forest_canopy_height_2005_sample.png",
     "title": "Global Forest Canopy Height, 2005",
     "type": "image"
@@ -5688,7 +5688,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NASA/MEASURES/GFCC/TC/v3",
     "tags": "forest, forest-biomass, glcf, landsat_derived, nasa, umd",
     "terms_of_use": "Intellectual property rights to this dataset belong to\nUniversity of Maryland, Department of Geographical Sciences and NASA. Usage\nis free if acklowedgement is made.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NASA/NASA_MEASURES_GFCC_TC_v3_sample.png",
     "title": "Global Forest Cover Change (GFCC) Tree Cover Multi-Year Global 30m",
     "type": "image_collection"
@@ -5751,7 +5751,7 @@
     "license": "proprietary",
     "provider": "NASA GES DISC at NASA Goddard Space Flight Center",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NASA/NLDAS/FORA0125_H002",
-    "tags": "climate, evaporation, forcing, geophysical, hourly, humidity, ldas, nasa, nldas, precipitation, pressure, radiation, temperature, wind",
+    "tags": "climate, evaporation, forcing, geophysical, hourly, humidity, ldas, nasa, nldas, precipitation, pressure, radiation, soil, temperature, water-vapor, wind",
     "terms_of_use": "Distribution of data from the Goddard Earth Sciences\nData and Information Services Center (GES DISC) is funded by NASA's\nScience Mission Directorate (SMD). Consistent with NASA [Earth\nScience Data and Information Policy](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy/),\ndata from the GES DISC archive are available free to the user community.\nFor more information visit the GES DISC [Data Policy](https://disc.sci.gsfc.nasa.gov/citing)\npage.\n",
     "thematic_group": "Weather and Climate Layers",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NASA/NASA_NLDAS_FORA0125_H002_sample.png",
@@ -5818,7 +5818,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NASA/ORNL/biomass_carbon_density/v1",
     "tags": "aboveground, belowground, biomass, carbon, density, forest, forest-biomass, nasa, ornl, vegetation",
     "terms_of_use": "This dataset is in the public domain and is available\nwithout restriction on use and distribution. See [NASA's\nEarth Science Data & Information Policy](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy)\nfor additional information.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NASA/NASA_ORNL_biomass_carbon_density_v1_sample.png",
     "title": "Global Aboveground and Belowground Biomass Carbon Density Maps",
     "type": "image_collection"
@@ -5831,7 +5831,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NASA/ORNL/global_forest_classification_2020/V1",
     "tags": "aboveground, biomass, carbon, classification, forest, forest-biomass, ipcc, nasa, primary_forest, secondary_forest",
     "terms_of_use": "This dataset is in the public domain and is available\nwithout restriction on use and distribution. See [NASA's\nEarth Science Data & Information Policy](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy)\nfor additional information.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NASA/NASA_ORNL_global_forest_classification_2020_V1_sample.png",
     "title": "Global 2020 Forest Classification for IPCC Aboveground Biomass Tier 1 Estimates, V1",
     "type": "image_collection"
@@ -5909,7 +5909,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NASA/VIIRS/002/VNP13A1",
     "tags": "16_day, evi, nasa, ndvi, noaa, npp, vegetation, vegetation-indices, viirs, vnp13a1",
     "terms_of_use": "LP DAAC NASA data are freely accessible; however, when an author\npublishes these data or works based on the data, it is requested that the\nauthor cite the datasets within the text of the publication and include a\nreference to them in the reference list.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NASA/NASA_VIIRS_002_VNP13A1_sample.png",
     "title": "VNP13A1.002: VIIRS Vegetation Indices 16-Day 500m",
     "type": "image_collection"
@@ -6572,7 +6572,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NOAA/VIIRS/001/VNP22Q2",
     "tags": "land, landuse-landcover, nasa, ndvi, noaa, npp, onset_greenness, phenology, surface, vegetation, viirs",
     "terms_of_use": "LP DAAC NASA data are freely accessible; however, when an author\npublishes these data or works based on the data, it is requested that the\nauthor cite the datasets within the text of the publication and include a\nreference to them in the reference list.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NOAA/NOAA_VIIRS_001_VNP22Q2_sample.png",
     "title": "VNP22Q2: Land Surface Phenology Yearly L3 Global 500m SIN Grid",
     "type": "image_collection"
@@ -6817,7 +6817,7 @@
     "license": "CC-BY-4.0",
     "provider": "OpenET, Inc.",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/OpenET/DISALEXI/CONUS/GRIDMET/MONTHLY/v2_0",
-    "tags": "evapotranspiration, gridmet_derived, landsat_derived, monthly, openet, water",
+    "tags": "evapotranspiration, gridmet_derived, landsat_derived, monthly, openet, water, water-vapor",
     "terms_of_use": "",
     "thematic_group": "Hydrology",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/OpenET_DISALEXI_CONUS_GRIDMET_MONTHLY_v2_0_sample.png",
@@ -6830,7 +6830,7 @@
     "license": "CC-BY-4.0",
     "provider": "OpenET, Inc.",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/OpenET/EEMETRIC/CONUS/GRIDMET/MONTHLY/v2_0",
-    "tags": "evapotranspiration, gridmet_derived, landsat_derived, monthly, openet, water",
+    "tags": "evapotranspiration, gridmet_derived, landsat_derived, monthly, openet, water, water-vapor",
     "terms_of_use": "",
     "thematic_group": "Hydrology",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/OpenET_EEMETRIC_CONUS_GRIDMET_MONTHLY_v2_0_sample.png",
@@ -6843,7 +6843,7 @@
     "license": "CC-BY-4.0",
     "provider": "OpenET, Inc.",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/OpenET/ENSEMBLE/CONUS/GRIDMET/MONTHLY/v2_0",
-    "tags": "evapotranspiration, gridmet_derived, landsat_derived, monthly, openet, water",
+    "tags": "evapotranspiration, gridmet_derived, landsat_derived, monthly, openet, water, water-vapor",
     "terms_of_use": "",
     "thematic_group": "Hydrology",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/OpenET_ENSEMBLE_CONUS_GRIDMET_MONTHLY_v2_0_sample.png",
@@ -6856,7 +6856,7 @@
     "license": "CC-BY-4.0",
     "provider": "OpenET, Inc.",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/OpenET/GEESEBAL/CONUS/GRIDMET/MONTHLY/v2_0",
-    "tags": "evapotranspiration, gridmet_derived, landsat_derived, monthly, openet, water",
+    "tags": "evapotranspiration, gridmet_derived, landsat_derived, monthly, openet, water, water-vapor",
     "terms_of_use": "",
     "thematic_group": "Hydrology",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/OpenET_GEESEBAL_CONUS_GRIDMET_MONTHLY_v2_0_sample.png",
@@ -6869,7 +6869,7 @@
     "license": "CC-BY-4.0",
     "provider": "OpenET, Inc.",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/OpenET/PTJPL/CONUS/GRIDMET/MONTHLY/v2_0",
-    "tags": "evapotranspiration, gridmet_derived, landsat_derived, monthly, openet, water",
+    "tags": "evapotranspiration, gridmet_derived, landsat_derived, monthly, openet, water, water-vapor",
     "terms_of_use": "",
     "thematic_group": "Hydrology",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/OpenET_PTJPL_CONUS_GRIDMET_MONTHLY_v2_0_sample.png",
@@ -6882,7 +6882,7 @@
     "license": "CC-BY-4.0",
     "provider": "OpenET, Inc.",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/OpenET/SIMS/CONUS/GRIDMET/MONTHLY/v2_0",
-    "tags": "evapotranspiration, gridmet_derived, landsat_derived, monthly, openet, water",
+    "tags": "evapotranspiration, gridmet_derived, landsat_derived, monthly, openet, water, water-vapor",
     "terms_of_use": "",
     "thematic_group": "Hydrology",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/OpenET_SIMS_CONUS_GRIDMET_MONTHLY_v2_0_sample.png",
@@ -6895,7 +6895,7 @@
     "license": "CC-BY-4.0",
     "provider": "OpenET, Inc.",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/OpenET/SSEBOP/CONUS/GRIDMET/MONTHLY/v2_0",
-    "tags": "evapotranspiration, gridmet_derived, landsat_derived, monthly, openet, water",
+    "tags": "evapotranspiration, gridmet_derived, landsat_derived, monthly, openet, water, water-vapor",
     "terms_of_use": "",
     "thematic_group": "Hydrology",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/OpenET_SSEBOP_CONUS_GRIDMET_MONTHLY_v2_0_sample.png",
@@ -7105,7 +7105,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/Oxford/MAP/EVI_5km_Monthly",
     "tags": "evi, map, oxford, vegetation, vegetation-indices",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/Oxford/Oxford_MAP_EVI_5km_Monthly_sample.png",
     "title": "Oxford MAP EVI: Malaria Atlas Project Gap-Filled Enhanced Vegetation Index",
     "type": "image_collection"
@@ -7324,9 +7324,9 @@
     "license": "CC-BY-4.0",
     "provider": "TERN Landscapes / CSIRO Land and Water",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/TERN/AET/CMRSET_LANDSAT_V2_2",
-    "tags": "agriculture, australia, csiro, evaporation, evapotranspiration, landsat_derived, surface-ground-water, tern, viirs_derived",
+    "tags": "agriculture, australia, csiro, evaporation, evapotranspiration, landsat_derived, tern, viirs_derived, water-vapor",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/TERN/TERN_AET_CMRSET_LANDSAT_V2_2_sample.png",
     "title": "Actual Evapotranspiration for Australia (CMRSET Landsat V2.2)",
     "type": "image_collection"
@@ -7534,7 +7534,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/TUBerlin/BigEarthNet/v1",
     "tags": "chip, copernicus, corine_derived, label, landuse-landcover, ml, sentinel, tile",
     "terms_of_use": "The BigEarthNet Archive is licensed under the Community Data License\nAgreement - Permissive, Version 1.0.  For more information,\nplease refer to\n[https://cdla.dev/permissive-1-0](https://cdla.dev/permissive-1-0/).\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/TUBerlin/TUBerlin_BigEarthNet_v1_sample.png",
     "title": "TUBerlin/BigEarthNet/v1",
     "type": "image_collection"
@@ -7547,7 +7547,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/Tsinghua/DESS/ChinaTerraceMap/v1",
     "tags": "agriculture, china, dess, landcover, landuse, landuse-landcover, terrace, tsinghua",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/Tsinghua/Tsinghua_DESS_ChinaTerraceMap_v1_sample.png",
     "title": "DESS China Terrace Map v1",
     "type": "image"
@@ -7625,7 +7625,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/UMD/GLAD/PRIMARY_HUMID_TROPICAL_FORESTS/v1",
     "tags": "forest, forest-biomass, glad, global, landsat_derived, umd",
     "terms_of_use": "The data may be used by anyone, anywhere, anytime without permission,\nlicense or royalty payment.\nAttribution using the recommended citation is requested.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/UMD/UMD_GLAD_PRIMARY_HUMID_TROPICAL_FORESTS_v1_sample.png",
     "title": "Primary Humid Tropical Forests",
     "type": "image_collection"
@@ -7638,7 +7638,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/UMD/hansen/global_forest_change_2023_v1_11",
     "tags": "forest, forest-biomass, geophysical, hansen, landsat_derived, umd",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/UMD/UMD_hansen_global_forest_change_2023_v1_11_sample.png",
     "title": "Hansen Global Forest Change v1.11 (2000-2023)",
     "type": "image"
@@ -7716,7 +7716,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/UMT/Climate/IrrMapper_RF/v1_2",
     "tags": "agriculture, landsat_derived",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/UMT/UMT_Climate_IrrMapper_RF_v1_2_sample.png",
     "title": "IrrMapper Irrigated Lands, Version 1.2",
     "type": "image_collection"
@@ -7729,7 +7729,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/UMT/NTSG/v2/LANDSAT/GPP",
     "tags": "16_day, conus, gpp, gridmet_derived, landsat, mod17, nlcd_derived, photosynthesis, plant-productivity, production, productivity",
     "terms_of_use": "This work is in the public domain and is free of known copyright\nrestrictions. Users should properly cite the source used in the creation of\nany reports and publications resulting from the use of this dataset and note\nthe date when the data was acquired.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/UMT/UMT_NTSG_v2_LANDSAT_GPP_sample.png",
     "title": "Landsat Gross Primary Production CONUS",
     "type": "image_collection"
@@ -7742,7 +7742,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/UMT/NTSG/v2/LANDSAT/NPP",
     "tags": "conus, gridmet_derived, landsat, mod17, nlcd_derived, npp, photosynthesis, plant-productivity, production, productivity, yearly",
     "terms_of_use": "This work is in the public domain and is free of known copyright\nrestrictions. Users should properly cite the source used in the creation of\nany reports and publications resulting from the use of this dataset and note\nthe date when the data was acquired.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/UMT/UMT_NTSG_v2_LANDSAT_NPP_sample.png",
     "title": "Landsat Net Primary Production CONUS",
     "type": "image_collection"
@@ -7755,7 +7755,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/UMT/NTSG/v2/MODIS/GPP",
     "tags": "8_day, conus, gpp, gridmet_derived, mod09q1, mod17, modis, nlcd_derived, photosynthesis, plant-productivity, production, productivity",
     "terms_of_use": "This work is in the public domain and is free of known copyright\nrestrictions. Users should properly cite the source used in the creation of\nany reports and publications resulting from the use of this dataset and note\nthe date when the data was acquired.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/UMT/UMT_NTSG_v2_MODIS_GPP_sample.png",
     "title": "MODIS Gross Primary Production CONUS",
     "type": "image_collection"
@@ -7768,7 +7768,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/UMT/NTSG/v2/MODIS/NPP",
     "tags": "conus, gridmet_derived, mod09q1, mod17, modis, nlcd_derived, npp, photosynthesis, plant-productivity, production, productivity, yearly",
     "terms_of_use": "This work is in the public domain and is free of known copyright\nrestrictions. Users should properly cite the source used in the creation of\nany reports and publications resulting from the use of this dataset and note\nthe date when the data was acquired.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/UMT/UMT_NTSG_v2_MODIS_NPP_sample.png",
     "title": "MODIS Net Primary Production CONUS",
     "type": "image_collection"
@@ -7833,7 +7833,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/USDA/NAIP/DOQQ",
     "tags": "aerial, agriculture, fpac, highres, imagery, naip, orthophotos, usda",
     "terms_of_use": "Most information presented on the FSA Web site is considered public domain\ninformation. Public domain information may be freely distributed or copied,\nbut use of appropriate byline/photo/image credits is requested. For more\ninformation visit the\n[FSA Policies and Links](https://www.fsa.usda.gov/help/policies-and-links)\nwebsite.\n\nUsers should acknowledge USDA Farm Production and Conservation -\nBusiness Center, Geospatial Enterprise Operations when using or\ndistributing this data set.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/USDA/USDA_NAIP_DOQQ_sample.png",
     "title": "NAIP: National Agriculture Imagery Program",
     "type": "image_collection"
@@ -7846,7 +7846,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/USDA/NASS/CDL",
     "tags": "agriculture, cdl, crop, landcover, nass, usda",
     "terms_of_use": "The NASS Cropland Data Layer has no copyright restrictions. The CDL is\nconsidered public domain and free to redistribute. However, NASS would\nappreciate acknowledgment for the usage of our CDL product.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/USDA/USDA_NASS_CDL_sample.png",
     "title": "USDA NASS Cropland Data Layers",
     "type": "image_collection"
@@ -7898,7 +7898,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/USFS/GTAC/LCMS/v2023-9",
     "tags": "change_detection, forest, gtac, landcover, landsat, landuse, landuse-landcover, sentinel, time_series, usda, usfs",
     "terms_of_use": "The USDA Forest Service makes no warranty, expressed or implied, including the warranties of\nmerchantability and fitness for a particular purpose, nor assumes any legal liability or\nresponsibility for the accuracy, reliability, completeness or utility of these geospatial data,\nor for the improper or incorrect use of these geospatial data. These geospatial data and\nrelated maps or graphics are not legal documents and are not intended to be used as such. The\ndata and maps may not be used to determine title, ownership, legal descriptions or boundaries,\nlegal jurisdiction, or restrictions that may be in place on either public or private land.\nNatural hazards may or may not be depicted on the data and maps, and land users should exercise\ndue caution. The data are dynamic and may change over time. The user is responsible to verify\nthe limitations of the geospatial data and to use the data accordingly.\n\nThese data were collected using funding from the U.S. Government and can be used\nwithout additional permissions or fees. If you use these data in a publication, presentation, or\nother research product please use the following citation:\n\nUSDA Forest Service. 2024. USFS Landscape Change Monitoring System v2023.9\n(Conterminous United States and Outer Conterminous United States). Salt Lake City, Utah.\n\nNote\n\n* [https://data.fs.usda.gov/geodata/rastergateway/LCMS/index.php](https://data.fs.usda.gov/geodata/rastergateway/LCMS/index.php) is the preferred link for citations\n\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/USFS/USFS_GTAC_LCMS_v2023-9_sample.png",
     "title": "USFS Landscape Change Monitoring System  v2023.9 (CONUS and OCONUS)",
     "type": "image_collection"
@@ -7937,7 +7937,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/USFS/GTAC/TreeMap/v2016",
     "tags": "biomass, carbon, climate_change, conus, forest, forest-biomass, forest_inventory_and_analysis, forest_type, gtac, landcover, landfire, redcastle_resources, tree_cover, treemap, usfs, vegetation",
     "terms_of_use": "The USDA Forest Service makes no warranty, expressed or implied, including the warranties of\nmerchantability and fitness for a particular purpose, nor assumes any legal liability or\nresponsibility for the accuracy, reliability, completeness or utility of these geospatial data,\nor for the improper or incorrect use of these geospatial data. These geospatial data and\nrelated maps or graphics are not legal documents and are not intended to be used as such. The\ndata and maps may not be used to determine title, ownership, legal descriptions or boundaries,\nlegal jurisdiction, or restrictions that may be in place on either public or private land.\nNatural hazards may or may not be depicted on the data and maps, and land users should exercise\ndue caution. The data are dynamic and may change over time. The user is responsible to verify\nthe limitations of the geospatial data and to use the data accordingly.\n\nThese data were collected using funding from the U.S. Government and can be used\nwithout additional permissions or fees. If you use these data in a publication, presentation, or\nother research product please use the appropriate citation.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/USFS/USFS_GTAC_TreeMap_v2016_sample.png",
     "title": "USFS TreeMap v2016 (Conterminous United States)",
     "type": "image_collection"
@@ -8093,7 +8093,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/USGS/GFSAD1000_V1",
     "tags": "agriculture, crop, gfsad, landcover, usgs",
     "terms_of_use": "Most U.S. Geological Survey (USGS) information resides\nin the public domain and may be used without restriction. Additional\ninformation on [Acknowledging or Crediting USGS as Information\nSource](https://www.usgs.gov/information-policies-and-instructions/acknowledging-or-crediting-usgs)\nis available.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/USGS/USGS_GFSAD1000_V1_sample.png",
     "title": "GFSAD1000: Cropland Extent 1km Multi-Study Crop Mask, Global Food-Support Analysis Data",
     "type": "image"
@@ -8210,7 +8210,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/USGS/NLCD_RELEASES/2021_REL/TCC/v2021-4",
     "tags": "forest, forest-biomass, gtac, landsat_derived, redcastle_resources, sentinel2_derived, time_series, usda, usfs, usgs",
     "terms_of_use": "The USDA Forest Service makes no warranty, expressed or implied, including the warranties of\nmerchantability and fitness for a particular purpose, nor assumes any legal liability or\nresponsibility for the accuracy, reliability, completeness or utility of these geospatial data,\nor for the improper or incorrect use of these geospatial data. These geospatial data and\nrelated maps or graphics are not legal documents and are not intended to be used as such. The\ndata and maps may not be used to determine title, ownership, legal descriptions or boundaries,\nlegal jurisdiction, or restrictions that may be in place on either public or private land.\nNatural hazards may or may not be depicted on the data and maps, and land users should exercise\ndue caution. The data are dynamic and may change over time. The user is responsible to verify\nthe limitations of the geospatial data and to use the data accordingly.\n\nThese data were collected using funding from the U.S. Government and can be used\nwithout additional permissions or fees. If you use these data in a publication, presentation, or\nother research product please use the following citation:\n\nUSDA Forest Service. 2023. USFS Tree Canopy Cover v2021.4\n(Conterminous United States and Southeastern Alaska). Salt Lake City, Utah.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/USGS/USGS_NLCD_RELEASES_2021_REL_TCC_v2021-4_sample.png",
     "title": "USFS Tree Canopy Cover v2021-4 (CONUS and OCONUS)",
     "type": "image_collection"
@@ -8652,7 +8652,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/WRI/GFW/FORMA/raw_output_ndvi",
     "tags": "daily, deforestation, forest, forest-biomass, forma, gfw, modis, monitoring, wri",
     "terms_of_use": "The FORMA datasets are available without restriction\non use or distribution. WRI does request that the\nuser give proper attribution and identify WRI and GFW, where applicable,\nas the source of the data.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/WRI/WRI_GFW_FORMA_raw_output_ndvi_sample.png",
     "title": "FORMA Raw Output NDVI",
     "type": "image_collection"
@@ -8678,7 +8678,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/WRI/GFW/FORMA/vegetation_tstats",
     "tags": "daily, deforestation, forest, forest-biomass, forma, gfw, modis, monitoring, wri",
     "terms_of_use": "The FORMA datasets are available without restriction\non use or distribution. WRI does request that the\nuser give proper attribution and identify WRI and GFW, where applicable,\nas the source of the data.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/WRI/WRI_GFW_FORMA_vegetation_tstats_sample.png",
     "title": "FORMA Vegetation T-Statistics",
     "type": "image_collection"
@@ -9302,7 +9302,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/forestdatapartnership/assets/cocoa/model_2024a",
     "tags": "agriculture, biodiversity, cocoa, conservation, crop, eudr, landuse, plantation, pre_review",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/forestdatapartnership/projects_forestdatapartnership_assets_cocoa_model_2024a_sample.png",
     "title": "Cocoa Probability model 2024a",
     "type": "image_collection"
@@ -9328,7 +9328,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/forestdatapartnership/assets/palm/model_2024a",
     "tags": "agriculture, biodiversity, conservation, crop, eudr, landuse, palm, plantation",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/forestdatapartnership/projects_forestdatapartnership_assets_palm_model_2024a_sample.png",
     "title": "Palm Probability model 2024a",
     "type": "image_collection"
@@ -9341,7 +9341,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/forestdatapartnership/assets/rubber/model_2024a",
     "tags": "agriculture, biodiversity, conservation, crop, eudr, landuse, plantation, pre_review, rubber",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/forestdatapartnership/projects_forestdatapartnership_assets_rubber_model_2024a_sample.png",
     "title": "Rubber Tree Probability model 2024a",
     "type": "image_collection"
@@ -9419,7 +9419,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/neon-prod-earthengine/assets/CHM/001",
     "tags": "airborne, canopy, forest, forest-biomass, lidar, neon, vegetation",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/neon-prod-earthengine/projects_neon-prod-earthengine_assets_CHM_001_sample.png",
     "title": "NEON Canopy Height Model (CHM)",
     "type": "image_collection"
@@ -9445,7 +9445,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/neon-prod-earthengine/assets/HSI_REFL/001",
     "tags": "airborne, forest, hyperspectral, neon, satellite-imagery, surface_reflectance, vegetation",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/neon-prod-earthengine/projects_neon-prod-earthengine_assets_HSI_REFL_001_sample.png",
     "title": "NEON Directional Surface Reflectance",
     "type": "image_collection"
@@ -9458,7 +9458,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/neon-prod-earthengine/assets/HSI_REFL/002",
     "tags": "airborne, forest, hyperspectral, neon, satellite-imagery, surface_reflectance, vegetation",
     "terms_of_use": "[proprietary](Use a custom URL for the non-standard license)\n\nAll data collected by NEON and provided as data products, with the exception\nof data related to rare, threatened, or endangered (RTE) species, are\nreleased to the public domain under [Creative Commons CC0 1.0 \"No Rights\nReserved\"](https://creativecommons.org/publicdomain/zero/1.0/). No\ncopyright has been applied to NEON data; any person may copy, modify, or\ndistribute the data, for commercial or non-commercial purposes, without\nasking for permission. NEON data may still be subject to other laws or\nrights such as for privacy, and NEON makes no warranties about the data and\ndisclaims all liability. When using or citing NEON data, no implication\nshould be made about endorsement by NEON. In most countries, data and facts\nare not copyrightable.  By putting NEON data into the public domain, we\nencourage broad use, particularly in scientific analyses and data\naggregations. However, please be aware of the following scholarly norms:\nNEON data should be used in a way that is mindful of the limitations of the\ndata, using the documentation associated with the data packages as a guide. \nPlease refer to [NEON Data Guidelines and Policies](https://www.neonscience.org/data-samples/guidelines-policies)\nfor detailed information on how to properly use and cite NEON data, as well as\nbest practices for publishing research that uses NEON data.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/neon-prod-earthengine/projects_neon-prod-earthengine_assets_HSI_REFL_002_sample.png",
     "title": "NEON Bidirectional Surface Reflectance",
     "type": "image_collection"
@@ -9471,7 +9471,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/neon-prod-earthengine/assets/RGB/001",
     "tags": "airborne, forest, highres, neon, orthophoto, rgb, satellite-imagery, vegetation",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/neon-prod-earthengine/projects_neon-prod-earthengine_assets_RGB_001_sample.png",
     "title": "NEON RGB Camera Imagery",
     "type": "image_collection"
@@ -9497,7 +9497,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/planet-nicfi/assets/basemaps/africa",
     "tags": "basemaps, forest, nicfi, planet, satellite-imagery, sr, surface_reflectance, tropics",
     "terms_of_use": "This data has usage, reproduction, and distribution restrictions in support\nof the NICFI Satellite Data Program purpose. The full licensing agreement is available\n[here](https://assets.planet.com/docs/Planet_ParticipantLicenseAgreement_NICFI.pdf).\n\nCopyright notice:\n\nImage &copy; 20xx Planet Labs PBC (where xx denotes the year of the content\nused)\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/planet-nicfi/projects_planet-nicfi_assets_basemaps_africa_sample.png",
     "title": "NICFI Satellite Data Program Basemaps for Tropical Forest Monitoring - Africa",
     "type": "image_collection"
@@ -9510,7 +9510,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/planet-nicfi/assets/basemaps/americas",
     "tags": "basemaps, forest, nicfi, planet, satellite-imagery, sr, surface_reflectance, tropics",
     "terms_of_use": "This data has usage, reproduction, and distribution restrictions in support\nof the NICFI Satellite Data Program purpose. The full licensing agreement is available\n[here](https://assets.planet.com/docs/Planet_ParticipantLicenseAgreement_NICFI.pdf).\n\nCopyright notice:\n\nImage &copy; 20xx Planet Labs PBC (where xx denotes the year of the content\nused)\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/planet-nicfi/projects_planet-nicfi_assets_basemaps_americas_sample.png",
     "title": "NICFI Satellite Data Program Basemaps for Tropical Forest Monitoring - Americas",
     "type": "image_collection"
@@ -9523,7 +9523,7 @@
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/planet-nicfi/assets/basemaps/asia",
     "tags": "basemaps, forest, nicfi, planet, satellite-imagery, sr, surface_reflectance, tropics",
     "terms_of_use": "This data has usage, reproduction, and distribution restrictions in support\nof the NICFI Satellite Data Program purpose. The full licensing agreement is available\n[here](https://assets.planet.com/docs/Planet_ParticipantLicenseAgreement_NICFI.pdf).\n\nCopyright notice:\n\nImage &copy; 20xx Planet Labs PBC (where xx denotes the year of the content\nused)\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/planet-nicfi/projects_planet-nicfi_assets_basemaps_asia_sample.png",
     "title": "NICFI Satellite Data Program Basemaps for Tropical Forest Monitoring - Asia",
     "type": "image_collection"
