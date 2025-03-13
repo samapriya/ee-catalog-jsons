@@ -149,9 +149,9 @@ jobs:
                         # Map categories to community catalog thematic groups
                         category_mapping = {
                             # Agriculture related
-                            "agriculture": "Agriculture, Vegetation and Forestry Analysis Ready Data",
-                            "crops": "Agriculture, Vegetation and Forestry Analysis Ready Data",
-                            "farm": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+                            "agriculture": "Agriculture, Vegetation and Forestry",
+                            "crops": "Agriculture, Vegetation and Forestry",
+                            "farm": "Agriculture, Vegetation and Forestry",
 
                             # Biodiversity/Ecosystems
                             "biology": "Biodiversity, Ecosystems & Habitat Layers",
@@ -226,13 +226,13 @@ jobs:
                             "air_quality": "Weather and Climate Layers",
 
                             # Forest/vegetation specific mapping
-                            "forest": "Agriculture, Vegetation and Forestry Analysis Ready Data",
-                            "vegetation": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+                            "forest": "Agriculture, Vegetation and Forestry",
+                            "vegetation": "Agriculture, Vegetation and Forestry",
 
                             # Satellite collections can go into appropriate categories based on their purpose
-                            "landsat": "Agriculture, Vegetation and Forestry Analysis Ready Data",
-                            "sentinel": "Agriculture, Vegetation and Forestry Analysis Ready Data",
-                            "modis": "Agriculture, Vegetation and Forestry Analysis Ready Data",
+                            "landsat": "Agriculture, Vegetation and Forestry",
+                            "sentinel": "Agriculture, Vegetation and Forestry",
+                            "modis": "Agriculture, Vegetation and Forestry",
                         }
 
                         # Determine the thematic group based on categories or tags
