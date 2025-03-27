@@ -5980,6 +5980,19 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP46A2",
+    "id": "NASA/VIIRS/002/VNP46A2",
+    "license": "proprietary",
+    "provider": "NASA LAADS DAAC",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NASA/VIIRS/002/VNP46A2",
+    "tags": "brdf, daily, nasa, noaa, population, viirs",
+    "terms_of_use": "LP DAAC NASA data are freely accessible; however, when an author\npublishes these data or works based on the data, it is requested that the\nauthor cite the datasets within the text of the publication and include a\nreference to them in the reference list.\n",
+    "thematic_group": "Population & Socioeconomic",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NASA/NASA_VIIRS_002_VNP46A2_sample.png",
+    "title": "VNP46A2: VIIRS Lunar Gap-Filled BRDF Nighttime Lights Daily L3 Global 500m",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/NCEP_RE_sea_level_pressure",
     "id": "NCEP_RE/sea_level_pressure",
     "license": "proprietary",
@@ -6614,19 +6627,6 @@
     "thematic_group": "Population & Socioeconomic",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NOAA/NOAA_VIIRS_001_VNP46A1_sample.png",
     "title": "VNP46A1: VIIRS Daily Gridded Day Night Band 500m Linear Lat Lon Grid Night",
-    "type": "image_collection"
-  },
-  {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_001_VNP46A2",
-    "id": "NOAA/VIIRS/001/VNP46A2",
-    "license": "proprietary",
-    "provider": "NASA LAADS DAAC",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NOAA/VIIRS/001/VNP46A2",
-    "tags": "brdf, daily, nasa, noaa, population, viirs",
-    "terms_of_use": "LP DAAC NASA data are freely accessible; however, when an author\npublishes these data or works based on the data, it is requested that the\nauthor cite the datasets within the text of the publication and include a\nreference to them in the reference list.\n",
-    "thematic_group": "Population & Socioeconomic",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NOAA/NOAA_VIIRS_001_VNP46A2_sample.png",
-    "title": "VNP46A2: VIIRS Lunar Gap-Filled BRDF Nighttime Lights Daily L3 Global 500m",
     "type": "image_collection"
   },
   {
@@ -9447,7 +9447,7 @@
     "terms_of_use": "",
     "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/neon-prod-earthengine/projects_neon-prod-earthengine_assets_HSI_REFL_001_sample.png",
-    "title": "NEON Directional Surface Reflectance",
+    "title": "NEON Surface Directional Reflectance",
     "type": "image_collection"
   },
   {
@@ -9460,7 +9460,7 @@
     "terms_of_use": "[proprietary](Use a custom URL for the non-standard license)\n\nAll data collected by NEON and provided as data products, with the exception\nof data related to rare, threatened, or endangered (RTE) species, are\nreleased to the public domain under [Creative Commons CC0 1.0 \"No Rights\nReserved\"](https://creativecommons.org/publicdomain/zero/1.0/). No\ncopyright has been applied to NEON data; any person may copy, modify, or\ndistribute the data, for commercial or non-commercial purposes, without\nasking for permission. NEON data may still be subject to other laws or\nrights such as for privacy, and NEON makes no warranties about the data and\ndisclaims all liability. When using or citing NEON data, no implication\nshould be made about endorsement by NEON. In most countries, data and facts\nare not copyrightable.  By putting NEON data into the public domain, we\nencourage broad use, particularly in scientific analyses and data\naggregations. However, please be aware of the following scholarly norms:\nNEON data should be used in a way that is mindful of the limitations of the\ndata, using the documentation associated with the data packages as a guide. \nPlease refer to [NEON Data Guidelines and Policies](https://www.neonscience.org/data-samples/guidelines-policies)\nfor detailed information on how to properly use and cite NEON data, as well as\nbest practices for publishing research that uses NEON data.\n",
     "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/neon-prod-earthengine/projects_neon-prod-earthengine_assets_HSI_REFL_002_sample.png",
-    "title": "NEON Bidirectional Surface Reflectance",
+    "title": "NEON Surface Bidirectional Reflectance",
     "type": "image_collection"
   },
   {
