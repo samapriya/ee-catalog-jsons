@@ -1079,6 +1079,19 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/ECMWF_NRT_FORECAST_IFS_OPER",
+    "id": "ECMWF/NRT_FORECAST/IFS/OPER",
+    "license": "CC-BY-4.0",
+    "provider": "ECMWF",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/ECMWF/NRT_FORECAST/IFS/OPER",
+    "tags": "climate, dewpoint, ecmwf, forecast, global, humidity, precipitation, pressure, radiation, rainfall, snow, soil-moisture, soil-temperature, temperature, wind",
+    "terms_of_use": "",
+    "thematic_group": "Weather and Climate Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/ECMWF/ECMWF_NRT_FORECAST_IFS_OPER_sample.png",
+    "title": "ECMWF Near-Realtime IFS Atmospheric Forecasts",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/EDF_MethaneSAT_MethaneAIR_L3concentration",
     "id": "EDF/MethaneSAT/MethaneAIR/L3concentration",
     "license": "proprietary",
