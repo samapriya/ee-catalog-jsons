@@ -6500,6 +6500,19 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/NOAA_GOES_19_FDCC",
+    "id": "NOAA/GOES/19/FDCC",
+    "license": "proprietary",
+    "provider": "NOAA",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NOAA/GOES/19/FDCC",
+    "tags": "abi, fdc, fire, goes, goes-east, hotspot, nesdis, noaa, ospo, wildfire",
+    "terms_of_use": "NOAA data, information, and products, regardless of the method of delivery,\nare not subject to copyright and carry no restrictions on their subsequent\nuse by the public. Once obtained, they may be put to any lawful use.\n",
+    "thematic_group": "Fire Monitoring and Analysis",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NOAA/NOAA_GOES_19_FDCC_sample.png",
+    "title": "GOES-19 FDCC Series ABI Level 2 Fire/Hot Spot Characterization CONUS",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/NOAA_IBTrACS_v4",
     "id": "NOAA/IBTrACS/v4",
     "license": "proprietary",
