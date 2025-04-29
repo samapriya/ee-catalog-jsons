@@ -5889,6 +5889,19 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/NASA_TEMPO_NO2_L3",
+    "id": "NASA/TEMPO/NO2_L3",
+    "license": "proprietary",
+    "provider": "NASA ASDC",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NASA/TEMPO/NO2_L3",
+    "tags": "air-quality, nasa, nitrogen-dioxide, pollution, satellite-imagery, tropomi",
+    "terms_of_use": "This dataset is in the public domain and is available\nwithout restriction on use and distribution. See [NASA's\nEarth Science Data & Information Policy](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy)\nfor additional information.\n",
+    "thematic_group": "Global Events Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NASA/NASA_TEMPO_NO2_L3_sample.png",
+    "title": "TEMPO gridded NO2 tropospheric and stratospheric columns V03",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP09GA",
     "id": "NASA/VIIRS/002/VNP09GA",
     "license": "proprietary",
@@ -7735,16 +7748,16 @@
     "type": "image_collection"
   },
   {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/UMN_PGC_ArcticDEM_V3_2m_mosaic",
-    "id": "UMN/PGC/ArcticDEM/V3/2m_mosaic",
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/UMN_PGC_ArcticDEM_V4_2m_mosaic",
+    "id": "UMN/PGC/ArcticDEM/V4/2m_mosaic",
     "license": "proprietary",
     "provider": "University of Minnesota Polar Geospatial Center",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/UMN/PGC/ArcticDEM/V3/2m_mosaic",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/UMN/PGC/ArcticDEM/V4/2m_mosaic",
     "tags": "arctic, dem, elevation-topography, geophysical, pgc, umn",
     "terms_of_use": "National Science Foundation (PGC's primary funding source) policy requires\nresearchers to acknowledge NSF support in all publications, web pages, and\nmedia interviews.\n\nBy using PGC data in Earth Engine, users agree to cite PGC\nand its sponsorship by the NSF. The original source of any third-party data\nsupplied by PGC must also be properly attributed.\n\nFor more information see the PGC's\n[Acknowledgement Policy](https://www.pgc.umn.edu/guides/user-services/acknowledgement-policy/).\n",
     "thematic_group": "Elevation and Bathymetry",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/UMN/UMN_PGC_ArcticDEM_V3_2m_mosaic_sample.png",
-    "title": "ArcticDEM Mosaic",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/UMN/UMN_PGC_ArcticDEM_V4_2m_mosaic_sample.png",
+    "title": "ArcticDEM Mosaic V4.1",
     "type": "image"
   },
   {
