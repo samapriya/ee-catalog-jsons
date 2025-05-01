@@ -2184,15 +2184,15 @@
     "type": "image"
   },
   {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/ISRIC_SoilGrids250m_v20",
-    "id": "ISRIC/SoilGrids250m/v20",
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/ISRIC_SoilGrids250m_v2_0",
+    "id": "ISRIC/SoilGrids250m/v2_0",
     "license": "CC-BY-4.0",
     "provider": "ISRIC - World Soil Information",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/ISRIC/SoilGrids250m/v20",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/ISRIC/SoilGrids250m/v2_0",
     "tags": "soil, soil-moisture, water",
     "terms_of_use": "",
     "thematic_group": "Soil Properties",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/ISRIC/ISRIC_SoilGrids250m_v20_sample.png",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/ISRIC/ISRIC_SoilGrids250m_v2_0_sample.png",
     "title": "SoilGrids250m 2.0 - Volumetric Water Content",
     "type": "image_collection"
   },
