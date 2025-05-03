@@ -7982,16 +7982,16 @@
     "type": "table"
   },
   {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/USFS_GTAC_LCMS_v2023-9",
-    "id": "USFS/GTAC/LCMS/v2023-9",
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/USFS_GTAC_LCMS_v2024-10",
+    "id": "USFS/GTAC/LCMS/v2024-10",
     "license": "proprietary",
-    "provider": "USDA Forest Service (USFS) Geospatial Technology and Applications Center (GTAC)",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/USFS/GTAC/LCMS/v2023-9",
-    "tags": "change-detection, forest, gtac, landcover, landsat, landuse, landuse-landcover, sentinel, time-series, usda, usfs",
-    "terms_of_use": "The USDA Forest Service makes no warranty, expressed or implied, including the warranties of\nmerchantability and fitness for a particular purpose, nor assumes any legal liability or\nresponsibility for the accuracy, reliability, completeness or utility of these geospatial data,\nor for the improper or incorrect use of these geospatial data. These geospatial data and\nrelated maps or graphics are not legal documents and are not intended to be used as such. The\ndata and maps may not be used to determine title, ownership, legal descriptions or boundaries,\nlegal jurisdiction, or restrictions that may be in place on either public or private land.\nNatural hazards may or may not be depicted on the data and maps, and land users should exercise\ndue caution. The data are dynamic and may change over time. The user is responsible to verify\nthe limitations of the geospatial data and to use the data accordingly.\n\nThese data were collected using funding from the U.S. Government and can be used\nwithout additional permissions or fees. If you use these data in a publication, presentation, or\nother research product please use the following citation:\n\nUSDA Forest Service. 2024. USFS Landscape Change Monitoring System v2023.9\n(Conterminous United States and Outer Conterminous United States). Salt Lake City, Utah.\n\nNote\n\n* [https://data.fs.usda.gov/geodata/rastergateway/LCMS/index.php](https://data.fs.usda.gov/geodata/rastergateway/LCMS/index.php) is the preferred link for citations\n\n",
+    "provider": "USDA Forest Service (USFS) Field Services and Innovation Center Geospatial Office (FSIC-GO)",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/USFS/GTAC/LCMS/v2024-10",
+    "tags": "change-detection, forest, gtac, landcover, landuse, landuse-landcover, lcms, redcastle-resources, usda, usfs",
+    "terms_of_use": "The USDA Forest Service makes no warranty, expressed or implied, including the warranties of\nmerchantability and fitness for a particular purpose, nor assumes any legal liability or\nresponsibility for the accuracy, reliability, completeness or utility of these geospatial data,\nor for the improper or incorrect use of these geospatial data. These geospatial data and\nrelated maps or graphics are not legal documents and are not intended to be used as such. The\ndata and maps may not be used to determine title, ownership, legal descriptions or boundaries,\nlegal jurisdiction, or restrictions that may be in place on either public or private land.\nNatural hazards may or may not be depicted on the data and maps, and land users should exercise\ndue caution. The data are dynamic and may change over time. The user is responsible to verify\nthe limitations of the geospatial data and to use the data accordingly.\n\nThese data were collected using funding from the U.S. Government and can be used\nwithout additional permissions or fees. If you use these data in a publication, presentation, or\nother research product please use the following citation:\n\nUSDA Forest Service. 2025. USFS Landscape Change Monitoring System v2024.10\n(Conterminous United States and Outer Conterminous United States). Salt Lake City, Utah.\n",
     "thematic_group": "Agriculture, Vegetation and Forestry",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/USFS/USFS_GTAC_LCMS_v2023-9_sample.png",
-    "title": "USFS Landscape Change Monitoring System  v2023.9 (CONUS and OCONUS)",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/USFS/USFS_GTAC_LCMS_v2024-10_sample.png",
+    "title": "USFS Landscape Change Monitoring System  v2024.10 (CONUS and OCONUS)",
     "type": "image_collection"
   },
   {
@@ -8299,7 +8299,7 @@
     "license": "proprietary",
     "provider": "USDA Forest Service (USFS) Geospatial Technology and Applications Center (GTAC)",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/USGS/NLCD_RELEASES/2021_REL/TCC/v2021-4",
-    "tags": "forest, forest-biomass, gtac, landsat-derived, redcastle-resources, sentinel2-derived, time-series, usda, usfs, usgs",
+    "tags": "forest, forest-biomass, gtac, landsat-derived, redcastle-resources, usda, usfs, usgs",
     "terms_of_use": "The USDA Forest Service makes no warranty, expressed or implied, including the warranties of\nmerchantability and fitness for a particular purpose, nor assumes any legal liability or\nresponsibility for the accuracy, reliability, completeness or utility of these geospatial data,\nor for the improper or incorrect use of these geospatial data. These geospatial data and\nrelated maps or graphics are not legal documents and are not intended to be used as such. The\ndata and maps may not be used to determine title, ownership, legal descriptions or boundaries,\nlegal jurisdiction, or restrictions that may be in place on either public or private land.\nNatural hazards may or may not be depicted on the data and maps, and land users should exercise\ndue caution. The data are dynamic and may change over time. The user is responsible to verify\nthe limitations of the geospatial data and to use the data accordingly.\n\nThese data were collected using funding from the U.S. Government and can be used\nwithout additional permissions or fees. If you use these data in a publication, presentation, or\nother research product please use the following citation:\n\nUSDA Forest Service. 2023. USFS Tree Canopy Cover v2021.4\n(Conterminous United States and Southeastern Alaska). Salt Lake City, Utah.\n",
     "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/USGS/USGS_NLCD_RELEASES_2021_REL_TCC_v2021-4_sample.png",
