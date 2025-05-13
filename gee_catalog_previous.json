@@ -8346,6 +8346,19 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/USGS_NLCD_RELEASES_2023_REL_TCC_v2023-5",
+    "id": "USGS/NLCD_RELEASES/2023_REL/TCC/v2023-5",
+    "license": "proprietary",
+    "provider": "USDA Forest Service (USFS) Field Services and Innovation Center Geospatial Office (FSIC-GO)",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/USGS/NLCD_RELEASES/2023_REL/TCC/v2023-5",
+    "tags": "forest, gtac, landuse-landcover, redcastle-resources, usda, usfs, usgs",
+    "terms_of_use": "The USDA Forest Service makes no warranty, expressed or implied, including the warranties of\nmerchantability and fitness for a particular purpose, nor assumes any legal liability or\nresponsibility for the accuracy, reliability, completeness or utility of these geospatial data,\nor for the improper or incorrect use of these geospatial data. These geospatial data and\nrelated maps or graphics are not legal documents and are not intended to be used as such. The\ndata and maps may not be used to determine title, ownership, legal descriptions or boundaries,\nlegal jurisdiction, or restrictions that may be in place on either public or private land.\nNatural hazards may or may not be depicted on the data and maps, and land users should exercise\ndue caution. The data are dynamic and may change over time. The user is responsible to verify\nthe limitations of the geospatial data and to use the data accordingly.\n\nThese data were collected using funding from the U.S. Government and can be used\nwithout additional permissions or fees. If you use these data in a publication, presentation, or\nother research product please use the following citation:\n\nUSDA Forest Service. 2025. USFS Tree Canopy Cover v2023.5\n(Conterminous United States and Outer Conterminous United States). Salt Lake City, Utah.\n",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/USGS/USGS_NLCD_RELEASES_2023_REL_TCC_v2023-5_sample.png",
+    "title": "USFS Tree Canopy Cover v2023-5 (CONUS and OCONUS)",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/USGS_SRTMGL1_003",
     "id": "USGS/SRTMGL1_003",
     "license": "proprietary",
