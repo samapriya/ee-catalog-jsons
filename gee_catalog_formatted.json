@@ -9503,6 +9503,32 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_landandcarbon_assets_wri_gdm_drivers_forest_loss_1km_v1_1_2001_2023",
+    "id": "projects/landandcarbon/assets/wri_gdm_drivers_forest_loss_1km/v1_1_2001_2023",
+    "license": "CC-BY-4.0",
+    "provider": "World Resources Institute",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/landandcarbon/assets/wri_gdm_drivers_forest_loss_1km/v1_1_2001_2023",
+    "tags": "agriculture, deforestation, forest, forest-biomass, google, landuse, wri",
+    "terms_of_use": "",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/landandcarbon/projects_landandcarbon_assets_wri_gdm_drivers_forest_loss_1km_v1_1_2001_2023_sample.png",
+    "title": "WRI/Google DeepMind Global Drivers of Forest Loss 2001-2023 v1.1",
+    "type": "image"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_landandcarbon_assets_wri_gdm_drivers_forest_loss_1km_v1_2001_2022",
+    "id": "projects/landandcarbon/assets/wri_gdm_drivers_forest_loss_1km/v1_2001_2022",
+    "license": "CC-BY-4.0",
+    "provider": "World Resources Institute",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/landandcarbon/assets/wri_gdm_drivers_forest_loss_1km/v1_2001_2022",
+    "tags": "agriculture, deforestation, forest, forest-biomass, google, landuse, wri",
+    "terms_of_use": "",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/landandcarbon/projects_landandcarbon_assets_wri_gdm_drivers_forest_loss_1km_v1_2001_2022_sample.png",
+    "title": "WRI/Google DeepMind Global Drivers of Forest Loss 2001-2022 v1.0",
+    "type": "image"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_neon-prod-earthengine_assets_CHM_001",
     "id": "projects/neon-prod-earthengine/assets/CHM/001",
     "license": "CC0-1.0",
