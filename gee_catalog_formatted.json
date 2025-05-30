@@ -7735,16 +7735,16 @@
     "type": "image_collection"
   },
   {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/UMD_hansen_global_forest_change_2023_v1_11",
-    "id": "UMD/hansen/global_forest_change_2023_v1_11",
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/UMD_hansen_global_forest_change_2024_v1_12",
+    "id": "UMD/hansen/global_forest_change_2024_v1_12",
     "license": "CC-BY-4.0",
     "provider": "Hansen/UMD/Google/USGS/NASA",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/UMD/hansen/global_forest_change_2023_v1_11",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/UMD/hansen/global_forest_change_2024_v1_12",
     "tags": "forest, forest-biomass, geophysical, hansen, landsat-derived, umd",
     "terms_of_use": "",
     "thematic_group": "Agriculture, Vegetation and Forestry",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/UMD/UMD_hansen_global_forest_change_2023_v1_11_sample.png",
-    "title": "Hansen Global Forest Change v1.11 (2000-2023)",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/UMD/UMD_hansen_global_forest_change_2024_v1_12_sample.png",
+    "title": "Hansen Global Forest Change v1.12 (2000-2024)",
     "type": "image"
   },
   {
