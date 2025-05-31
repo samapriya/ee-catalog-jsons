@@ -9529,6 +9529,19 @@
     "type": "image"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_landandcarbon_assets_wri_gdm_drivers_forest_loss_1km_v1_2_2001_2024",
+    "id": "projects/landandcarbon/assets/wri_gdm_drivers_forest_loss_1km/v1_2_2001_2024",
+    "license": "CC-BY-4.0",
+    "provider": "World Resources Institute",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/landandcarbon/assets/wri_gdm_drivers_forest_loss_1km/v1_2_2001_2024",
+    "tags": "agriculture, deforestation, forest, forest-biomass, google, landuse, wri",
+    "terms_of_use": "",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/landandcarbon/projects_landandcarbon_assets_wri_gdm_drivers_forest_loss_1km_v1_2_2001_2024_sample.png",
+    "title": "WRI/Google DeepMind Global Drivers of Forest Loss 2001-2024 v1.2",
+    "type": "image"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_landandcarbon_assets_wri_gdm_drivers_forest_loss_1km_v1_2001_2022",
     "id": "projects/landandcarbon/assets/wri_gdm_drivers_forest_loss_1km/v1_2001_2022",
     "license": "CC-BY-4.0",
