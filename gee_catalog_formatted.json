@@ -7709,6 +7709,19 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/UCSB_CHC_CMIP6_v1",
+    "id": "UCSB/CHC/CMIP6/v1",
+    "license": "CC-BY-4.0",
+    "provider": "UCSB",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/UCSB/CHC/CMIP6/v1",
+    "tags": "climate, geophysical, precipitation, ucsb, weather",
+    "terms_of_use": "",
+    "thematic_group": "Weather and Climate Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/UCSB/UCSB_CHC_CMIP6_v1_sample.png",
+    "title": "The Climate Hazards Center (CHC) Coupled Model Intercomparison Project Phase 6 (CHC-CMIP6)",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/UK_EA_ENGLAND_1M_TERRAIN_2022",
     "id": "UK/EA/ENGLAND_1M_TERRAIN/2022",
     "license": "proprietary",
