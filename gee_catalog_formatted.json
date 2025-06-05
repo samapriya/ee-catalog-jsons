@@ -2223,16 +2223,16 @@
     "type": "image_collection"
   },
   {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_AW3D30_V3_2",
-    "id": "JAXA/ALOS/AW3D30/V3_2",
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_AW3D30_V4_1",
+    "id": "JAXA/ALOS/AW3D30/V4_1",
     "license": "proprietary",
     "provider": "JAXA Earth Observation Research Center",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/JAXA/ALOS/AW3D30/V3_2",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/JAXA/ALOS/AW3D30/V4_1",
     "tags": "alos, dem, elevation, elevation-topography, geophysical, jaxa, topography",
     "terms_of_use": "This dataset is available to use with no charge under\nthe conditions specified in the [Terms of use for ALOS Global Digital\nSurface Model](https://earth.jaxa.jp/en/data/policy/).\n",
     "thematic_group": "Elevation and Bathymetry",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/JAXA/JAXA_ALOS_AW3D30_V3_2_sample.png",
-    "title": "ALOS DSM: Global 30m  v3.2",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/JAXA/JAXA_ALOS_AW3D30_V4_1_sample.png",
+    "title": "ALOS DSM: Global 30m  v4.1",
     "type": "image_collection"
   },
   {
