@@ -1651,6 +1651,19 @@
     "type": "table"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/GLIMS_current",
+    "id": "GLIMS/current",
+    "license": "proprietary",
+    "provider": "National Snow and Ice Data Center (NSDIC)",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/GLIMS/current",
+    "tags": "cryosphere, glacier, glims, ice, landcover, nasa, nsidc, snow, table",
+    "terms_of_use": "For the creation of any reports, publications, new\ndata sets, derived products, or services resulting from the data\nset, users should cite: GLIMS and NSIDC (2005, updated 2013): Global\nLand Ice Measurements from Space glacier database.  Compiled and\nmade available by the international GLIMS community and the National\nSnow and Ice Data Center, Boulder CO, U.S.A.,\n[doi:10.7265/N5V98602](https://doi.org/10.7265/N5V98602)\n",
+    "thematic_group": "Global Land Use and Land Cover",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/GLIMS/GLIMS_current_sample.png",
+    "title": "GLIMS Current: Global Land Ice Measurements From Space",
+    "type": "table"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/GLOBAL_FLOOD_DB_MODIS_EVENTS_V1",
     "id": "GLOBAL_FLOOD_DB/MODIS_EVENTS/V1",
     "license": "CC-BY-NC-4.0",
