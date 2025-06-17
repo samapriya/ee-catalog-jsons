@@ -1755,6 +1755,19 @@
     "type": "table"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_SATELLITE_EMBEDDING_V1_ANNUAL",
+    "id": "GOOGLE/SATELLITE_EMBEDDING/V1/ANNUAL",
+    "license": "CC-BY-4.0",
+    "provider": "Google Earth Engine",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/GOOGLE/SATELLITE_EMBEDDING/V1/ANNUAL",
+    "tags": "annual, global, google, landsat-derived, satellite-imagery, sentinel1-derived, sentinel2-derived",
+    "terms_of_use": "",
+    "thematic_group": "Global Events Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/GOOGLE/GOOGLE_SATELLITE_EMBEDDING_V1_ANNUAL_sample.png",
+    "title": "Satellite Embedding V1",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/GRIDMET_DROUGHT",
     "id": "GRIDMET/DROUGHT",
     "license": "proprietary",
@@ -9438,16 +9451,29 @@
     "type": "table"
   },
   {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_forestdatapartnership_assets_cocoa_model_2024a",
-    "id": "projects/forestdatapartnership/assets/cocoa/model_2024a",
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_forestdatapartnership_assets_cocoa_model_2025a",
+    "id": "projects/forestdatapartnership/assets/cocoa/model_2025a",
     "license": "CC-BY-NC-4.0",
     "provider": "Produced by Google for the Forest Data Partnership",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/forestdatapartnership/assets/cocoa/model_2024a",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/forestdatapartnership/assets/cocoa/model_2025a",
     "tags": "agriculture, biodiversity, cocoa, conservation, crop, eudr, landuse, plantation, pre-review",
     "terms_of_use": "",
     "thematic_group": "Agriculture, Vegetation and Forestry",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/forestdatapartnership/projects_forestdatapartnership_assets_cocoa_model_2024a_sample.png",
-    "title": "Cocoa Probability model 2024a",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/forestdatapartnership/projects_forestdatapartnership_assets_cocoa_model_2025a_sample.png",
+    "title": "Cocoa Probability model 2025a",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_forestdatapartnership_assets_coffee_model_2025a",
+    "id": "projects/forestdatapartnership/assets/coffee/model_2025a",
+    "license": "CC-BY-NC-4.0",
+    "provider": "Produced by Google for the Forest Data Partnership",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/forestdatapartnership/assets/coffee/model_2025a",
+    "tags": "agriculture, biodiversity, coffee, conservation, crop, eudr, landuse, plantation, pre-review",
+    "terms_of_use": "",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/forestdatapartnership/projects_forestdatapartnership_assets_coffee_model_2025a_sample.png",
+    "title": "Coffee Probability model 2025a",
     "type": "image_collection"
   },
   {
@@ -9464,29 +9490,29 @@
     "type": "image"
   },
   {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_forestdatapartnership_assets_palm_model_2024a",
-    "id": "projects/forestdatapartnership/assets/palm/model_2024a",
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_forestdatapartnership_assets_palm_model_2025a",
+    "id": "projects/forestdatapartnership/assets/palm/model_2025a",
     "license": "CC-BY-NC-4.0",
     "provider": "Produced by Google for the Forest Data Partnership",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/forestdatapartnership/assets/palm/model_2024a",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/forestdatapartnership/assets/palm/model_2025a",
     "tags": "agriculture, biodiversity, conservation, crop, eudr, landuse, palm, plantation",
     "terms_of_use": "",
     "thematic_group": "Agriculture, Vegetation and Forestry",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/forestdatapartnership/projects_forestdatapartnership_assets_palm_model_2024a_sample.png",
-    "title": "Palm Probability model 2024a",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/forestdatapartnership/projects_forestdatapartnership_assets_palm_model_2025a_sample.png",
+    "title": "Palm Probability model 2025a",
     "type": "image_collection"
   },
   {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_forestdatapartnership_assets_rubber_model_2024a",
-    "id": "projects/forestdatapartnership/assets/rubber/model_2024a",
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_forestdatapartnership_assets_rubber_model_2025a",
+    "id": "projects/forestdatapartnership/assets/rubber/model_2025a",
     "license": "CC-BY-NC-4.0",
     "provider": "Produced by Google for the Forest Data Partnership",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/forestdatapartnership/assets/rubber/model_2024a",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/forestdatapartnership/assets/rubber/model_2025a",
     "tags": "agriculture, biodiversity, conservation, crop, eudr, landuse, plantation, pre-review, rubber",
     "terms_of_use": "",
     "thematic_group": "Agriculture, Vegetation and Forestry",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/forestdatapartnership/projects_forestdatapartnership_assets_rubber_model_2024a_sample.png",
-    "title": "Rubber Tree Probability model 2024a",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/forestdatapartnership/projects_forestdatapartnership_assets_rubber_model_2025a_sample.png",
+    "title": "Rubber Tree Probability model 2025a",
     "type": "image_collection"
   },
   {
