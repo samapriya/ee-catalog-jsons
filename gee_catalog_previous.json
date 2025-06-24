@@ -1092,6 +1092,32 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/ECMWF_NRT_FORECAST_IFS_SCWV",
+    "id": "ECMWF/NRT_FORECAST/IFS/SCWV",
+    "license": "CC-BY-4.0",
+    "provider": "ECMWF",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/ECMWF/NRT_FORECAST/IFS/SCWV",
+    "tags": "climate, ecmwf, forecast, global, ocean",
+    "terms_of_use": "",
+    "thematic_group": "Weather and Climate Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/ECMWF/ECMWF_NRT_FORECAST_IFS_SCWV_sample.png",
+    "title": "ECMWF Near-Realtime IFS Wave (Short-Cutoff) Forecasts",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/ECMWF_NRT_FORECAST_IFS_WAVE",
+    "id": "ECMWF/NRT_FORECAST/IFS/WAVE",
+    "license": "CC-BY-4.0",
+    "provider": "ECMWF",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/ECMWF/NRT_FORECAST/IFS/WAVE",
+    "tags": "climate, ecmwf, forecast, global, ocean",
+    "terms_of_use": "",
+    "thematic_group": "Weather and Climate Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/ECMWF/ECMWF_NRT_FORECAST_IFS_WAVE_sample.png",
+    "title": "ECMWF Near-Realtime IFS Wave Forecasts",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/EDF_MethaneSAT_MethaneAIR_L3concentration",
     "id": "EDF/MethaneSAT/MethaneAIR/L3concentration",
     "license": "proprietary",
