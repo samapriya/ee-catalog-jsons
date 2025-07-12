@@ -8216,6 +8216,32 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/USFS_GTAC_TreeMap_v2020",
+    "id": "USFS/GTAC/TreeMap/v2020",
+    "license": "proprietary",
+    "provider": "USDA Forest Service (USFS) Field Services and Innovation Center Geospatial Office (FSIC-GO)",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/USFS/GTAC/TreeMap/v2020",
+    "tags": "aboveground, biomass, carbon, climate-change, conus, forest, forest-biomass, forest-inventory-and-analysis, forest-type, fsic-go, gtac, landcover, landfire, redcastle-resources, tree-cover, us, usda, usfs, vegetation",
+    "terms_of_use": "The USDA Forest Service makes no warranty, expressed or implied, including the \nwarranties of merchantability and fitness for a particular purpose, nor assumes \nany legal liability or responsibility for the accuracy, reliability, \ncompleteness or utility of these geospatial data, or for the improper or \nincorrect use of these geospatial data. These geospatial data and related maps \nor graphics are not legal documents and are not intended to be used as such. The \ndata and maps may not be used to determine title, ownership, legal descriptions \nor boundaries, legal jurisdiction, or restrictions that may be in place on \neither public or private land. Natural hazards may or may not be depicted on the \ndata and maps, and land users should exercise due caution. The data are dynamic \nand may change over time. The user is responsible to verify the limitations of \nthe geospatial data and to use the data accordingly.\n\nThese data were collected using funding from the U.S. Government and can be used \nwithout additional permissions or fees. If you use these data in a publication, \npresentation, or other research product please use the appropriate citation:\n\nZimmer, S. N., R. M. Houtman, L. S. T. Leatherman, I. W. Housman, A. Shrestha, \nJ. D. Shaw, K. L. Riley: 2025, TreeMap 2020 CONUS: A tree-level model of the \nforests of the conterminous United States circa 2020. Fort Collins, CO: Forest \nService Research Data Archive. \n[doi:10.2737/RDS-2025-0031](https://doi.org/10.2737/RDS-2025-0031)\n\nSee [TreeMap Research Data Archive](https://www.fs.usda.gov/rds/archive/catalog/RDS-2025-0031) \nfor additional information.\n\n",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/USFS/USFS_GTAC_TreeMap_v2020_sample.png",
+    "title": "USFS TreeMap v2020",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/USFS_GTAC_TreeMap_v2022",
+    "id": "USFS/GTAC/TreeMap/v2022",
+    "license": "proprietary",
+    "provider": "USDA Forest Service (USFS) Field Services and Innovation Center Geospatial Office (FSIC-GO)",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/USFS/GTAC/TreeMap/v2022",
+    "tags": "aboveground, biomass, carbon, climate-change, conus, forest, forest-biomass, forest-inventory-and-analysis, forest-type, fsic-go, gtac, landcover, landfire, redcastle-resources, tree-cover, us, usda, usfs, vegetation",
+    "terms_of_use": "The USDA Forest Service makes no warranty, expressed or implied, including the \nwarranties of merchantability and fitness for a particular purpose, nor assumes \nany legal liability or responsibility for the accuracy, reliability, \ncompleteness or utility of these geospatial data, or for the improper or \nincorrect use of these geospatial data. These geospatial data and related maps \nor graphics are not legal documents and are not intended to be used as such. The \ndata and maps may not be used to determine title, ownership, legal descriptions \nor boundaries, legal jurisdiction, or restrictions that may be in place on \neither public or private land. Natural hazards may or may not be depicted on the \ndata and maps, and land users should exercise due caution. The data are dynamic \nand may change over time. The user is responsible to verify the limitations of \nthe geospatial data and to use the data accordingly.\n\nThese data were collected using funding from the U.S. Government and can be used \nwithout additional permissions or fees. If you use these data in a publication, \npresentation, or other research product please use the appropriate citation:\n\nHoutman, R. M., L. S. T. Leatherman, S. N. Zimmer, I. W. Housman, A. Shrestha,  \nJ. D. Shaw, K. L. Riley:  2025. TreeMap 2022 CONUS: A tree-level model of the \nforests of the conterminous United States circa 2022. Fort Collins, \nCO: Forest Service Research Data Archive. \n[doi:10.2737/RDS-2025-0032](https://doi.org/10.2737/RDS-2025-0032)\n\nSee [TreeMap Research Data Archive](https://www.fs.usda.gov/rds/archive/catalog/RDS-2025-0032) \nfor additional information.\n\n",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/USFS/USFS_GTAC_TreeMap_v2022_sample.png",
+    "title": "USFS TreeMap v2022",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/USGS_3DEP_1m",
     "id": "USGS/3DEP/1m",
     "license": "proprietary",
