@@ -416,6 +416,19 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_MARINE_SATELLITE_OCEAN_COLOR_V6",
+    "id": "COPERNICUS/MARINE/SATELLITE_OCEAN_COLOR/V6",
+    "license": "CC-BY-4.0",
+    "provider": "Copernicus",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/COPERNICUS/MARINE/SATELLITE_OCEAN_COLOR/V6",
+    "tags": "chlorophyll-a, copernicus, daily, marine, oceans",
+    "terms_of_use": "",
+    "thematic_group": "Oceans and Shorelines",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_MARINE_SATELLITE_OCEAN_COLOR_V6_sample.png",
+    "title": "Copernicus Satellite Ocean Color Daily Data",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S1_GRD",
     "id": "COPERNICUS/S1_GRD",
     "license": "proprietary",
