@@ -7503,11 +7503,11 @@
   {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/RUB_RUBCLIM_LCZ_global_lcz_map_latest",
     "id": "RUB/RUBCLIM/LCZ/global_lcz_map/latest",
-    "license": "proprietary",
+    "license": "CC-BY-4.0",
     "provider": "Bochum Urban Climate Lab",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/RUB/RUBCLIM/LCZ/global_lcz_map/latest",
     "tags": "climate, landcover, landuse-landcover, urban",
-    "terms_of_use": "[proprietary](Use a custom URL for the non-standard license)",
+    "terms_of_use": "",
     "thematic_group": "Weather and Climate Layers",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/RUB/RUB_RUBCLIM_LCZ_global_lcz_map_latest_sample.png",
     "title": "Global map of Local Climate Zones, latest version",
@@ -9787,6 +9787,19 @@
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/landandcarbon/projects_landandcarbon_assets_wri_gdm_drivers_forest_loss_1km_v1_2001_2022_sample.png",
     "title": "WRI/Google DeepMind Global Drivers of Forest Loss 2001-2022 v1.0",
     "type": "image"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_nature-trace_assets_forest_typology_natural_forest_2020_v1_0_collection",
+    "id": "projects/nature-trace/assets/forest_typology/natural_forest_2020_v1_0_collection",
+    "license": "CC-BY-4.0",
+    "provider": "Google",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/nature-trace/assets/forest_typology/natural_forest_2020_v1_0_collection",
+    "tags": "biodiversity, climate, conservation, deforestation, eudr, forest, forest-biomass",
+    "terms_of_use": "",
+    "thematic_group": "Biodiversity, Ecosystems & Habitat Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/nature-trace/projects_nature-trace_assets_forest_typology_natural_forest_2020_v1_0_collection_sample.png",
+    "title": "Natural Forests of the World 2020",
+    "type": "image_collection"
   },
   {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_neon-prod-earthengine_assets_CHM_001",
