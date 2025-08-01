@@ -6019,16 +6019,16 @@
     "type": "image_collection"
   },
   {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/NASA_SMAP_SPL4SMGP_007",
-    "id": "NASA/SMAP/SPL4SMGP/007",
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/NASA_SMAP_SPL4SMGP_008",
+    "id": "NASA/SMAP/SPL4SMGP/008",
     "license": "proprietary",
     "provider": "Google and NSIDC",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NASA/SMAP/SPL4SMGP/007",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NASA/SMAP/SPL4SMGP/008",
     "tags": "drought, nasa, smap, soil, soil-moisture, surface, weather",
     "terms_of_use": "This dataset is in the public domain and is available\nwithout restriction on use and distribution. See [NASA's\nEarth Science Data & Information Policy](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy)\nfor additional information.\n",
     "thematic_group": "Soil Properties",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NASA/NASA_SMAP_SPL4SMGP_007_sample.png",
-    "title": "SPL4SMGP.007 SMAP L4 Global 3-hourly 9-km Surface and Root Zone Soil Moisture",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NASA/NASA_SMAP_SPL4SMGP_008_sample.png",
+    "title": "SPL4SMGP.008 SMAP L4 Global 3-hourly 9-km Surface and Root Zone Soil Moisture",
     "type": "image_collection"
   },
   {
