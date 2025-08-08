@@ -5057,6 +5057,19 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD16A2",
+    "id": "MODIS/061/MYD16A2",
+    "license": "proprietary",
+    "provider": "NASA LP DAAC at the USGS EROS Center",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/061/MYD16A2",
+    "tags": "8-day, evapotranspiration, global, modis, nasa, water-vapor",
+    "terms_of_use": "MODIS data and products acquired through the LP DAAC\nhave no restrictions on subsequent use, sale, or redistribution.\n",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MYD16A2_sample.png",
+    "title": "MYD16A2.061: Aqua Net Evapotranspiration 8-Day L4 Global 500m SIN Grid V061",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD17A2H",
     "id": "MODIS/061/MYD17A2H",
     "license": "proprietary",
