@@ -429,6 +429,32 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_MARINE_OC_GLO_BGC_PLANKTON_MULTI_4KM",
+    "id": "COPERNICUS/MARINE/OC_GLO_BGC/PLANKTON_MULTI_4KM",
+    "license": "CC-BY-4.0",
+    "provider": "Copernicus",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/COPERNICUS/MARINE/OC_GLO_BGC/PLANKTON_MULTI_4KM",
+    "tags": "copernicus, marine, oceans",
+    "terms_of_use": "",
+    "thematic_group": "Oceans and Shorelines",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_MARINE_OC_GLO_BGC_PLANKTON_MULTI_4KM_sample.png",
+    "title": "Global Ocean Colour: Bio-Geo-Chemical, L4, from Satellite Observations, Plankton, Multi-Sensor, 4KM",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_MARINE_OC_GLO_BGC_PLANKTON_OLCI_300M",
+    "id": "COPERNICUS/MARINE/OC_GLO_BGC/PLANKTON_OLCI_300M",
+    "license": "CC-BY-4.0",
+    "provider": "Copernicus",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/COPERNICUS/MARINE/OC_GLO_BGC/PLANKTON_OLCI_300M",
+    "tags": "copernicus, marine, oceans",
+    "terms_of_use": "",
+    "thematic_group": "Oceans and Shorelines",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_MARINE_OC_GLO_BGC_PLANKTON_OLCI_300M_sample.png",
+    "title": "Global Ocean Colour: Bio-Geo-Chemical, L4, from Satellite Observations, Plankton, OLCI, 300M",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_MARINE_OC_GLO_BGC_PRIMARY_PRODUCTION_MULTI_4KM",
     "id": "COPERNICUS/MARINE/OC_GLO_BGC/PRIMARY_PRODUCTION_MULTI_4KM",
     "license": "CC-BY-4.0",
@@ -452,6 +478,45 @@
     "thematic_group": "Oceans and Shorelines",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_MARINE_OC_GLO_BGC_REFLECTANCE_MULTI_4KM_sample.png",
     "title": "Global Ocean Colour: Bio-Geo-Chemical, L4, from Satellite Observations, Reflectance, Multi-Sensor 4KM",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_MARINE_OC_GLO_BGC_REFLECTANCE_OLCI_300M",
+    "id": "COPERNICUS/MARINE/OC_GLO_BGC/REFLECTANCE_OLCI_300M",
+    "license": "CC-BY-4.0",
+    "provider": "Copernicus",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/COPERNICUS/MARINE/OC_GLO_BGC/REFLECTANCE_OLCI_300M",
+    "tags": "copernicus, marine, oceans",
+    "terms_of_use": "",
+    "thematic_group": "Oceans and Shorelines",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_MARINE_OC_GLO_BGC_REFLECTANCE_OLCI_300M_sample.png",
+    "title": "Global Ocean Colour: Bio-Geo-Chemical, L4, from Satellite Observations, Reflectance, OLCI 300M",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_MARINE_OC_GLO_BGC_TRANSPARENCY_MULTI_4KM",
+    "id": "COPERNICUS/MARINE/OC_GLO_BGC/TRANSPARENCY_MULTI_4KM",
+    "license": "CC-BY-4.0",
+    "provider": "Copernicus",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/COPERNICUS/MARINE/OC_GLO_BGC/TRANSPARENCY_MULTI_4KM",
+    "tags": "copernicus, marine, oceans",
+    "terms_of_use": "",
+    "thematic_group": "Oceans and Shorelines",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_MARINE_OC_GLO_BGC_TRANSPARENCY_MULTI_4KM_sample.png",
+    "title": "Global Ocean Colour: Bio-Geo-Chemical, L4, from Satellite Observations, Transparency, Multi-Sensor, 4KM",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_MARINE_OC_GLO_BGC_TRANSPARENCY_OLCI_4KM",
+    "id": "COPERNICUS/MARINE/OC_GLO_BGC/TRANSPARENCY_OLCI_4KM",
+    "license": "CC-BY-4.0",
+    "provider": "Copernicus",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/COPERNICUS/MARINE/OC_GLO_BGC/TRANSPARENCY_OLCI_4KM",
+    "tags": "copernicus, marine, oceans",
+    "terms_of_use": "",
+    "thematic_group": "Oceans and Shorelines",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_MARINE_OC_GLO_BGC_TRANSPARENCY_OLCI_4KM_sample.png",
+    "title": "Global Ocean Colour: Bio-Geo-Chemical, L4, from Satellite Observations, Transparency, OLCI, 4KM",
     "type": "image_collection"
   },
   {
@@ -2717,16 +2782,16 @@
     "type": "image"
   },
   {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/JRC_CEMS_GLOFAS_FloodHazard_v1",
-    "id": "JRC/CEMS_GLOFAS/FloodHazard/v1",
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/JRC_CEMS_GLOFAS_FloodHazard_v2",
+    "id": "JRC/CEMS_GLOFAS/FloodHazard/v2",
     "license": "CC-BY-4.0",
     "provider": "Joint Research Centre",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/JRC/CEMS_GLOFAS/FloodHazard/v1",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/JRC/CEMS_GLOFAS/FloodHazard/v2",
     "tags": "flood, monitoring, surface-ground-water, wri",
     "terms_of_use": "",
     "thematic_group": "Global Events Layers",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/JRC/JRC_CEMS_GLOFAS_FloodHazard_v1_sample.png",
-    "title": "JRC Global River Flood Hazard Maps Version 1",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/JRC/JRC_CEMS_GLOFAS_FloodHazard_v2_sample.png",
+    "title": "JRC Global River Flood Hazard Maps Version 2",
     "type": "image_collection"
   },
   {
