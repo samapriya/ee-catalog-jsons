@@ -5687,7 +5687,7 @@
     "provider": "NASA GES DISC at NASA Goddard Space Flight Center",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NASA/GLDAS/V021/NOAH/G025/T3H",
     "tags": "3-hourly, climate, cryosphere, evaporation, forcing, geophysical, gldas, humidity, ldas, nasa, precipitation, pressure, radiation, soil, soil-moisture, surface, temperature, water-vapor, wind",
-    "terms_of_use": "Distribution of data from the Goddard Earth Sciences\nData and Information Services Center (GES DISC) is funded by NASA's\nScience Mission Directorate (SMD). Consistent with NASA [Earth\nScience Data and Information Policy](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy/),\ndata from the GES DISC archive are available free to the user community.\nFor more information visit the GES DISC [Data Policy](https://disc.sci.gsfc.nasa.gov/citing)\npage.\n",
+    "terms_of_use": "Distribution of data from the Goddard Earth Sciences\nData and Information Services Center (GES DISC) is funded by NASA's\nScience Mission Directorate (SMD). Consistent with NASA [Earth\nScience Data and Information Policy](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy/),\ndata from the GES DISC archive are available free to the user community.\nFor more information visit the GES DISC [Data Policy](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy)\npage.\n",
     "thematic_group": "Weather and Climate Layers",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NASA/NASA_GLDAS_V021_NOAH_G025_T3H_sample.png",
     "title": "GLDAS-2.1: Global Land Data Assimilation System",
