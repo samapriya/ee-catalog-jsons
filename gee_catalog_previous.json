@@ -2782,16 +2782,16 @@
     "type": "image"
   },
   {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/JRC_CEMS_GLOFAS_FloodHazard_v2",
-    "id": "JRC/CEMS_GLOFAS/FloodHazard/v2",
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/JRC_CEMS_GLOFAS_FloodHazard_v2_1",
+    "id": "JRC/CEMS_GLOFAS/FloodHazard/v2_1",
     "license": "CC-BY-4.0",
     "provider": "Joint Research Centre",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/JRC/CEMS_GLOFAS/FloodHazard/v2",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/JRC/CEMS_GLOFAS/FloodHazard/v2_1",
     "tags": "flood, monitoring, surface-ground-water, wri",
     "terms_of_use": "",
     "thematic_group": "Global Events Layers",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/JRC/JRC_CEMS_GLOFAS_FloodHazard_v2_sample.png",
-    "title": "JRC Global River Flood Hazard Maps Version 2",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/JRC/JRC_CEMS_GLOFAS_FloodHazard_v2_1_sample.png",
+    "title": "JRC Global River Flood Hazard Maps Version 2.1",
     "type": "image_collection"
   },
   {
