@@ -1131,6 +1131,19 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_HOURLY",
+    "id": "ECMWF/ERA5/HOURLY",
+    "license": "proprietary",
+    "provider": "Copernicus Climate Change Service (C3S)",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/ECMWF/ERA5/HOURLY",
+    "tags": "atmosphere, climate, copernicus, ecmwf, era5, hourly, precipitation, pressure, radiation, reanalysis, temperature, weather, wind",
+    "terms_of_use": "Please acknowledge the use of ERA5 as stated in the [Copernicus C3S/CAMS License agreement](https://apps.ecmwf.int/datasets/licences/copernicus/).\n",
+    "thematic_group": "Weather and Climate Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/ECMWF/ECMWF_ERA5_HOURLY_sample.png",
+    "title": "ERA5 Hourly - ECMWF Climate Reanalysis",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_DAILY_AGGR",
     "id": "ECMWF/ERA5_LAND/DAILY_AGGR",
     "license": "proprietary",
