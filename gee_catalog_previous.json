@@ -7501,19 +7501,6 @@
     "type": "image"
   },
   {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/Oxford_MAP_EVI_5km_Monthly",
-    "id": "Oxford/MAP/EVI_5km_Monthly",
-    "license": "CC-BY-NC-SA-4.0",
-    "provider": "Oxford Malaria Atlas Project",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/Oxford/MAP/EVI_5km_Monthly",
-    "tags": "evi, map, oxford, vegetation, vegetation-indices",
-    "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/Oxford/Oxford_MAP_EVI_5km_Monthly_sample.png",
-    "title": "Oxford MAP EVI: Malaria Atlas Project Gap-Filled Enhanced Vegetation Index",
-    "type": "image_collection"
-  },
-  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/Oxford_MAP_IGBP_Fractional_Landcover_5km_Annual",
     "id": "Oxford/MAP/IGBP_Fractional_Landcover_5km_Annual",
     "license": "CC-BY-NC-SA-4.0",
@@ -7524,58 +7511,6 @@
     "thematic_group": "Global Land Use and Land Cover",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/Oxford/Oxford_MAP_IGBP_Fractional_Landcover_5km_Annual_sample.png",
     "title": "Oxford MAP: Malaria Atlas Project Fractional International Geosphere-Biosphere Programme Landcover",
-    "type": "image_collection"
-  },
-  {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/Oxford_MAP_LST_Day_5km_Monthly",
-    "id": "Oxford/MAP/LST_Day_5km_Monthly",
-    "license": "CC-BY-NC-SA-4.0",
-    "provider": "Oxford Malaria Atlas Project",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/Oxford/MAP/LST_Day_5km_Monthly",
-    "tags": "climate, lst, map, oxford, surface-temperature",
-    "terms_of_use": "",
-    "thematic_group": "Weather and Climate Layers",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/Oxford/Oxford_MAP_LST_Day_5km_Monthly_sample.png",
-    "title": "Oxford MAP LST: Malaria Atlas Project Gap-Filled Daytime Land Surface Temperature",
-    "type": "image_collection"
-  },
-  {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/Oxford_MAP_LST_Night_5km_Monthly",
-    "id": "Oxford/MAP/LST_Night_5km_Monthly",
-    "license": "CC-BY-NC-SA-4.0",
-    "provider": "Oxford Malaria Atlas Project",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/Oxford/MAP/LST_Night_5km_Monthly",
-    "tags": "climate, lst, map, oxford, surface-temperature",
-    "terms_of_use": "",
-    "thematic_group": "Weather and Climate Layers",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/Oxford/Oxford_MAP_LST_Night_5km_Monthly_sample.png",
-    "title": "Oxford MAP LST: Malaria Atlas Project Gap-Filled Nighttime Land Surface Temperature",
-    "type": "image_collection"
-  },
-  {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/Oxford_MAP_TCB_5km_Monthly",
-    "id": "Oxford/MAP/TCB_5km_Monthly",
-    "license": "CC-BY-NC-SA-4.0",
-    "provider": "Oxford Malaria Atlas Project",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/Oxford/MAP/TCB_5km_Monthly",
-    "tags": "brightness, map, oxford, tasseled-cap, tcb, vegetation-indices",
-    "terms_of_use": "",
-    "thematic_group": "Global Events Layers",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/Oxford/Oxford_MAP_TCB_5km_Monthly_sample.png",
-    "title": "Oxford MAP TCB: Malaria Atlas Project Gap-Filled Tasseled Cap Brightness",
-    "type": "image_collection"
-  },
-  {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/Oxford_MAP_TCW_5km_Monthly",
-    "id": "Oxford/MAP/TCW_5km_Monthly",
-    "license": "CC-BY-NC-SA-4.0",
-    "provider": "Oxford Malaria Atlas Project",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/Oxford/MAP/TCW_5km_Monthly",
-    "tags": "map, oxford, tasseled-cap, tcb, vegetation-indices, wetness",
-    "terms_of_use": "",
-    "thematic_group": "Global Events Layers",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/Oxford/Oxford_MAP_TCW_5km_Monthly_sample.png",
-    "title": "Oxford MAP TCW: Malaria Atlas Project Gap-Filled Tasseled Cap Wetness",
     "type": "image_collection"
   },
   {
@@ -9752,7 +9687,7 @@
   {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_forestdatapartnership_assets_cocoa_model_2025a",
     "id": "projects/forestdatapartnership/assets/cocoa/model_2025a",
-    "license": "CC-BY-NC-4.0",
+    "license": "various",
     "provider": "Produced by Google for the Forest Data Partnership",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/forestdatapartnership/assets/cocoa/model_2025a",
     "tags": "agriculture, biodiversity, cocoa, conservation, crop, eudr, landuse, plantation, pre-review",
@@ -9765,7 +9700,7 @@
   {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_forestdatapartnership_assets_coffee_model_2025a",
     "id": "projects/forestdatapartnership/assets/coffee/model_2025a",
-    "license": "CC-BY-NC-4.0",
+    "license": "various",
     "provider": "Produced by Google for the Forest Data Partnership",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/forestdatapartnership/assets/coffee/model_2025a",
     "tags": "agriculture, biodiversity, coffee, conservation, crop, eudr, landuse, plantation, pre-review",
@@ -9791,7 +9726,7 @@
   {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_forestdatapartnership_assets_palm_model_2025a",
     "id": "projects/forestdatapartnership/assets/palm/model_2025a",
-    "license": "CC-BY-NC-4.0",
+    "license": "various",
     "provider": "Produced by Google for the Forest Data Partnership",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/forestdatapartnership/assets/palm/model_2025a",
     "tags": "agriculture, biodiversity, conservation, crop, eudr, landuse, palm, plantation",
@@ -9804,7 +9739,7 @@
   {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_forestdatapartnership_assets_rubber_model_2025a",
     "id": "projects/forestdatapartnership/assets/rubber/model_2025a",
-    "license": "CC-BY-NC-4.0",
+    "license": "various",
     "provider": "Produced by Google for the Forest Data Partnership",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/forestdatapartnership/assets/rubber/model_2025a",
     "tags": "agriculture, biodiversity, conservation, crop, eudr, landuse, plantation, pre-review, rubber",
@@ -10142,7 +10077,7 @@
   {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_nature-trace_assets_forest_typology_natural_forest_2020_v1_0_collection",
     "id": "projects/nature-trace/assets/forest_typology/natural_forest_2020_v1_0_collection",
-    "license": "CC-BY-4.0",
+    "license": "CC-BY-SA-4.0",
     "provider": "Google",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/nature-trace/assets/forest_typology/natural_forest_2020_v1_0_collection",
     "tags": "biodiversity, climate, conservation, deforestation, eudr, forest, forest-biomass",
