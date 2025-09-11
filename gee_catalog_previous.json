@@ -9828,6 +9828,19 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/iNaturalist_MULTI_SPECIES_LATEST",
+    "id": "iNaturalist/MULTI_SPECIES/LATEST",
+    "license": "CC-BY-4.0",
+    "provider": "iNaturalist",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/iNaturalist/MULTI_SPECIES/LATEST",
+    "tags": "bigquery, biodiversity, ecosystems, range, species",
+    "terms_of_use": "",
+    "thematic_group": "Biodiversity, Ecosystems & Habitat Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/iNaturalist/iNaturalist_MULTI_SPECIES_LATEST_sample.png",
+    "title": "INaturalist Multispecies Open Range Maps",
+    "type": "bigquery_table"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_landandcarbon_assets_wri_gdm_drivers_forest_loss_1km_v1_1_2001_2023",
     "id": "projects/landandcarbon/assets/wri_gdm_drivers_forest_loss_1km/v1_1_2001_2023",
     "license": "CC-BY-4.0",
