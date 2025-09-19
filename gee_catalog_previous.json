@@ -2583,7 +2583,7 @@
     "terms_of_use": "JAXA retains ownership of the dataset and cannot guarantee\nany problem caused by or possibly caused by using the datasets.\nAnyone wishing to publish any results using the datasets should\nclearly acknowledge the ownership of the data in the publication.\n",
     "thematic_group": "Global Events Layers",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/JAXA/JAXA_ALOS_PALSAR_YEARLY_SAR_EPOCH_sample.png",
-    "title": "Global PALSAR-2/PALSAR Yearly Mosaic, version 2",
+    "title": "Global PALSAR-2/PALSAR Yearly Mosaic, version 2.5.0",
     "type": "image_collection"
   },
   {
