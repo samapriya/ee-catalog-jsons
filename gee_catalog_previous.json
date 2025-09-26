@@ -5551,6 +5551,19 @@
     "type": "image"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/NASA_ECOSTRESS_L2T_STARS_V2",
+    "id": "NASA/ECOSTRESS/L2T_STARS/V2",
+    "license": "proprietary",
+    "provider": "Land Processes Distributed Active Archive Center",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NASA/ECOSTRESS/L2T_STARS/V2",
+    "tags": "albedo, ecostress, land, ndvi, plant-productivity",
+    "terms_of_use": "LP DAAC NASA data are freely accessible; however, when an author\npublishes these data or works based on the data, it is requested that the\nauthor cite the datasets within the text of the publication and include a\nreference to them in the reference list.\n",
+    "thematic_group": "Global Events Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NASA/NASA_ECOSTRESS_L2T_STARS_V2_sample.png",
+    "title": "ECOSTRESS Tiled Ancillary NDVI and Albedo L2 Global 70 m V002",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L1B_RAD",
     "id": "NASA/EMIT/L1B/RAD",
     "license": "proprietary",
@@ -9838,6 +9851,19 @@
     "thematic_group": "Global Land Use and Land Cover",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/global-pasture-watch/projects_global-pasture-watch_assets_ggpp-30m_v1_ugpp_m_sample.png",
     "title": "GPW Annual uncalibrated Gross Primary Productivity (uGPP) v1",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_global-pasture-watch_assets_gsvh-30m_v1_short-veg-height_m",
+    "id": "projects/global-pasture-watch/assets/gsvh-30m/v1/short-veg-height_m",
+    "license": "CC-BY-4.0",
+    "provider": "Land and Carbon Lab Global Pasture Watch",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/global-pasture-watch/assets/gsvh-30m/v1/short-veg-height_m",
+    "tags": "canopy, global, land, landcover, plant-productivity, vegetation",
+    "terms_of_use": "",
+    "thematic_group": "Global Land Use and Land Cover",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/global-pasture-watch/projects_global-pasture-watch_assets_gsvh-30m_v1_short-veg-height_m_sample.png",
+    "title": "GPW Annual short vegetation height v1",
     "type": "image_collection"
   },
   {
