@@ -442,6 +442,32 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_MARINE_GLOBAL_SEA_SURFACE_NRT_DAILY",
+    "id": "COPERNICUS/MARINE/GLOBAL_SEA_SURFACE/NRT_DAILY",
+    "license": "CC-BY-4.0",
+    "provider": "Copernicus",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/COPERNICUS/MARINE/GLOBAL_SEA_SURFACE/NRT_DAILY",
+    "tags": "copernicus, marine, oceans",
+    "terms_of_use": "",
+    "thematic_group": "Oceans and Shorelines",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_MARINE_GLOBAL_SEA_SURFACE_NRT_DAILY_sample.png",
+    "title": "Multi Observation Global Ocean Sea Surface Salinity and Sea Surface Density : Daily, Near Real Time",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_MARINE_GLOBAL_SEA_SURFACE_REP_DAILY",
+    "id": "COPERNICUS/MARINE/GLOBAL_SEA_SURFACE/REP_DAILY",
+    "license": "CC-BY-4.0",
+    "provider": "Copernicus",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/COPERNICUS/MARINE/GLOBAL_SEA_SURFACE/REP_DAILY",
+    "tags": "copernicus, marine, oceans",
+    "terms_of_use": "",
+    "thematic_group": "Oceans and Shorelines",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_MARINE_GLOBAL_SEA_SURFACE_REP_DAILY_sample.png",
+    "title": "Multi Observation Global Ocean Sea Surface Salinity and Sea Surface Density : Daily, Multi-Year Reprocessed",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_MARINE_OC_GLO_BGC_OPTICS_MULTI_4KM",
     "id": "COPERNICUS/MARINE/OC_GLO_BGC/OPTICS_MULTI_4KM",
     "license": "CC-BY-4.0",
