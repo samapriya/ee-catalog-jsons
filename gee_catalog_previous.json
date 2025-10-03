@@ -9841,6 +9841,19 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_gcpm041u-lemur_assets_scanfi_v12_SCANFI_v1_2",
+    "id": "projects/gcpm041u-lemur/assets/scanfi_v12/SCANFI_v1_2",
+    "license": "OGL-Canada-2.0",
+    "provider": "NRCan",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/gcpm041u-lemur/assets/scanfi_v12/SCANFI_v1_2",
+    "tags": "canada, forest, forest-biomass, tree-cover",
+    "terms_of_use": "",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/gcpm041u-lemur/projects_gcpm041u-lemur_assets_scanfi_v12_SCANFI_v1_2_sample.png",
+    "title": "SCANFI: the Spatialized CAnadian National Forest Inventory data product1.2",
+    "type": "image"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_global-pasture-watch_assets_ggc-30m_v1_cultiv-grassland_p",
     "id": "projects/global-pasture-watch/assets/ggc-30m/v1/cultiv-grassland_p",
     "license": "CC-BY-4.0",
