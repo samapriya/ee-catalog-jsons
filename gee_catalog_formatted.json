@@ -429,6 +429,45 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_MARINE_GLOBAL_ANALYSISFORECAST_BGC_001_028_CAR",
+    "id": "COPERNICUS/MARINE/GLOBAL_ANALYSISFORECAST_BGC_001_028/CAR",
+    "license": "CC-BY-4.0",
+    "provider": "Copernicus",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/COPERNICUS/MARINE/GLOBAL_ANALYSISFORECAST_BGC_001_028/CAR",
+    "tags": "copernicus, daily, forecast, marine, ocean, oceans",
+    "terms_of_use": "",
+    "thematic_group": "Oceans and Shorelines",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_MARINE_GLOBAL_ANALYSISFORECAST_BGC_001_028_CAR_sample.png",
+    "title": "Copernicus Global Ocean Bio-Geo-Chemical Forecast - CAR",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_MARINE_GLOBAL_ANALYSISFORECAST_BGC_001_028_CO2",
+    "id": "COPERNICUS/MARINE/GLOBAL_ANALYSISFORECAST_BGC_001_028/CO2",
+    "license": "CC-BY-4.0",
+    "provider": "Copernicus",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/COPERNICUS/MARINE/GLOBAL_ANALYSISFORECAST_BGC_001_028/CO2",
+    "tags": "copernicus, daily, forecast, marine, ocean, oceans",
+    "terms_of_use": "",
+    "thematic_group": "Oceans and Shorelines",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_MARINE_GLOBAL_ANALYSISFORECAST_BGC_001_028_CO2_sample.png",
+    "title": "Copernicus Global Ocean Bio-Geo-Chemical Forecast - CO2",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_MARINE_GLOBAL_ANALYSISFORECAST_BGC_001_028_NUT",
+    "id": "COPERNICUS/MARINE/GLOBAL_ANALYSISFORECAST_BGC_001_028/NUT",
+    "license": "CC-BY-4.0",
+    "provider": "Copernicus",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/COPERNICUS/MARINE/GLOBAL_ANALYSISFORECAST_BGC_001_028/NUT",
+    "tags": "copernicus, daily, forecast, marine, ocean, oceans",
+    "terms_of_use": "",
+    "thematic_group": "Oceans and Shorelines",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_MARINE_GLOBAL_ANALYSISFORECAST_BGC_001_028_NUT_sample.png",
+    "title": "Copernicus Global Ocean Bio-Geo-Chemical Forecast - NUT",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_MARINE_GLOBAL_ANALYSISFORECAST_PHY_DAILY",
     "id": "COPERNICUS/MARINE/GLOBAL_ANALYSISFORECAST_PHY_DAILY",
     "license": "CC-BY-4.0",
