@@ -637,6 +637,19 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_MARINE_WAV_ANFC_0_083DEG_STATIC",
+    "id": "COPERNICUS/MARINE/WAV/ANFC_0_083DEG_STATIC",
+    "license": "CC-BY-4.0",
+    "provider": "Copernicus Marine Service Global Ocean Waves and Forecasts",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/COPERNICUS/MARINE/WAV/ANFC_0_083DEG_STATIC",
+    "tags": "bathymetry, copernicus, marine, oceans",
+    "terms_of_use": "",
+    "thematic_group": "Oceans and Shorelines",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_MARINE_WAV_ANFC_0_083DEG_STATIC_sample.png",
+    "title": "Global Ocean Waves Static Bathymetry",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S1_GRD",
     "id": "COPERNICUS/S1_GRD",
     "license": "proprietary",
