@@ -695,7 +695,7 @@
     "provider": "European Union/ESA/Copernicus",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/COPERNICUS/S1_GRD",
     "tags": "backscatter, copernicus, esa, eu, polarization, radar, sar, satellite-imagery, sentinel",
-    "terms_of_use": "The use of Sentinel data is governed by the [Copernicus\nSentinel Data Terms and Conditions.](https://scihub.copernicus.eu/twiki/pub/SciHubWebPortal/TermsConditions/Sentinel_Data_Terms_and_Conditions.pdf)\n",
+    "terms_of_use": "The use of Sentinel data is governed by the [Copernicus\nSentinel Data Terms and Conditions.](https://sentinels.copernicus.eu/documents/247904/690755/Sentinel_Data_Legal_Notice))\n",
     "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_S1_GRD_sample.png",
     "title": "Sentinel-1 SAR GRD: C-band Synthetic Aperture Radar Ground Range Detected, log scaling",
