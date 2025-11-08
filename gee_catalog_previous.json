@@ -3419,6 +3419,19 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_COMPOSITES_C02_T1_L2_8DAY",
+    "id": "LANDSAT/COMPOSITES/C02/T1_L2_8DAY",
+    "license": "proprietary",
+    "provider": "Google",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/COMPOSITES/C02/T1_L2_8DAY",
+    "tags": "landsat, satellite-imagery, sr, usgs",
+    "terms_of_use": "Landsat datasets are federally created data\nand therefore reside in the public domain and may be used, transferred, or reproduced without copyright restriction.\n\nAcknowledgement or credit of the USGS as data source should be provided\nby including a line of text citation such as the example shown below.\n\n(Product, Image, Photograph, or Dataset Name) courtesy of\nthe U.S. Geological Survey\n\nExample: Landsat-7 image courtesy of the U.S. Geological Survey\n\nSee the\n[USGS Visual Identity System Guidance](https://www.usgs.gov/information-policies-and-instructions/usgs-visual-identity-system)\nfor further details on proper citation and acknowledgement of USGS products.\n",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_COMPOSITES_C02_T1_L2_8DAY_sample.png",
+    "title": "Landsat Collection 2 Tier 1 Level 2 8-Day Composite",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_COMPOSITES_C02_T1_L2_8DAY_BAI",
     "id": "LANDSAT/COMPOSITES/C02/T1_L2_8DAY_BAI",
     "license": "proprietary",
@@ -3484,6 +3497,19 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_COMPOSITES_C02_T1_L2_32DAY",
+    "id": "LANDSAT/COMPOSITES/C02/T1_L2_32DAY",
+    "license": "proprietary",
+    "provider": "Google",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/COMPOSITES/C02/T1_L2_32DAY",
+    "tags": "landsat, satellite-imagery, sr, usgs",
+    "terms_of_use": "Landsat datasets are federally created data\nand therefore reside in the public domain and may be used, transferred, or reproduced without copyright restriction.\n\nAcknowledgement or credit of the USGS as data source should be provided\nby including a line of text citation such as the example shown below.\n\n(Product, Image, Photograph, or Dataset Name) courtesy of\nthe U.S. Geological Survey\n\nExample: Landsat-7 image courtesy of the U.S. Geological Survey\n\nSee the\n[USGS Visual Identity System Guidance](https://www.usgs.gov/information-policies-and-instructions/usgs-visual-identity-system)\nfor further details on proper citation and acknowledgement of USGS products.\n",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_COMPOSITES_C02_T1_L2_32DAY_sample.png",
+    "title": "Landsat Collection 2 Tier 1 Level 2 32-Day Composite",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_COMPOSITES_C02_T1_L2_32DAY_BAI",
     "id": "LANDSAT/COMPOSITES/C02/T1_L2_32DAY_BAI",
     "license": "proprietary",
@@ -3546,6 +3572,19 @@
     "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_COMPOSITES_C02_T1_L2_32DAY_NDWI_sample.png",
     "title": "Landsat Collection 2 Tier 1 Level 2 32-Day NDWI Composite",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_COMPOSITES_C02_T1_L2_ANNUAL",
+    "id": "LANDSAT/COMPOSITES/C02/T1_L2_ANNUAL",
+    "license": "proprietary",
+    "provider": "Google",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LANDSAT/COMPOSITES/C02/T1_L2_ANNUAL",
+    "tags": "landsat, satellite-imagery, sr, usgs",
+    "terms_of_use": "Landsat datasets are federally created data\nand therefore reside in the public domain and may be used, transferred, or reproduced without copyright restriction.\n\nAcknowledgement or credit of the USGS as data source should be provided\nby including a line of text citation such as the example shown below.\n\n(Product, Image, Photograph, or Dataset Name) courtesy of\nthe U.S. Geological Survey\n\nExample: Landsat-7 image courtesy of the U.S. Geological Survey\n\nSee the\n[USGS Visual Identity System Guidance](https://www.usgs.gov/information-policies-and-instructions/usgs-visual-identity-system)\nfor further details on proper citation and acknowledgement of USGS products.\n",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LANDSAT/LANDSAT_COMPOSITES_C02_T1_L2_ANNUAL_sample.png",
+    "title": "Landsat Collection 2 Tier 1 Level 2 Annual Composite",
     "type": "image_collection"
   },
   {
@@ -10294,6 +10333,19 @@
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/nature-trace/projects_nature-trace_assets_forest_typology_natural_forest_2020_v1_0_collection_sample.png",
     "title": "Natural Forests of the World 2020",
     "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_nature-trace_assets_species_distribution_models_australia_mammals_v0",
+    "id": "projects/nature-trace/assets/species_distribution_models/australia_mammals/v0",
+    "license": "CC-BY-4.0",
+    "provider": "Google",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/nature-trace/assets/species_distribution_models/australia_mammals/v0",
+    "tags": "alphaearth-derived, biodiversity, conservation, ecosystems, pre-review, species",
+    "terms_of_use": "",
+    "thematic_group": "Biodiversity, Ecosystems & Habitat Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/nature-trace/projects_nature-trace_assets_species_distribution_models_australia_mammals_v0_sample.png",
+    "title": "Species Distribution, Australia Mammals",
+    "type": "image"
   },
   {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_neon-prod-earthengine_assets_CHM_001",
