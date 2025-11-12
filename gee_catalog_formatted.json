@@ -7332,19 +7332,6 @@
     "type": "image_collection"
   },
   {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/OREGONSTATE_PRISM_AN81m",
-    "id": "OREGONSTATE/PRISM/AN81m",
-    "license": "proprietary",
-    "provider": "PRISM / OREGONSTATE",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/OREGONSTATE/PRISM/AN81m",
-    "tags": "climate, geophysical, monthly, oregonstate, precipitation, pressure, prism, temperature, vapor, weather",
-    "terms_of_use": "These PRISM datasets are available without restriction\non use or distribution. PRISM Climate Group does request that the\nuser give proper attribution and identify PRISM, where applicable,\nas the source of the data.\n",
-    "thematic_group": "Weather and Climate Layers",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OREGONSTATE/OREGONSTATE_PRISM_AN81m_sample.png",
-    "title": "PRISM Monthly Spatial Climate Dataset AN81m",
-    "type": "image_collection"
-  },
-  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/OREGONSTATE_PRISM_ANd",
     "id": "OREGONSTATE/PRISM/ANd",
     "license": "proprietary",
@@ -7355,6 +7342,19 @@
     "thematic_group": "Weather and Climate Layers",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OREGONSTATE/OREGONSTATE_PRISM_ANd_sample.png",
     "title": "PRISM Daily Spatial Climate Dataset ANd",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/OREGONSTATE_PRISM_ANm",
+    "id": "OREGONSTATE/PRISM/ANm",
+    "license": "proprietary",
+    "provider": "PRISM / OREGONSTATE",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/OREGONSTATE/PRISM/ANm",
+    "tags": "climate, geophysical, monthly, oregonstate, precipitation, pressure, prism, temperature, vapor, weather",
+    "terms_of_use": "These PRISM datasets are available without restriction\non use or distribution. PRISM Climate Group does request that the\nuser give proper attribution and identify PRISM, where applicable,\nas the source of the data.\n",
+    "thematic_group": "Weather and Climate Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OREGONSTATE/OREGONSTATE_PRISM_ANm_sample.png",
+    "title": "PRISM Monthly Spatial Climate Dataset ANm",
     "type": "image_collection"
   },
   {
