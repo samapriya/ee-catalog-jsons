@@ -1680,7 +1680,7 @@
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/FAO_GAUL_SIMPLIFIED_500m_2015_level0",
     "id": "FAO/GAUL_SIMPLIFIED_500m/2015/level0",
     "license": "proprietary",
-    "provider": "FAO UN",
+    "provider": "FAO UN ",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/FAO/GAUL_SIMPLIFIED_500m/2015/level0",
     "tags": "borders, countries, fao, gaul, infrastructure-boundaries, table, un",
     "terms_of_use": "The GAUL dataset is distributed to the United Nations and other authorized\ninternational and national institutions/agencies. FAO grants a license to\nuse, download and print the materials contained in the GAUL dataset solely\nfor non-commercial purposes and in accordance with the conditions specified\nin the data license.\n[The full GAUL Data License document](\n  https://developers.google.com/earth-engine/datasets/catalog/DataLicenseGAUL2015.pdf)\nis available for downloading. See also\n[the disclaimer](\n  https://developers.google.com/earth-engine/datasets/catalog/DisclaimerGAUL2015.pdf).\n",
