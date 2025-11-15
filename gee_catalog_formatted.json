@@ -9997,6 +9997,19 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_gcp-public-data-weathernext_assets_weathernext_2_0_0",
+    "id": "projects/gcp-public-data-weathernext/assets/weathernext_2_0_0",
+    "license": "proprietary",
+    "provider": "Google",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/gcp-public-data-weathernext/assets/weathernext_2_0_0",
+    "tags": "climate, cyclones, fgn, forecast, precipitation, temperature, weather, weathernext, wind",
+    "terms_of_use": "The Historic Experimental Data is licensed under the Creative Commons\nAttribution International License, Version 4.0 (CC BY 4.0).\n\nThe Real-Time Experimental Data is made available under the following\nGDM Real-Time Weather Forecasting Experimental Data [Terms of Use](https://storage.googleapis.com/weathernext-public/terms-of-use.pdf).\n\n**Third-party materials**\n\nUse of the third-party materials referred to in the Acknowledgements\nsection may be governed by separate terms and conditions or license\nprovisions. Your use of the third-party materials is subject to any such\nterms and you should check that you can comply with any applicable\nrestrictions or terms and conditions before use.\n",
+    "thematic_group": "Weather and Climate Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/gcp-public-data-weathernext/projects_gcp-public-data-weathernext_assets_weathernext_2_0_0_sample.png",
+    "title": "WeatherNext 2",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_gcpm041u-lemur_assets_scanfi_v12_SCANFI_v1_2",
     "id": "projects/gcpm041u-lemur/assets/scanfi_v12/SCANFI_v1_2",
     "license": "OGL-Canada-2.0",
