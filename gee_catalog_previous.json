@@ -7332,6 +7332,32 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/OPERA_RTC_L2_V1_S1",
+    "id": "OPERA/RTC/L2_V1/S1",
+    "license": "CC0-1.0",
+    "provider": "NASA JPL",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/OPERA/RTC/L2_V1/S1",
+    "tags": "backscatter, jpl, nasa, opera, polarization, radar, sar, satellite-imagery, sentinel1-derived",
+    "terms_of_use": "",
+    "thematic_group": "Global Events Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OPERA/OPERA_RTC_L2_V1_S1_sample.png",
+    "title": "OPERA Radiometric Terrain-Corrected SAR Backscatter from Sentinel-1 V1.0",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/OPERA_RTC_L2_V1_S1_STATIC",
+    "id": "OPERA/RTC/L2_V1/S1_STATIC",
+    "license": "CC0-1.0",
+    "provider": "NASA JPL",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/OPERA/RTC/L2_V1/S1_STATIC",
+    "tags": "jpl, nasa, opera, sar, satellite-imagery, sentinel1-derived",
+    "terms_of_use": "",
+    "thematic_group": "Global Events Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OPERA/OPERA_RTC_L2_V1_S1_STATIC_sample.png",
+    "title": "OPERA Radiometric Terrain-Corrected SAR Backscatter from Sentinel-1 Static Layers V1.0",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/OREGONSTATE_PRISM_ANd",
     "id": "OREGONSTATE/PRISM/ANd",
     "license": "proprietary",
