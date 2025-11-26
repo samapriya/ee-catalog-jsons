@@ -546,6 +546,19 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_MARINE_INSITU_MULTI_4KM_DRIFTER",
+    "id": "COPERNICUS/MARINE/INSITU_MULTI_4KM/DRIFTER",
+    "license": "CC-BY-4.0",
+    "provider": "Copernicus",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/COPERNICUS/MARINE/INSITU_MULTI_4KM/DRIFTER",
+    "tags": "copernicus, currents, marine, ocean, oceans",
+    "terms_of_use": "",
+    "thematic_group": "Oceans and Shorelines",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_MARINE_INSITU_MULTI_4KM_DRIFTER_sample.png",
+    "title": "Copernicus Global In-situ Observations of Ocean Currents - Drifter",
+    "type": "bigquery_table"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_MARINE_OC_GLO_BGC_OPTICS_MULTI_4KM",
     "id": "COPERNICUS/MARINE/OC_GLO_BGC/OPTICS_MULTI_4KM",
     "license": "CC-BY-4.0",
