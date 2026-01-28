@@ -2353,6 +2353,19 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/IAHS_GFPLAIN250_v0",
+    "id": "IAHS/GFPLAIN250/v0",
+    "license": "CC-BY-4.0",
+    "provider": "IAHS",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/IAHS/GFPLAIN250/v0",
+    "tags": "flood, monitoring, surface-ground-water",
+    "terms_of_use": "",
+    "thematic_group": "Global Events Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/IAHS/IAHS_GFPLAIN250_v0_sample.png",
+    "title": "GFPLAIN250m: Global 250m Floodplain Dataset",
+    "type": "image"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/IDAHO_EPSCOR_GRIDMET",
     "id": "IDAHO_EPSCOR/GRIDMET",
     "license": "proprietary",
