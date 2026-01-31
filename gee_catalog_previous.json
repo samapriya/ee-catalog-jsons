@@ -6929,6 +6929,19 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/NOAA_CFSV2_FOR6H_HARMONIZED",
+    "id": "NOAA/CFSV2/FOR6H_HARMONIZED",
+    "license": "proprietary",
+    "provider": "NOAA NWS National Centers for Environmental Prediction (NCEP)",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NOAA/CFSV2/FOR6H_HARMONIZED",
+    "tags": "climate, daylight, flux, forecast, geophysical, ncep, noaa, nws, precipitation, radiation, snow, temperature, vapor, water, weather",
+    "terms_of_use": "NOAA data, information, and products, regardless of the method of delivery,\nare not subject to copyright and carry no restrictions on their subsequent\nuse by the public. Once obtained, they may be put to any lawful use. The\nforgoing data is in the public domain and is being provided without\nrestriction on use and distribution. For more information visit the\n[NWS disclaimer site](https://www.weather.gov/disclaimer/).\n",
+    "thematic_group": "Weather and Climate Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NOAA/NOAA_CFSV2_FOR6H_HARMONIZED_sample.png",
+    "title": "CFSV2: NCEP Climate Forecast System Version 2, 6-Hourly Products Harmonized",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/NOAA_CPC_Precipitation",
     "id": "NOAA/CPC/Precipitation",
     "license": "proprietary",
@@ -7896,51 +7909,12 @@
     "license": "CC-BY-NC-SA-4.0",
     "provider": "Oxford Malaria Atlas Project",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/Oxford/MAP/IGBP_Fractional_Landcover_5km_Annual",
-    "tags": "igbp, landcover, landuse-landcover, map, oxford",
+    "tags": "igbp, landcover, landuse-landcover, map",
     "terms_of_use": "",
     "thematic_group": "Global Land Use and Land Cover",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/Oxford/Oxford_MAP_IGBP_Fractional_Landcover_5km_Annual_sample.png",
     "title": "Oxford MAP: Malaria Atlas Project Fractional International Geosphere-Biosphere Programme Landcover",
     "type": "image_collection"
-  },
-  {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/Oxford_MAP_accessibility_to_cities_2015_v1_0",
-    "id": "Oxford/MAP/accessibility_to_cities_2015_v1_0",
-    "license": "CC-BY-4.0",
-    "provider": "Malaria Atlas Project",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/Oxford/MAP/accessibility_to_cities_2015_v1_0",
-    "tags": "accessibility, jrc, map, oxford, population, twente",
-    "terms_of_use": "",
-    "thematic_group": "Population & Socioeconomic",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/Oxford/Oxford_MAP_accessibility_to_cities_2015_v1_0_sample.png",
-    "title": "Accessibility to Cities 2015",
-    "type": "image"
-  },
-  {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/Oxford_MAP_accessibility_to_healthcare_2019",
-    "id": "Oxford/MAP/accessibility_to_healthcare_2019",
-    "license": "CC-BY-4.0",
-    "provider": "Malaria Atlas Project",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/Oxford/MAP/accessibility_to_healthcare_2019",
-    "tags": "accessibility, jrc, map, oxford, population, twente",
-    "terms_of_use": "",
-    "thematic_group": "Population & Socioeconomic",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/Oxford/Oxford_MAP_accessibility_to_healthcare_2019_sample.png",
-    "title": "Accessibility to Healthcare 2019",
-    "type": "image"
-  },
-  {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/Oxford_MAP_friction_surface_2019",
-    "id": "Oxford/MAP/friction_surface_2019",
-    "license": "CC-BY-4.0",
-    "provider": "Malaria Atlas Project",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/Oxford/MAP/friction_surface_2019",
-    "tags": "accessibility, friction, jrc, map, oxford, population, twente",
-    "terms_of_use": "",
-    "thematic_group": "Population & Socioeconomic",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/Oxford/Oxford_MAP_friction_surface_2019_sample.png",
-    "title": "Global Friction Surface 2019",
-    "type": "image"
   },
   {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/RESOLVE_ECOREGIONS_2017",
