@@ -217,7 +217,7 @@
     "terms_of_use": "",
     "thematic_group": "Global Events Layers",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/CAS/CAS_IGSNRR_PML_V2_v018_sample.png",
-    "title": "PML_V2 0.1.8: Coupled Evapotranspiration and Gross Primary Product (GPP)",
+    "title": "PML_V2.1.8: Coupled Evapotranspiration and Gross Primary Product (GPP)",
     "type": "image_collection"
   },
   {
@@ -6916,19 +6916,6 @@
     "type": "image_collection"
   },
   {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/NOAA_CFSV2_FOR6H",
-    "id": "NOAA/CFSV2/FOR6H",
-    "license": "proprietary",
-    "provider": "NOAA NWS National Centers for Environmental Prediction (NCEP)",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NOAA/CFSV2/FOR6H",
-    "tags": "climate, daylight, flux, forecast, geophysical, ncep, noaa, nws, precipitation, radiation, snow, temperature, vapor, water, weather",
-    "terms_of_use": "NOAA data, information, and products, regardless of the method of delivery,\nare not subject to copyright and carry no restrictions on their subsequent\nuse by the public. Once obtained, they may be put to any lawful use. The\nforgoing data is in the public domain and is being provided without\nrestriction on use and distribution. For more information visit the\n[NWS disclaimer site](https://www.weather.gov/disclaimer/).\n",
-    "thematic_group": "Weather and Climate Layers",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NOAA/NOAA_CFSV2_FOR6H_sample.png",
-    "title": "CFSV2: NCEP Climate Forecast System Version 2, 6-Hourly Products",
-    "type": "image_collection"
-  },
-  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/NOAA_CFSV2_FOR6H_HARMONIZED",
     "id": "NOAA/CFSV2/FOR6H_HARMONIZED",
     "license": "proprietary",
@@ -10800,6 +10787,19 @@
     "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/planet-nicfi/projects_planet-nicfi_assets_basemaps_asia_sample.png",
     "title": "NICFI Satellite Data Program Basemaps for Tropical Forest Monitoring - Asia",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_pml_evapotranspiration_PML_OUTPUT_PML_V22a",
+    "id": "projects/pml_evapotranspiration/PML/OUTPUT/PML_V22a",
+    "license": "CC-BY-4.0",
+    "provider": "Large Scale Hydrology Lab",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/pml_evapotranspiration/PML/OUTPUT/PML_V22a",
+    "tags": "evapotranspiration, gpp, plant-productivity, water-vapor",
+    "terms_of_use": "",
+    "thematic_group": "Global Events Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/pml_evapotranspiration/projects_pml_evapotranspiration_PML_OUTPUT_PML_V22a_sample.png",
+    "title": "PML_V2.2a: Coupled Evapotranspiration and Gross Primary Product (GPP)",
     "type": "image_collection"
   },
   {
