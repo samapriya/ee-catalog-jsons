@@ -7488,6 +7488,32 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/OPERA_DSWX_L3_V1_HLS",
+    "id": "OPERA/DSWX/L3_V1/HLS",
+    "license": "proprietary",
+    "provider": "NASA JPL",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/OPERA/DSWX/L3_V1/HLS",
+    "tags": "geophysical, landsat-derived, nasa, opera, sentinel2-derived, surface, surface-ground-water, water",
+    "terms_of_use": "This dataset is openly shared, without restriction, in accordance with\nthe [EOSDIS Data Use and Citation Guidance](https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance)\n",
+    "thematic_group": "Geophysical, Biological & Biogeochemical",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OPERA/OPERA_DSWX_L3_V1_HLS_sample.png",
+    "title": "Dynamic Surface Water Extent from Harmonized Landsat Sentinel-2 (DSWx-HLS) V1",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/OPERA_DSWX_L3_V1_S1",
+    "id": "OPERA/DSWX/L3_V1/S1",
+    "license": "proprietary",
+    "provider": "NASA JPL",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/OPERA/DSWX/L3_V1/S1",
+    "tags": "geophysical, nasa, opera, sentinel1-derived, surface, surface-ground-water, water",
+    "terms_of_use": "This dataset is openly shared, without restriction, in accordance with\nthe [EOSDIS Data Use and Citation Guidance](https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance)\n",
+    "thematic_group": "Geophysical, Biological & Biogeochemical",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OPERA/OPERA_DSWX_L3_V1_S1_sample.png",
+    "title": "Dynamic Surface Water Extent from Sentinel-1 (DSWx-S1) V1",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/OPERA_RTC_L2_V1_S1",
     "id": "OPERA/RTC/L2_V1/S1",
     "license": "CC0-1.0",
