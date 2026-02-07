@@ -3107,17 +3107,17 @@
     "type": "image"
   },
   {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/JRC_GFC2020_subtypes_V0",
-    "id": "JRC/GFC2020_subtypes/V0",
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/JRC_GFC2020_subtypes_V1",
+    "id": "JRC/GFC2020_subtypes/V1",
     "license": "proprietary",
     "provider": "Joint Research Centre, European Commission",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/JRC/GFC2020_subtypes/V0",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/JRC/GFC2020_subtypes/V1",
     "tags": "eudr, forest, forest-biomass, jrc, landcover, primary-forest",
     "terms_of_use": "The data may be used by anyone, anywhere, anytime without permission,\nlicense or royalty payment. Attribution using the recommended citation is\nrequested.\n",
     "thematic_group": "Agriculture, Vegetation and Forestry",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/JRC/JRC_GFC2020_subtypes_V0_sample.png",
-    "title": "Global map of forest types 2020",
-    "type": "image_collection"
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/JRC/JRC_GFC2020_subtypes_V1_sample.png",
+    "title": "EC JRC global map of forest types 2020, V1",
+    "type": "image"
   },
   {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/JRC_GHSL_P2023A_GHS_BUILT_C",
@@ -8086,19 +8086,6 @@
     "type": "table"
   },
   {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/TIGER_2010_ZCTA5",
-    "id": "TIGER/2010/ZCTA5",
-    "license": "proprietary",
-    "provider": "United States Census Bureau",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/TIGER/2010/ZCTA5",
-    "tags": "census, infrastructure-boundaries, table, tiger, us, zcta, zip-code",
-    "terms_of_use": "The U.S. Census Bureau offers some of its public data\nin machine-readable format via an Application Programming Interface\n(API). All of the content, documentation, code and related materials\nmade available to you through the API are subject to [these terms and\nconditions](https://www.census.gov/data/developers/about/terms-of-service.html).\n",
-    "thematic_group": "Global Events Layers",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/TIGER/TIGER_2010_ZCTA5_sample.png",
-    "title": "TIGER: US Census 5-digit ZIP Code Tabulation Areas 2010",
-    "type": "table"
-  },
-  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/TIGER_2016_Counties",
     "id": "TIGER/2016/Counties",
     "license": "proprietary",
@@ -8200,6 +8187,19 @@
     "thematic_group": "Population & Socioeconomic",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/TIGER/TIGER_2020_TRACT_sample.png",
     "title": "TIGER: US Census Tracts",
+    "type": "table"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/TIGER_2020_ZCTA5",
+    "id": "TIGER/2020/ZCTA5",
+    "license": "proprietary",
+    "provider": "United States Census Bureau",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/TIGER/2020/ZCTA5",
+    "tags": "census, infrastructure-boundaries, table, tiger, us, zcta, zip-code",
+    "terms_of_use": "The U.S. Census Bureau offers some of its public data\nin machine-readable format via an Application Programming Interface\n(API). All of the content, documentation, code and related materials\nmade available to you through the API are subject to [these terms and\nconditions](https://www.census.gov/data/developers/about/terms-of-service.html).\n",
+    "thematic_group": "Global Events Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/TIGER/TIGER_2020_ZCTA5_sample.png",
+    "title": "TIGER: US Census 5-digit ZIP Code Tabulation Areas 2020",
     "type": "table"
   },
   {
