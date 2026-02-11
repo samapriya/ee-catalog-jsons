@@ -208,19 +208,6 @@
     "type": "image_collection"
   },
   {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/CAS_IGSNRR_PML_V2_v018",
-    "id": "CAS/IGSNRR/PML/V2_v018",
-    "license": "CC-BY-4.0",
-    "provider": "PML_V2",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/CAS/IGSNRR/PML/V2_v018",
-    "tags": "evapotranspiration, gpp, plant-productivity, water-vapor",
-    "terms_of_use": "",
-    "thematic_group": "Global Events Layers",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/CAS/CAS_IGSNRR_PML_V2_v018_sample.png",
-    "title": "PML_V2.1.8: Coupled Evapotranspiration and Gross Primary Product (GPP)",
-    "type": "image_collection"
-  },
-  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/CGIAR_SRTM90_V4",
     "id": "CGIAR/SRTM90_V4",
     "license": "proprietary",
