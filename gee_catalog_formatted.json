@@ -6682,6 +6682,19 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP64A1",
+    "id": "NASA/VIIRS/002/VNP64A1",
+    "license": "proprietary",
+    "provider": "NASA LP DAAC at the USGS EROS Center",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NASA/VIIRS/002/VNP64A1",
+    "tags": "burn, change-detection, fire, land, nasa, surface, viirs",
+    "terms_of_use": "LP DAAC NASA data are freely accessible; however, when an author\npublishes these data or works based on the data, it is requested that the\nauthor cite the datasets within the text of the publication and include a\nreference to them in the reference list.\n",
+    "thematic_group": "Fire Monitoring and Analysis",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NASA/NASA_VIIRS_002_VNP64A1_sample.png",
+    "title": "VNP64A1.002: Burned Area Monthly L4 Global 500m SIN Grid",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/NCEP_RE_sea_level_pressure",
     "id": "NCEP_RE/sea_level_pressure",
     "license": "proprietary",
