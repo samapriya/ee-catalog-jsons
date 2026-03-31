@@ -8801,6 +8801,19 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/USDA_SOLUS100_V0",
+    "id": "USDA/SOLUS100/V0",
+    "license": "proprietary",
+    "provider": "USDA-ARS",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/USDA/SOLUS100/V0",
+    "tags": "soil, usda",
+    "terms_of_use": "The SOLUS dataset is in the public domain and is available without\nrestriction on use or distribution.\n",
+    "thematic_group": "Soil Properties",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/USDA/USDA_SOLUS100_V0_sample.png",
+    "title": "SOLUS: Soil properties of the conterminous United States at 100-m resolution",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/USDA_WRC_v0",
     "id": "USDA/WRC/v0",
     "license": "CC-BY-4.0",
