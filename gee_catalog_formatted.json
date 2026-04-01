@@ -91,6 +91,58 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/AIRBUS_SPOT_2_4_5_BRAZIL_2007_2009_MS_NC_V1",
+    "id": "AIRBUS/SPOT_2_4_5/BRAZIL/2007_2009/MS_NC/V1",
+    "license": "proprietary",
+    "provider": "Google/CNES",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/AIRBUS/SPOT_2_4_5/BRAZIL/2007_2009/MS_NC/V1",
+    "tags": "brazil, forest-code, google, rgb, satellite-imagery, spot",
+    "terms_of_use": "Use of this dataset is subject to the [Brazil Forest Imagery Dataset 2008 license agreement](https://developers.google.com/earth-engine/datasets/catalog/Earth_Engine_SPOT_542_Datasets_License.pdf) and requires the following attribution:\n\n\u201cGoogle LLC, Brazil Forest Imagery Dataset 2008 created from circa 2008 SPOT images acquired by CNES's Spot World Heritage Programme.\u201d\n\nContains modified imagery from SPOT satellites made available by the CNES SPOT World Heritage Programme (https://regards.cnes.fr/html/swh/Home-swh3.html).\n",
+    "thematic_group": "Global Events Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/AIRBUS/AIRBUS_SPOT_2_4_5_BRAZIL_2007_2009_MS_NC_V1_sample.png",
+    "title": "SPOT Multispectral Pseudo Natural Color Imagery 10-20m, Brazil",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/AIRBUS_SPOT_2_4_5_BRAZIL_2007_2009_MS_V1",
+    "id": "AIRBUS/SPOT_2_4_5/BRAZIL/2007_2009/MS/V1",
+    "license": "proprietary",
+    "provider": "Google/CNES",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/AIRBUS/SPOT_2_4_5/BRAZIL/2007_2009/MS/V1",
+    "tags": "brazil, forest-code, google, multispectral, satellite-imagery, spot",
+    "terms_of_use": "Use of this dataset is subject to the [Brazil Forest Imagery Dataset 2008 license agreement](https://developers.google.com/earth-engine/datasets/catalog/Earth_Engine_SPOT_542_Datasets_License.pdf) and requires the following attribution:\n\n\u201cGoogle LLC, Brazil Forest Imagery Dataset 2008 created from circa 2008 SPOT images acquired by CNES's Spot World Heritage Programme.\u201d\n\nContains modified imagery from SPOT satellites made available by the CNES SPOT World Heritage Programme (https://regards.cnes.fr/html/swh/Home-swh3.html).\n",
+    "thematic_group": "Global Events Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/AIRBUS/AIRBUS_SPOT_2_4_5_BRAZIL_2007_2009_MS_V1_sample.png",
+    "title": "SPOT Multispectral Imagery 10-20m, Brazil",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/AIRBUS_SPOT_2_4_5_BRAZIL_2007_2009_PAN_V1",
+    "id": "AIRBUS/SPOT_2_4_5/BRAZIL/2007_2009/PAN/V1",
+    "license": "proprietary",
+    "provider": "Google/CNES",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/AIRBUS/SPOT_2_4_5/BRAZIL/2007_2009/PAN/V1",
+    "tags": "brazil, forest-code, google, imagery, satellite-imagery, spot",
+    "terms_of_use": "Use of this dataset is subject to the [Brazil Forest Imagery Dataset 2008 license agreement](https://developers.google.com/earth-engine/datasets/catalog/Earth_Engine_SPOT_542_Datasets_License.pdf) and requires the following attribution:\n\n\u201cGoogle LLC, Brazil Forest Imagery Dataset 2008 created from circa 2008 SPOT images acquired by CNES's Spot World Heritage Programme.\u201d\n\nContains modified imagery from SPOT satellites made available by the CNES SPOT World Heritage Programme (https://regards.cnes.fr/html/swh/Home-swh3.html).\n",
+    "thematic_group": "Global Events Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/AIRBUS/AIRBUS_SPOT_2_4_5_BRAZIL_2007_2009_PAN_V1_sample.png",
+    "title": "SPOT Panchromatic Imagery 5-10m, Brazil",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/AIRBUS_SPOT_2_4_5_BRAZIL_2007_2009_PMS_NC_V1",
+    "id": "AIRBUS/SPOT_2_4_5/BRAZIL/2007_2009/PMS_NC/V1",
+    "license": "proprietary",
+    "provider": "Google/CNES",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/AIRBUS/SPOT_2_4_5/BRAZIL/2007_2009/PMS_NC/V1",
+    "tags": "brazil, forest-code, google, rgb, satellite-imagery, spot",
+    "terms_of_use": "Use of this dataset is subject to the [Brazil Forest Imagery Dataset 2008 license agreement](https://developers.google.com/earth-engine/datasets/catalog/Earth_Engine_SPOT_542_Datasets_License.pdf) and requires the following attribution:\n\n\u201cGoogle LLC, Brazil Forest Imagery Dataset 2008 created from circa 2008 SPOT images acquired by CNES's Spot World Heritage Programme.\u201d\n\nContains modified imagery from SPOT satellites made available by the CNES SPOT World Heritage Programme (https://regards.cnes.fr/html/swh/Home-swh3.html).\n",
+    "thematic_group": "Global Events Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/AIRBUS/AIRBUS_SPOT_2_4_5_BRAZIL_2007_2009_PMS_NC_V1_sample.png",
+    "title": "SPOT Pansharpened Pseudo Natural Color Imagery 5-10m, Brazil",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/ASTER_AST_L1T_003",
     "id": "ASTER/AST_L1T_003",
     "license": "proprietary",
@@ -2169,6 +2221,32 @@
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/GOOGLE/GOOGLE_AirView_California_Unified_2015_2019_sample.png",
     "title": "Google Street View Air Quality: High Resolution Air Pollution Mapping in California",
     "type": "table"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_BRAZIL_FOREST_2008_V1_ANALYTIC",
+    "id": "GOOGLE/BRAZIL_FOREST_2008/V1/ANALYTIC",
+    "license": "proprietary",
+    "provider": "Google",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/GOOGLE/BRAZIL_FOREST_2008/V1/ANALYTIC",
+    "tags": "brazil, forest-code, google, imagery, multispectral, satellite-imagery, spot",
+    "terms_of_use": "Use of this dataset is subject to the [Brazil Forest Imagery Dataset 2008 license agreement](https://developers.google.com/earth-engine/datasets/catalog/Earth_Engine_SPOT_542_Datasets_License.pdf) and requires the following attribution:\n\n\u201cGoogle LLC, Brazil Forest Imagery Dataset 2008 created from circa 2008 SPOT images acquired by CNES's Spot World Heritage Programme.\u201d\n\nContains modified imagery from SPOT satellites made available by the CNES SPOT World Heritage Programme (https://regards.cnes.fr/html/swh/Home-swh3.html).\n",
+    "thematic_group": "Global Events Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/GOOGLE/GOOGLE_BRAZIL_FOREST_2008_V1_ANALYTIC_sample.png",
+    "title": "Brazil Forest Imagery Dataset 2008: Analytic Basemap",
+    "type": "image"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_BRAZIL_FOREST_2008_V1_VISUAL",
+    "id": "GOOGLE/BRAZIL_FOREST_2008/V1/VISUAL",
+    "license": "proprietary",
+    "provider": "Google",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/GOOGLE/BRAZIL_FOREST_2008/V1/VISUAL",
+    "tags": "brazil, deforestation, forest-code, google, rgb, satellite-imagery, spot",
+    "terms_of_use": "Use of this dataset is subject to the [Brazil Forest Imagery Dataset 2008 license agreement](https://developers.google.com/earth-engine/datasets/catalog/Earth_Engine_SPOT_542_Datasets_License.pdf) and requires the following attribution:\n\n\u201cGoogle LLC, Brazil Forest Imagery Dataset 2008 created from circa 2008 SPOT images acquired by CNES's Spot World Heritage Programme.\u201d\n\nContains modified imagery from SPOT satellites made available by the CNES SPOT World Heritage Programme (https://regards.cnes.fr/html/swh/Home-swh3.html).\n",
+    "thematic_group": "Global Events Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/GOOGLE/GOOGLE_BRAZIL_FOREST_2008_V1_VISUAL_sample.png",
+    "title": "Brazil Forest Imagery Dataset 2008: Visual Basemap",
+    "type": "image"
   },
   {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_CLOUD_SCORE_PLUS_V1_S2_HARMONIZED",
@@ -6692,45 +6770,6 @@
     "thematic_group": "Fire Monitoring and Analysis",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NASA/NASA_VIIRS_002_VNP64A1_sample.png",
     "title": "VNP64A1.002: Burned Area Monthly L4 Global 500m SIN Grid",
-    "type": "image_collection"
-  },
-  {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/NCEP_RE_sea_level_pressure",
-    "id": "NCEP_RE/sea_level_pressure",
-    "license": "proprietary",
-    "provider": "NCEP",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NCEP_RE/sea_level_pressure",
-    "tags": "atmosphere, climate, geophysical, ncep, noaa, pressure, reanalysis",
-    "terms_of_use": "There are no restrictions on the use of these datasets.",
-    "thematic_group": "Weather and Climate Layers",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NCEP_RE/NCEP_RE_sea_level_pressure_sample.png",
-    "title": "NCEP/NCAR Reanalysis Data, Sea-Level Pressure",
-    "type": "image_collection"
-  },
-  {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/NCEP_RE_surface_temp",
-    "id": "NCEP_RE/surface_temp",
-    "license": "proprietary",
-    "provider": "NCEP",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NCEP_RE/surface_temp",
-    "tags": "atmosphere, climate, geophysical, ncep, noaa, reanalysis, temperature",
-    "terms_of_use": "There are no restrictions on the use of these datasets.",
-    "thematic_group": "Weather and Climate Layers",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NCEP_RE/NCEP_RE_surface_temp_sample.png",
-    "title": "NCEP/NCAR Reanalysis Data, Surface Temperature",
-    "type": "image_collection"
-  },
-  {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/NCEP_RE_surface_wv",
-    "id": "NCEP_RE/surface_wv",
-    "license": "proprietary",
-    "provider": "NCEP",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NCEP_RE/surface_wv",
-    "tags": "atmosphere, climate, geophysical, ncep, noaa, precipitable, reanalysis, vapor",
-    "terms_of_use": "There are no restrictions on the use of these datasets.",
-    "thematic_group": "Weather and Climate Layers",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NCEP_RE/NCEP_RE_surface_wv_sample.png",
-    "title": "NCEP/NCAR Reanalysis Data, Water Vapor",
     "type": "image_collection"
   },
   {
