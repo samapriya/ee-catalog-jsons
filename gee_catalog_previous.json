@@ -7670,110 +7670,6 @@
     "type": "image_collection"
   },
   {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/OpenET_DISALEXI_CONUS_GRIDMET_MONTHLY_v2_0",
-    "id": "OpenET/DISALEXI/CONUS/GRIDMET/MONTHLY/v2_0",
-    "license": "CC-BY-4.0",
-    "provider": "OpenET, Inc.",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/OpenET/DISALEXI/CONUS/GRIDMET/MONTHLY/v2_0",
-    "tags": "evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor",
-    "terms_of_use": "",
-    "thematic_group": "Hydrology",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/OpenET_DISALEXI_CONUS_GRIDMET_MONTHLY_v2_0_sample.png",
-    "title": "OpenET DisALEXI Monthly Evapotranspiration v2.0",
-    "type": "image_collection"
-  },
-  {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/OpenET_EEMETRIC_CONUS_GRIDMET_MONTHLY_v2_0",
-    "id": "OpenET/EEMETRIC/CONUS/GRIDMET/MONTHLY/v2_0",
-    "license": "CC-BY-4.0",
-    "provider": "OpenET, Inc.",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/OpenET/EEMETRIC/CONUS/GRIDMET/MONTHLY/v2_0",
-    "tags": "evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor",
-    "terms_of_use": "",
-    "thematic_group": "Hydrology",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/OpenET_EEMETRIC_CONUS_GRIDMET_MONTHLY_v2_0_sample.png",
-    "title": "OpenET eeMETRIC Monthly Evapotranspiration v2.0",
-    "type": "image_collection"
-  },
-  {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/OpenET_ENSEMBLE_CONUS_GRIDMET_MONTHLY_v2_0",
-    "id": "OpenET/ENSEMBLE/CONUS/GRIDMET/MONTHLY/v2_0",
-    "license": "CC-BY-4.0",
-    "provider": "OpenET, Inc.",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/OpenET/ENSEMBLE/CONUS/GRIDMET/MONTHLY/v2_0",
-    "tags": "evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor",
-    "terms_of_use": "",
-    "thematic_group": "Hydrology",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/OpenET_ENSEMBLE_CONUS_GRIDMET_MONTHLY_v2_0_sample.png",
-    "title": "OpenET Ensemble Monthly Evapotranspiration v2.0",
-    "type": "image_collection"
-  },
-  {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/OpenET_GEESEBAL_CONUS_GRIDMET_MONTHLY_v2_0",
-    "id": "OpenET/GEESEBAL/CONUS/GRIDMET/MONTHLY/v2_0",
-    "license": "CC-BY-4.0",
-    "provider": "OpenET, Inc.",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/OpenET/GEESEBAL/CONUS/GRIDMET/MONTHLY/v2_0",
-    "tags": "evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor",
-    "terms_of_use": "",
-    "thematic_group": "Hydrology",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/OpenET_GEESEBAL_CONUS_GRIDMET_MONTHLY_v2_0_sample.png",
-    "title": "OpenET geeSEBAL Monthly Evapotranspiration v2.0",
-    "type": "image_collection"
-  },
-  {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/OpenET_PTJPL_CONUS_GRIDMET_MONTHLY_v2_0",
-    "id": "OpenET/PTJPL/CONUS/GRIDMET/MONTHLY/v2_0",
-    "license": "CC-BY-4.0",
-    "provider": "OpenET, Inc.",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/OpenET/PTJPL/CONUS/GRIDMET/MONTHLY/v2_0",
-    "tags": "evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor",
-    "terms_of_use": "",
-    "thematic_group": "Hydrology",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/OpenET_PTJPL_CONUS_GRIDMET_MONTHLY_v2_0_sample.png",
-    "title": "OpenET PT-JPL Monthly Evapotranspiration v2.0",
-    "type": "image_collection"
-  },
-  {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/OpenET_SIMS_CONUS_GRIDMET_MONTHLY_v2_0",
-    "id": "OpenET/SIMS/CONUS/GRIDMET/MONTHLY/v2_0",
-    "license": "CC-BY-4.0",
-    "provider": "OpenET, Inc.",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/OpenET/SIMS/CONUS/GRIDMET/MONTHLY/v2_0",
-    "tags": "evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor",
-    "terms_of_use": "",
-    "thematic_group": "Hydrology",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/OpenET_SIMS_CONUS_GRIDMET_MONTHLY_v2_0_sample.png",
-    "title": "OpenET SIMS Monthly Evapotranspiration v2.0",
-    "type": "image_collection"
-  },
-  {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/OpenET_SSEBOP_CONUS_GRIDMET_MONTHLY_v2_0",
-    "id": "OpenET/SSEBOP/CONUS/GRIDMET/MONTHLY/v2_0",
-    "license": "CC-BY-4.0",
-    "provider": "OpenET, Inc.",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/OpenET/SSEBOP/CONUS/GRIDMET/MONTHLY/v2_0",
-    "tags": "evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor",
-    "terms_of_use": "",
-    "thematic_group": "Hydrology",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/OpenET_SSEBOP_CONUS_GRIDMET_MONTHLY_v2_0_sample.png",
-    "title": "OpenET SSEBop Monthly Evapotranspiration v2.0",
-    "type": "image_collection"
-  },
-  {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_openet_assets_disalexi_conus_gridmet_monthly_v2_0",
-    "id": "projects/openet/assets/disalexi/conus/gridmet/monthly/v2_0",
-    "license": "CC-BY-4.0",
-    "provider": "OpenET, Inc.",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/openet/assets/disalexi/conus/gridmet/monthly/v2_0",
-    "tags": "evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor",
-    "terms_of_use": "",
-    "thematic_group": "Hydrology",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/projects_openet_assets_disalexi_conus_gridmet_monthly_v2_0_sample.png",
-    "title": "OpenET DisALEXI Monthly Evapotranspiration v2.0",
-    "type": "image_collection"
-  },
-  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_openet_assets_disalexi_conus_gridmet_monthly_v2_1",
     "id": "projects/openet/assets/disalexi/conus/gridmet/monthly/v2_1",
     "license": "CC-BY-4.0",
@@ -7784,19 +7680,6 @@
     "thematic_group": "Hydrology",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/projects_openet_assets_disalexi_conus_gridmet_monthly_v2_1_sample.png",
     "title": "OpenET DisALEXI Monthly Evapotranspiration v2.1",
-    "type": "image_collection"
-  },
-  {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_openet_assets_eemetric_conus_gridmet_monthly_v2_0",
-    "id": "projects/openet/assets/eemetric/conus/gridmet/monthly/v2_0",
-    "license": "CC-BY-4.0",
-    "provider": "OpenET, Inc.",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/openet/assets/eemetric/conus/gridmet/monthly/v2_0",
-    "tags": "evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor",
-    "terms_of_use": "",
-    "thematic_group": "Hydrology",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/projects_openet_assets_eemetric_conus_gridmet_monthly_v2_0_sample.png",
-    "title": "OpenET eeMETRIC Monthly Evapotranspiration v2.0",
     "type": "image_collection"
   },
   {
@@ -7813,19 +7696,6 @@
     "type": "image_collection"
   },
   {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_openet_assets_ensemble_conus_gridmet_monthly_v2_0",
-    "id": "projects/openet/assets/ensemble/conus/gridmet/monthly/v2_0",
-    "license": "CC-BY-4.0",
-    "provider": "OpenET, Inc.",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/openet/assets/ensemble/conus/gridmet/monthly/v2_0",
-    "tags": "evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor",
-    "terms_of_use": "",
-    "thematic_group": "Hydrology",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/projects_openet_assets_ensemble_conus_gridmet_monthly_v2_0_sample.png",
-    "title": "OpenET Ensemble Monthly Evapotranspiration v2.0",
-    "type": "image_collection"
-  },
-  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_openet_assets_ensemble_conus_gridmet_monthly_v2_1",
     "id": "projects/openet/assets/ensemble/conus/gridmet/monthly/v2_1",
     "license": "CC-BY-4.0",
@@ -7836,19 +7706,6 @@
     "thematic_group": "Hydrology",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/projects_openet_assets_ensemble_conus_gridmet_monthly_v2_1_sample.png",
     "title": "OpenET Ensemble Monthly Evapotranspiration v2.1",
-    "type": "image_collection"
-  },
-  {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_openet_assets_geesebal_conus_gridmet_monthly_v2_0",
-    "id": "projects/openet/assets/geesebal/conus/gridmet/monthly/v2_0",
-    "license": "CC-BY-4.0",
-    "provider": "OpenET, Inc.",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/openet/assets/geesebal/conus/gridmet/monthly/v2_0",
-    "tags": "evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor",
-    "terms_of_use": "",
-    "thematic_group": "Hydrology",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/projects_openet_assets_geesebal_conus_gridmet_monthly_v2_0_sample.png",
-    "title": "OpenET geeSEBAL Monthly Evapotranspiration v2.0",
     "type": "image_collection"
   },
   {
@@ -7865,19 +7722,6 @@
     "type": "image_collection"
   },
   {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_openet_assets_ptjpl_conus_gridmet_monthly_v2_0",
-    "id": "projects/openet/assets/ptjpl/conus/gridmet/monthly/v2_0",
-    "license": "CC-BY-4.0",
-    "provider": "OpenET, Inc.",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/openet/assets/ptjpl/conus/gridmet/monthly/v2_0",
-    "tags": "evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor",
-    "terms_of_use": "",
-    "thematic_group": "Hydrology",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/projects_openet_assets_ptjpl_conus_gridmet_monthly_v2_0_sample.png",
-    "title": "OpenET PT-JPL Monthly Evapotranspiration v2.0",
-    "type": "image_collection"
-  },
-  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_openet_assets_ptjpl_conus_gridmet_monthly_v2_1",
     "id": "projects/openet/assets/ptjpl/conus/gridmet/monthly/v2_1",
     "license": "CC-BY-4.0",
@@ -7891,19 +7735,6 @@
     "type": "image_collection"
   },
   {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_openet_assets_sims_conus_gridmet_monthly_v2_0",
-    "id": "projects/openet/assets/sims/conus/gridmet/monthly/v2_0",
-    "license": "CC-BY-4.0",
-    "provider": "OpenET, Inc.",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/openet/assets/sims/conus/gridmet/monthly/v2_0",
-    "tags": "evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor",
-    "terms_of_use": "",
-    "thematic_group": "Hydrology",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/projects_openet_assets_sims_conus_gridmet_monthly_v2_0_sample.png",
-    "title": "OpenET SIMS Monthly Evapotranspiration v2.0",
-    "type": "image_collection"
-  },
-  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_openet_assets_sims_conus_gridmet_monthly_v2_1",
     "id": "projects/openet/assets/sims/conus/gridmet/monthly/v2_1",
     "license": "CC-BY-4.0",
@@ -7914,19 +7745,6 @@
     "thematic_group": "Hydrology",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/projects_openet_assets_sims_conus_gridmet_monthly_v2_1_sample.png",
     "title": "OpenET SIMS Monthly Evapotranspiration v2.1",
-    "type": "image_collection"
-  },
-  {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_openet_assets_ssebop_conus_gridmet_monthly_v2_0",
-    "id": "projects/openet/assets/ssebop/conus/gridmet/monthly/v2_0",
-    "license": "CC-BY-4.0",
-    "provider": "OpenET, Inc.",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/openet/assets/ssebop/conus/gridmet/monthly/v2_0",
-    "tags": "evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor",
-    "terms_of_use": "",
-    "thematic_group": "Hydrology",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/projects_openet_assets_ssebop_conus_gridmet_monthly_v2_0_sample.png",
-    "title": "OpenET SSEBop Monthly Evapotranspiration v2.0",
     "type": "image_collection"
   },
   {
@@ -10283,6 +10101,19 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_edf-methanesat-ee_assets_mair_L3concentration",
+    "id": "projects/edf-methanesat-ee/assets/mair/L3concentration",
+    "license": "proprietary",
+    "provider": "Environmental Defense Fund - MethaneSAT",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/edf-methanesat-ee/assets/mair/L3concentration",
+    "tags": "atmosphere, climate, edf, emissions, ghg, methane, methaneair, methanesat",
+    "terms_of_use": "Use of this data is subject to [MethaneSAT's Content License Terms of Use](https://www.methanesat.org/sites/default/files/2025-02/MethaneSAT%20-%20Content%20License%20Terms%20of%20Use%20%28Revised%202-12-2025%29%5B25%5D.pdf).\n\nYOUR LICENSE TO ACCESS THE DATA\n\n* We hereby grant you a limited, nonexclusive, nonassignable, nontransferable, revocable license to use, reproduce, publish, make derivative works, display and perform publicly any Data first made available through the Platform pursuant to the terms set forth herein, subject to your agreement to, compliance with and satisfaction of these Terms of Use (the \u201cLicense\u201d)\n* You agree to and acknowledge the following restrictions relating to the License:\n\n    * (1) To access the Data, you must complete this [Request Form](https://docs.google.com/forms/d/e/1FAIpQLSdzJDwpTs99tMT5bGk0gep10_UEHi64kGtJWat1FrP8ZjwQcA/viewform), which will ask for your contact information, intended use cases, target customers, and other details that will assist MethaneSAT\u2019s understanding of how the Data is being used by you, and, upon submission of such form, MethaneSAT may (in its sole discretion) grant you access to the Data;\n    * (2) With respect to certain aspects of the Data as described herein, you may use methane concentrations, in parts per billion or any other unit of concentration (\u201cLevel 3 Data\u201d or \u201cL3 Data\u201d) and methane emission fluxes, in kilograms per hour (\u201cLevel 4 Data\u201d or \u201cL4 Data\u201d) for:\n\n        * (i) internal business evaluation and testing,\n        * (ii) commercial applications, such as developing and selling derivative products and services that incorporate or are informed by the L3 Data or L4 Data,\n        * (iii) distribution of the Data made available herein to wholly controlled affiliates of which you will be responsible and liable on their behalf for adherence to these Terms of Use, or\n        * (iv) methane mitigation activities, including both commercial and non-commercial initiatives;\n    * (3) You are strictly prohibited from using L3 Data to calculate or derive L4 Data or any similar outputs, except and exclusively for internal use purposes and not to distribute to any third party;\n    * (4) You may not distribute, publish, sublicense, sell, or otherwise provide L3 Data or L4 Data in its raw form to any third parties, provided, however, that you may develop, commercialize, and sell derivative products and services based on your review of the L3 Data and L4 Data, provided, further (and for the avoidance of doubt), that the underlying L3 Data and L4 Data (in its raw form) shall not be shared nor made directly accessible to end users/third parties; and\n    * (5) That you are not permitted to distribute the Data on any other platform that would make the Data available to third parties, other than to you and your wholly controlled affiliates.\n\n* As a condition of accessing the Data, you further agree and acknowledge that:\n    * (1) MethaneSAT seeks information about how the Data will be used and, as such, you shall use best efforts, upon request by MethaneSAT, that you will\n\n        * (i) provide feedback on the quality of the Data and any proposed improvements thereto, and\n        * (ii) share anonymized insights on target customers and market applications;\n    * (2) MethaneSAT may use aggregated or anonymized insights to refine its Data offerings.\n\nATTRIBUTION\n\nIf you share or use the Data in any manner with any third parties, you must:\n\n* Explicitly state to these third parties that they are agreeing to be bound by the Terms of Use;\n* Display a citation that states: \u201cData from MethaneSAT\u201d and \u201cDownload the most current dataset at Google Earth Engine and/or Google Cloud\u201d; and\n* Explicitly state to these third parties that, if such third party creates a further project containing the Data, any such users of that project must also agree to be bound by these Terms of Use.\n",
+    "thematic_group": "Weather and Climate Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/edf-methanesat-ee/projects_edf-methanesat-ee_assets_mair_L3concentration_sample.png",
+    "title": "MethaneAIR L3 Concentration V1.1.0",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_edf-methanesat-ee_assets_mair_L4point",
     "id": "projects/edf-methanesat-ee/assets/mair/L4point",
     "license": "proprietary",
@@ -10881,6 +10712,19 @@
     "type": "image"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_mapbiomas-public_assets_bolivia_lulc_v1",
+    "id": "projects/mapbiomas-public/assets/bolivia/lulc/v1",
+    "license": "CC-BY-4.0",
+    "provider": "MapBiomas",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/mapbiomas-public/assets/bolivia/lulc/v1",
+    "tags": "landsat-derived, landuse-landcover",
+    "terms_of_use": "",
+    "thematic_group": "Global Events Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/mapbiomas-public/projects_mapbiomas-public_assets_bolivia_lulc_v1_sample.png",
+    "title": "MapBiomas Land Use and Land Cover - Bolivia V1.0",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_mapbiomas-public_assets_brazil_lulc_v1",
     "id": "projects/mapbiomas-public/assets/brazil/lulc/v1",
     "license": "CC-BY-4.0",
@@ -10891,6 +10735,19 @@
     "thematic_group": "Global Events Layers",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/mapbiomas-public/projects_mapbiomas-public_assets_brazil_lulc_v1_sample.png",
     "title": "MapBiomas Land Use and Land Cover - Brazil V1.0",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_mapbiomas-public_assets_ecuador_lulc_v1",
+    "id": "projects/mapbiomas-public/assets/ecuador/lulc/v1",
+    "license": "CC-BY-4.0",
+    "provider": "MapBiomas",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/mapbiomas-public/assets/ecuador/lulc/v1",
+    "tags": "landsat-derived, landuse-landcover",
+    "terms_of_use": "",
+    "thematic_group": "Global Events Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/mapbiomas-public/projects_mapbiomas-public_assets_ecuador_lulc_v1_sample.png",
+    "title": "MapBiomas Land Use and Land Cover - Ecuador V1.0",
     "type": "image_collection"
   },
   {
