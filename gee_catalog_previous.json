@@ -7670,6 +7670,110 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/OpenET_DISALEXI_CONUS_GRIDMET_MONTHLY_v2_0",
+    "id": "OpenET/DISALEXI/CONUS/GRIDMET/MONTHLY/v2_0",
+    "license": "CC-BY-4.0",
+    "provider": "OpenET, Inc.",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/OpenET/DISALEXI/CONUS/GRIDMET/MONTHLY/v2_0",
+    "tags": "evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor",
+    "terms_of_use": "",
+    "thematic_group": "Hydrology",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/OpenET_DISALEXI_CONUS_GRIDMET_MONTHLY_v2_0_sample.png",
+    "title": "OpenET DisALEXI Monthly Evapotranspiration v2.0",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/OpenET_EEMETRIC_CONUS_GRIDMET_MONTHLY_v2_0",
+    "id": "OpenET/EEMETRIC/CONUS/GRIDMET/MONTHLY/v2_0",
+    "license": "CC-BY-4.0",
+    "provider": "OpenET, Inc.",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/OpenET/EEMETRIC/CONUS/GRIDMET/MONTHLY/v2_0",
+    "tags": "evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor",
+    "terms_of_use": "",
+    "thematic_group": "Hydrology",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/OpenET_EEMETRIC_CONUS_GRIDMET_MONTHLY_v2_0_sample.png",
+    "title": "OpenET eeMETRIC Monthly Evapotranspiration v2.0",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/OpenET_ENSEMBLE_CONUS_GRIDMET_MONTHLY_v2_0",
+    "id": "OpenET/ENSEMBLE/CONUS/GRIDMET/MONTHLY/v2_0",
+    "license": "CC-BY-4.0",
+    "provider": "OpenET, Inc.",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/OpenET/ENSEMBLE/CONUS/GRIDMET/MONTHLY/v2_0",
+    "tags": "evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor",
+    "terms_of_use": "",
+    "thematic_group": "Hydrology",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/OpenET_ENSEMBLE_CONUS_GRIDMET_MONTHLY_v2_0_sample.png",
+    "title": "OpenET Ensemble Monthly Evapotranspiration v2.0",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/OpenET_GEESEBAL_CONUS_GRIDMET_MONTHLY_v2_0",
+    "id": "OpenET/GEESEBAL/CONUS/GRIDMET/MONTHLY/v2_0",
+    "license": "CC-BY-4.0",
+    "provider": "OpenET, Inc.",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/OpenET/GEESEBAL/CONUS/GRIDMET/MONTHLY/v2_0",
+    "tags": "evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor",
+    "terms_of_use": "",
+    "thematic_group": "Hydrology",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/OpenET_GEESEBAL_CONUS_GRIDMET_MONTHLY_v2_0_sample.png",
+    "title": "OpenET geeSEBAL Monthly Evapotranspiration v2.0",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/OpenET_PTJPL_CONUS_GRIDMET_MONTHLY_v2_0",
+    "id": "OpenET/PTJPL/CONUS/GRIDMET/MONTHLY/v2_0",
+    "license": "CC-BY-4.0",
+    "provider": "OpenET, Inc.",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/OpenET/PTJPL/CONUS/GRIDMET/MONTHLY/v2_0",
+    "tags": "evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor",
+    "terms_of_use": "",
+    "thematic_group": "Hydrology",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/OpenET_PTJPL_CONUS_GRIDMET_MONTHLY_v2_0_sample.png",
+    "title": "OpenET PT-JPL Monthly Evapotranspiration v2.0",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/OpenET_SIMS_CONUS_GRIDMET_MONTHLY_v2_0",
+    "id": "OpenET/SIMS/CONUS/GRIDMET/MONTHLY/v2_0",
+    "license": "CC-BY-4.0",
+    "provider": "OpenET, Inc.",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/OpenET/SIMS/CONUS/GRIDMET/MONTHLY/v2_0",
+    "tags": "evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor",
+    "terms_of_use": "",
+    "thematic_group": "Hydrology",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/OpenET_SIMS_CONUS_GRIDMET_MONTHLY_v2_0_sample.png",
+    "title": "OpenET SIMS Monthly Evapotranspiration v2.0",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/OpenET_SSEBOP_CONUS_GRIDMET_MONTHLY_v2_0",
+    "id": "OpenET/SSEBOP/CONUS/GRIDMET/MONTHLY/v2_0",
+    "license": "CC-BY-4.0",
+    "provider": "OpenET, Inc.",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/OpenET/SSEBOP/CONUS/GRIDMET/MONTHLY/v2_0",
+    "tags": "evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor",
+    "terms_of_use": "",
+    "thematic_group": "Hydrology",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/OpenET_SSEBOP_CONUS_GRIDMET_MONTHLY_v2_0_sample.png",
+    "title": "OpenET SSEBop Monthly Evapotranspiration v2.0",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_openet_assets_disalexi_conus_gridmet_monthly_v2_0",
+    "id": "projects/openet/assets/disalexi/conus/gridmet/monthly/v2_0",
+    "license": "CC-BY-4.0",
+    "provider": "OpenET, Inc.",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/openet/assets/disalexi/conus/gridmet/monthly/v2_0",
+    "tags": "evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor",
+    "terms_of_use": "",
+    "thematic_group": "Hydrology",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/projects_openet_assets_disalexi_conus_gridmet_monthly_v2_0_sample.png",
+    "title": "OpenET DisALEXI Monthly Evapotranspiration v2.0",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_openet_assets_disalexi_conus_gridmet_monthly_v2_1",
     "id": "projects/openet/assets/disalexi/conus/gridmet/monthly/v2_1",
     "license": "CC-BY-4.0",
@@ -7680,6 +7784,19 @@
     "thematic_group": "Hydrology",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/projects_openet_assets_disalexi_conus_gridmet_monthly_v2_1_sample.png",
     "title": "OpenET DisALEXI Monthly Evapotranspiration v2.1",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_openet_assets_eemetric_conus_gridmet_monthly_v2_0",
+    "id": "projects/openet/assets/eemetric/conus/gridmet/monthly/v2_0",
+    "license": "CC-BY-4.0",
+    "provider": "OpenET, Inc.",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/openet/assets/eemetric/conus/gridmet/monthly/v2_0",
+    "tags": "evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor",
+    "terms_of_use": "",
+    "thematic_group": "Hydrology",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/projects_openet_assets_eemetric_conus_gridmet_monthly_v2_0_sample.png",
+    "title": "OpenET eeMETRIC Monthly Evapotranspiration v2.0",
     "type": "image_collection"
   },
   {
@@ -7696,6 +7813,19 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_openet_assets_ensemble_conus_gridmet_monthly_v2_0",
+    "id": "projects/openet/assets/ensemble/conus/gridmet/monthly/v2_0",
+    "license": "CC-BY-4.0",
+    "provider": "OpenET, Inc.",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/openet/assets/ensemble/conus/gridmet/monthly/v2_0",
+    "tags": "evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor",
+    "terms_of_use": "",
+    "thematic_group": "Hydrology",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/projects_openet_assets_ensemble_conus_gridmet_monthly_v2_0_sample.png",
+    "title": "OpenET Ensemble Monthly Evapotranspiration v2.0",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_openet_assets_ensemble_conus_gridmet_monthly_v2_1",
     "id": "projects/openet/assets/ensemble/conus/gridmet/monthly/v2_1",
     "license": "CC-BY-4.0",
@@ -7706,6 +7836,19 @@
     "thematic_group": "Hydrology",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/projects_openet_assets_ensemble_conus_gridmet_monthly_v2_1_sample.png",
     "title": "OpenET Ensemble Monthly Evapotranspiration v2.1",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_openet_assets_geesebal_conus_gridmet_monthly_v2_0",
+    "id": "projects/openet/assets/geesebal/conus/gridmet/monthly/v2_0",
+    "license": "CC-BY-4.0",
+    "provider": "OpenET, Inc.",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/openet/assets/geesebal/conus/gridmet/monthly/v2_0",
+    "tags": "evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor",
+    "terms_of_use": "",
+    "thematic_group": "Hydrology",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/projects_openet_assets_geesebal_conus_gridmet_monthly_v2_0_sample.png",
+    "title": "OpenET geeSEBAL Monthly Evapotranspiration v2.0",
     "type": "image_collection"
   },
   {
@@ -7722,6 +7865,19 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_openet_assets_ptjpl_conus_gridmet_monthly_v2_0",
+    "id": "projects/openet/assets/ptjpl/conus/gridmet/monthly/v2_0",
+    "license": "CC-BY-4.0",
+    "provider": "OpenET, Inc.",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/openet/assets/ptjpl/conus/gridmet/monthly/v2_0",
+    "tags": "evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor",
+    "terms_of_use": "",
+    "thematic_group": "Hydrology",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/projects_openet_assets_ptjpl_conus_gridmet_monthly_v2_0_sample.png",
+    "title": "OpenET PT-JPL Monthly Evapotranspiration v2.0",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_openet_assets_ptjpl_conus_gridmet_monthly_v2_1",
     "id": "projects/openet/assets/ptjpl/conus/gridmet/monthly/v2_1",
     "license": "CC-BY-4.0",
@@ -7735,6 +7891,19 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_openet_assets_sims_conus_gridmet_monthly_v2_0",
+    "id": "projects/openet/assets/sims/conus/gridmet/monthly/v2_0",
+    "license": "CC-BY-4.0",
+    "provider": "OpenET, Inc.",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/openet/assets/sims/conus/gridmet/monthly/v2_0",
+    "tags": "evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor",
+    "terms_of_use": "",
+    "thematic_group": "Hydrology",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/projects_openet_assets_sims_conus_gridmet_monthly_v2_0_sample.png",
+    "title": "OpenET SIMS Monthly Evapotranspiration v2.0",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_openet_assets_sims_conus_gridmet_monthly_v2_1",
     "id": "projects/openet/assets/sims/conus/gridmet/monthly/v2_1",
     "license": "CC-BY-4.0",
@@ -7745,6 +7914,19 @@
     "thematic_group": "Hydrology",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/projects_openet_assets_sims_conus_gridmet_monthly_v2_1_sample.png",
     "title": "OpenET SIMS Monthly Evapotranspiration v2.1",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_openet_assets_ssebop_conus_gridmet_monthly_v2_0",
+    "id": "projects/openet/assets/ssebop/conus/gridmet/monthly/v2_0",
+    "license": "CC-BY-4.0",
+    "provider": "OpenET, Inc.",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/openet/assets/ssebop/conus/gridmet/monthly/v2_0",
+    "tags": "evapotranspiration, gridmet-derived, landsat-derived, monthly, openet, water, water-vapor",
+    "terms_of_use": "",
+    "thematic_group": "Hydrology",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OpenET/projects_openet_assets_ssebop_conus_gridmet_monthly_v2_0_sample.png",
+    "title": "OpenET SSEBop Monthly Evapotranspiration v2.0",
     "type": "image_collection"
   },
   {
