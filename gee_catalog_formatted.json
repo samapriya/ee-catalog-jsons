@@ -10487,7 +10487,7 @@
     "terms_of_use": "",
     "thematic_group": "Biodiversity, Ecosystems & Habitat Layers",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/iNaturalist/iNaturalist_MULTI_SPECIES_LATEST_sample.png",
-    "title": "INaturalist Multispecies Open Range Maps",
+    "title": "iNaturalist Multispecies Open Range Maps",
     "type": "bigquery_table"
   },
   {
