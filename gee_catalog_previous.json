@@ -7449,6 +7449,19 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_AOD_EDR_V3",
+    "id": "NOAA/VIIRS/AOD_EDR/V3",
+    "license": "proprietary",
+    "provider": "NOAA",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NOAA/VIIRS/AOD_EDR/V3",
+    "tags": "aerosol, aod, atmosphere, noaa, viirs",
+    "terms_of_use": "There are no restrictions on the use of JPSS data, and it can be used or\nredistributed as desired.\n",
+    "thematic_group": "Weather and Climate Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NOAA/NOAA_VIIRS_AOD_EDR_V3_sample.png",
+    "title": "VIIRS Aerosol Optical Depth and Aerosol Particle Size EDRs V3",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_DNB_ANNUAL_V21",
     "id": "NOAA/VIIRS/DNB/ANNUAL_V21",
     "license": "proprietary",
@@ -10281,6 +10294,32 @@
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/ee-kbas-in-gee/projects_ee-kbas-in-gee_assets_current_sample.png",
     "title": "WDKBA: World Database of Key Biodiversity Areas (KBAs) - September 2025",
     "type": "table"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_ee-pkurelab_assets_LHScat",
+    "id": "projects/ee-pkurelab/assets/LHScat",
+    "license": "CC-BY-NC-4.0",
+    "provider": "PKURELAB",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/ee-pkurelab/assets/LHScat",
+    "tags": "ascat, c-bands, ers, ku-band, qscat, radar, satellite-imagery",
+    "terms_of_use": "",
+    "thematic_group": "Global Events Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/ee-pkurelab/projects_ee-pkurelab_assets_LHScat_sample.png",
+    "title": "LHScat",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_ee-pkurelab_assets_LHScatQC",
+    "id": "projects/ee-pkurelab/assets/LHScatQC",
+    "license": "CC-BY-NC-4.0",
+    "provider": "PKURELAB",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/ee-pkurelab/assets/LHScatQC",
+    "tags": "ascat, c-bands, ers, ku-band, qscat, radar, satellite-imagery",
+    "terms_of_use": "",
+    "thematic_group": "Global Events Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/ee-pkurelab/projects_ee-pkurelab_assets_LHScatQC_sample.png",
+    "title": "LHScatQC",
+    "type": "image"
   },
   {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_forestdatapartnership_assets_cocoa_model_2025a",
