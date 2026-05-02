@@ -4750,9 +4750,9 @@
     "license": "ODbL-1.0",
     "provider": "Dai Yamazaki (University of Tokyo)",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MERIT/Hydro_reduced/v1_0_1",
-    "tags": "dem, elevation, flow-direction, hand, hydrography, hydrosheds, merit, river-width, surface-ground-water, upstream-drainage-area",
+    "tags": "hydrography, hydrosheds, merit, river-width, surface-ground-water, upstream-drainage-area",
     "terms_of_use": "",
-    "thematic_group": "Elevation and Bathymetry",
+    "thematic_group": "Global Events Layers",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MERIT/MERIT_Hydro_reduced_v1_0_1_sample.png",
     "title": "MERIT Hydro: Supplementary Visualization Layers",
     "type": "image"
@@ -10605,6 +10605,19 @@
     "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/landandcarbon/projects_landandcarbon_assets_wri_gdm_drivers_forest_loss_1km_v1_2_2001_2024_sample.png",
     "title": "WRI/Google DeepMind Global Drivers of Forest Loss 2001-2024 v1.2",
+    "type": "image"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_landandcarbon_assets_wri_gdm_drivers_forest_loss_1km_v1_3_2001_2025",
+    "id": "projects/landandcarbon/assets/wri_gdm_drivers_forest_loss_1km/v1_3_2001_2025",
+    "license": "CC-BY-4.0",
+    "provider": "World Resources Institute",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/landandcarbon/assets/wri_gdm_drivers_forest_loss_1km/v1_3_2001_2025",
+    "tags": "agriculture, deforestation, forest, forest-biomass, google, landuse, wri",
+    "terms_of_use": "",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/landandcarbon/projects_landandcarbon_assets_wri_gdm_drivers_forest_loss_1km_v1_3_2001_2025_sample.png",
+    "title": "WRI/Google DeepMind Global Drivers of Forest Loss 2001-2025 v1.3",
     "type": "image"
   },
   {
