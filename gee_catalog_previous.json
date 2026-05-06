@@ -1586,6 +1586,19 @@
     "type": "table"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/ESA_CCI_Above_Ground_Biomass_V6_0",
+    "id": "ESA/CCI/Above_Ground_Biomass/V6_0",
+    "license": "CC-BY-4.0",
+    "provider": "ESA Biomass CCI",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/ESA/CCI/Above_Ground_Biomass/V6_0",
+    "tags": "biomass, cci, ecosystems, esa, forest",
+    "terms_of_use": "",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/ESA/ESA_CCI_Above_Ground_Biomass_V6_0_sample.png",
+    "title": "ESA CCI Above-Ground Biomass for 2007, 2010, 2015-2022 (v6.0)",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/ESA_CCI_FireCCI_5_1",
     "id": "ESA/CCI/FireCCI/5_1",
     "license": "proprietary",
