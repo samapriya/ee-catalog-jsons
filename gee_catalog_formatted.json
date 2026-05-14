@@ -8437,16 +8437,16 @@
     "type": "table"
   },
   {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/TOMS_MERGED",
-    "id": "TOMS/MERGED",
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/TOMS_MERGED_V4",
+    "id": "TOMS/MERGED_V4",
     "license": "proprietary",
     "provider": "NASA / GES DISC",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/TOMS/MERGED",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/TOMS/MERGED_V4",
     "tags": "atmosphere, aura, climate, geophysical, ges-disc, goddard, nasa, omi, ozone, toms",
     "terms_of_use": "Distribution of data from the Goddard Earth Sciences Data and\nInformation Services Center (GES DISC) is funded by NASA's Science Mission\nDirectorate (SMD). Consistent with NASA\n[Earth Science Data and Information Policy](https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy/),\ndata from the GES DISC archive are available free to the user community.\nFor more information visit the GES DISC\n[Data Policy](https://disc.sci.gsfc.nasa.gov/citing) page.\n",
     "thematic_group": "Weather and Climate Layers",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/TOMS/TOMS_MERGED_sample.png",
-    "title": "TOMS and OMI Merged Ozone Data",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/TOMS/TOMS_MERGED_V4_sample.png",
+    "title": "TOMS and OMI Merged Ozone Data v4",
     "type": "image_collection"
   },
   {
@@ -8903,19 +8903,6 @@
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/USDOS/USDOS_LSIB_SIMPLE_2017_sample.png",
     "title": "LSIB 2017: Large Scale International Boundary Polygons, Simplified",
     "type": "table"
-  },
-  {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/USFS_GTAC_LCMS_v2024-10",
-    "id": "USFS/GTAC/LCMS/v2024-10",
-    "license": "proprietary",
-    "provider": "USDA Forest Service (USFS) Field Services and Innovation Center Geospatial Office (FSIC-GO)",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/USFS/GTAC/LCMS/v2024-10",
-    "tags": "change-detection, forest, gtac, landcover, landuse, landuse-landcover, lcms, redcastle-resources, usda, usfs",
-    "terms_of_use": "The USDA Forest Service makes no warranty, expressed or implied, including the warranties of\nmerchantability and fitness for a particular purpose, nor assumes any legal liability or\nresponsibility for the accuracy, reliability, completeness or utility of these geospatial data,\nor for the improper or incorrect use of these geospatial data. These geospatial data and\nrelated maps or graphics are not legal documents and are not intended to be used as such. The\ndata and maps may not be used to determine title, ownership, legal descriptions or boundaries,\nlegal jurisdiction, or restrictions that may be in place on either public or private land.\nNatural hazards may or may not be depicted on the data and maps, and land users should exercise\ndue caution. The data are dynamic and may change over time. The user is responsible to verify\nthe limitations of the geospatial data and to use the data accordingly.\n\nThese data were collected using funding from the U.S. Government and can be used\nwithout additional permissions or fees. If you use these data in a publication, presentation, or\nother research product please use the following citation:\n\nUSDA Forest Service. 2025. USFS Landscape Change Monitoring System v2024.10\n(Conterminous United States and Outer Conterminous United States). Salt Lake City, Utah.\n",
-    "thematic_group": "Agriculture, Vegetation and Forestry",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/USFS/USFS_GTAC_LCMS_v2024-10_sample.png",
-    "title": "USFS Landscape Change Monitoring System  v2024.10 (CONUS and OCONUS)",
-    "type": "image_collection"
   },
   {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/USFS_GTAC_MTBS_annual_burn_severity_mosaics_v1",
@@ -10396,7 +10383,7 @@
     "terms_of_use": "",
     "thematic_group": "Global Events Layers",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/ee-pkurelab/projects_ee-pkurelab_assets_LHScat_sample.png",
-    "title": "LHScat",
+    "title": "LHScat:A global long-term, high-resolution satellite radar backscatter datasets",
     "type": "image_collection"
   },
   {
@@ -10409,7 +10396,7 @@
     "terms_of_use": "",
     "thematic_group": "Global Events Layers",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/ee-pkurelab/projects_ee-pkurelab_assets_LHScatQC_sample.png",
-    "title": "LHScatQC",
+    "title": "LHScat Quality Control",
     "type": "image"
   },
   {
@@ -10678,7 +10665,7 @@
     "license": "proprietary",
     "provider": "USDA Forest Service (USFS) Field Services and Innovation Center Geospatial Office (FSIC-GO)",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/gtac-data-publish/assets/LCMS/Product_Version/2025-11",
-    "tags": "change-detection, forest, gtac, landcover, landuse, landuse-landcover, redcastle-resources, usda, usfs",
+    "tags": "change-detection, forest, gtac, landcover, landuse, landuse-landcover, lcms, redcastle-resources, usda, usfs",
     "terms_of_use": "The USDA Forest Service makes no warranty, expressed or implied, including the warranties of\nmerchantability and fitness for a particular purpose, nor assumes any legal liability or\nresponsibility for the accuracy, reliability, completeness or utility of these geospatial data,\nor for the improper or incorrect use of these geospatial data. These geospatial data and\nrelated maps or graphics are not legal documents and are not intended to be used as such. The\ndata and maps may not be used to determine title, ownership, legal descriptions or boundaries,\nlegal jurisdiction, or restrictions that may be in place on either public or private land.\nNatural hazards may or may not be depicted on the data and maps, and land users should exercise\ndue caution. The data are dynamic and may change over time. The user is responsible to verify\nthe limitations of the geospatial data and to use the data accordingly.\n\nThese data were collected using funding from the U.S. Government and can be used\nwithout additional permissions or fees. If you use these data in a publication, presentation, or\nother research product please use the following citation:\n\nUSDA Forest Service. 2026. USFS Landscape Change Monitoring System v2025.11\n(Conterminous United States and Outer Conterminous United States). Salt Lake City, Utah.\n",
     "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/gtac-data-publish/projects_gtac-data-publish_assets_LCMS_Product_Version_2025-11_sample.png",
