@@ -11011,6 +11011,32 @@
     "type": "image"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_mangrovedatahub2_assets_CGMD-AFCC30",
+    "id": "projects/mangrovedatahub2/assets/CGMD-AFCC30",
+    "license": "CC-BY-4.0",
+    "provider": "The Mangrove Lab",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/mangrovedatahub2/assets/CGMD-AFCC30",
+    "tags": "annual, coastal, forest-biomass, global, landsat-derived, mangrove, vegetation-indices, wetland",
+    "terms_of_use": "",
+    "thematic_group": "Oceans and Shorelines",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/mangrovedatahub2/projects_mangrovedatahub2_assets_CGMD-AFCC30_sample.png",
+    "title": "Global Annual Mangrove Fractional Canopy Cover (1984-2023)",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_mangrovedatahub2_assets_CGMD-Extent30",
+    "id": "projects/mangrovedatahub2/assets/CGMD-Extent30",
+    "license": "CC-BY-4.0",
+    "provider": "The Mangrove Lab",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/mangrovedatahub2/assets/CGMD-Extent30",
+    "tags": "annual, coastal, forest-biomass, global, landsat-derived, landuse-landcover, mangrove, table, wetland",
+    "terms_of_use": "",
+    "thematic_group": "Oceans and Shorelines",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/mangrovedatahub2/projects_mangrovedatahub2_assets_CGMD-Extent30_sample.png",
+    "title": "Global Annual Mangrove Extent (1984-2023)",
+    "type": "table"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_mapbiomas-public_assets_bolivia_lulc_v1",
     "id": "projects/mapbiomas-public/assets/bolivia/lulc/v1",
     "license": "CC-BY-4.0",
@@ -11060,6 +11086,19 @@
     "thematic_group": "Biodiversity, Ecosystems & Habitat Layers",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/nature-trace/projects_nature-trace_assets_farmscapes_england_v1_0_sample.png",
     "title": "Farmscapes 2020",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_nature-trace_assets_forest_typology_forest_typology_2020_v1_0_collection",
+    "id": "projects/nature-trace/assets/forest_typology/forest_typology_2020_v1_0_collection",
+    "license": "CC-BY-4.0",
+    "provider": "Google",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/nature-trace/assets/forest_typology/forest_typology_2020_v1_0_collection",
+    "tags": "alphaearth-derived, biodiversity, climate, conservation, deforestation, eudr, forest, forest-biomass",
+    "terms_of_use": "",
+    "thematic_group": "Biodiversity, Ecosystems & Habitat Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/nature-trace/projects_nature-trace_assets_forest_typology_forest_typology_2020_v1_0_collection_sample.png",
+    "title": "Forest Typology (ForTy) 2020 v1.0",
     "type": "image_collection"
   },
   {
