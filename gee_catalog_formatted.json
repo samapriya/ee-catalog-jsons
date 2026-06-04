@@ -8437,6 +8437,19 @@
     "type": "table"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/TNC_HM_v3_90m_s",
+    "id": "TNC/HM/v3/90m_s",
+    "license": "CC-BY-4.0",
+    "provider": "The Nature Conservancy",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/TNC/HM/v3/90m_s",
+    "tags": "fragmentation, human-modification, landcover, landscape-gradient, population, stressors, tnc",
+    "terms_of_use": "",
+    "thematic_group": "Population & Socioeconomic",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/TNC/TNC_HM_v3_90m_s_sample.png",
+    "title": "TNC Global Human Modification v3 (Static Snapshot 90m)",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/TOMS_MERGED_V4",
     "id": "TOMS/MERGED_V4",
     "license": "proprietary",
