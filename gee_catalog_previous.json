@@ -11102,6 +11102,19 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_nature-trace_assets_farmscapes_england_v1_0_vectorised",
+    "id": "projects/nature-trace/assets/farmscapes/england_v1_0_vectorised",
+    "license": "CC-BY-4.0",
+    "provider": "Google",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/nature-trace/assets/farmscapes/england_v1_0_vectorised",
+    "tags": "biodiversity, climate, conservation, ecological-connectivity, forest, landuse-landcover, table",
+    "terms_of_use": "",
+    "thematic_group": "Biodiversity, Ecosystems & Habitat Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/nature-trace/projects_nature-trace_assets_farmscapes_england_v1_0_vectorised_sample.png",
+    "title": "Farmscapes 2020 Vectorised",
+    "type": "table"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_nature-trace_assets_forest_typology_forest_typology_2020_v1_0_collection",
     "id": "projects/nature-trace/assets/forest_typology/forest_typology_2020_v1_0_collection",
     "license": "CC-BY-4.0",
