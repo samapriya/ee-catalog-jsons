@@ -1092,16 +1092,16 @@
     "type": "image"
   },
   {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/CSIC_SPEI_2_10",
-    "id": "CSIC/SPEI/2_10",
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/CSIC_SPEI_2_11",
+    "id": "CSIC/SPEI/2_11",
     "license": "CC-BY-4.0",
     "provider": "Spanish National Research Council (CSIC)",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/CSIC/SPEI/2_10",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/CSIC/SPEI/2_11",
     "tags": "climate, climate-change, drought, evapotranspiration, global, monthly, palmer, precipitation, temperature, water-vapor",
     "terms_of_use": "",
     "thematic_group": "Weather and Climate Layers",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/CSIC/CSIC_SPEI_2_10_sample.png",
-    "title": "SPEIbase: Standardised Precipitation-Evapotranspiration Index database, Version 2.10",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/CSIC/CSIC_SPEI_2_11_sample.png",
+    "title": "SPEIbase: Standardised Precipitation-Evapotranspiration Index database, Version 2.11",
     "type": "image_collection"
   },
   {
