@@ -6097,6 +6097,58 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/NASA_GEOS-CF_v2_ana_htf",
+    "id": "NASA/GEOS-CF/v2/ana/htf",
+    "license": "proprietary",
+    "provider": "NASA / GMAO",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NASA/GEOS-CF/v2/ana/htf",
+    "tags": "atmosphere, composition, forecast, geos, geos-cf, gmao, nasa",
+    "terms_of_use": "Unless otherwise noted, all NASA-produced data may be used for any purpose\nwithout prior permission. For more information and exceptions visit the\n[NASA Data & Information Policy page](https://earthdata.nasa.gov/collaborate/open-data-services-and-software/data-information-policy).\n",
+    "thematic_group": "Weather and Climate Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NASA/NASA_GEOS-CF_v2_ana_htf_sample.png",
+    "title": "GEOS-CF Ana htf v2: Goddard Earth Observing System Composition Forecast",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/NASA_GEOS-CF_v2_ana_tavg1hr",
+    "id": "NASA/GEOS-CF/v2/ana/tavg1hr",
+    "license": "proprietary",
+    "provider": "NASA / GMAO",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NASA/GEOS-CF/v2/ana/tavg1hr",
+    "tags": "atmosphere, composition, forecast, geos, geos-cf, gmao, nasa",
+    "terms_of_use": "Unless otherwise noted, all NASA-produced data may be used for any purpose\nwithout prior permission. For more information and exceptions visit the\n[NASA Data & Information Policy page](https://earthdata.nasa.gov/collaborate/open-data-services-and-software/data-information-policy).\n",
+    "thematic_group": "Weather and Climate Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NASA/NASA_GEOS-CF_v2_ana_tavg1hr_sample.png",
+    "title": "GEOS-CF ana tavg1hr v2: Goddard Earth Observing System Composition Forecast",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/NASA_GEOS-CF_v2_fcst_htf",
+    "id": "NASA/GEOS-CF/v2/fcst/htf",
+    "license": "proprietary",
+    "provider": "NASA / GMAO",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NASA/GEOS-CF/v2/fcst/htf",
+    "tags": "atmosphere, composition, forecast, geos, geos-cf, gmao, nasa",
+    "terms_of_use": "Unless otherwise noted, all NASA-produced data may be used for any purpose\nwithout prior permission. For more information and exceptions visit the\n[NASA Data & Information Policy page](https://earthdata.nasa.gov/collaborate/open-data-services-and-software/data-information-policy).\n",
+    "thematic_group": "Weather and Climate Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NASA/NASA_GEOS-CF_v2_fcst_htf_sample.png",
+    "title": "GEOS-CF fcst htf v2: Goddard Earth Observing System Composition Forecast",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/NASA_GEOS-CF_v2_fcst_tavg1hr",
+    "id": "NASA/GEOS-CF/v2/fcst/tavg1hr",
+    "license": "proprietary",
+    "provider": "NASA / GMAO",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NASA/GEOS-CF/v2/fcst/tavg1hr",
+    "tags": "atmosphere, composition, forecast, geos, geos-cf, gmao, nasa",
+    "terms_of_use": "Unless otherwise noted, all NASA-produced data may be used for any purpose\nwithout prior permission. For more information and exceptions visit the\n[NASA Data & Information Policy page](https://earthdata.nasa.gov/collaborate/open-data-services-and-software/data-information-policy).\n",
+    "thematic_group": "Weather and Climate Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NASA/NASA_GEOS-CF_v2_fcst_tavg1hr_sample.png",
+    "title": "GEOS-CF fcst tavg1hr v2: Goddard Earth Observing System Composition Forecast",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/NASA_GIMMS_3GV0",
     "id": "NASA/GIMMS/3GV0",
     "license": "proprietary",
