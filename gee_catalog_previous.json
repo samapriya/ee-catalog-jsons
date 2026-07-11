@@ -429,16 +429,16 @@
     "type": "image_collection"
   },
   {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_DEM_GLO30",
-    "id": "COPERNICUS/DEM/GLO30",
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_DEM_GLO30_2024_1",
+    "id": "COPERNICUS/DEM/GLO30_2024_1",
     "license": "proprietary",
     "provider": "Copernicus",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/COPERNICUS/DEM/GLO30",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/COPERNICUS/DEM/GLO30_2024_1",
     "tags": "copernicus, dem, elevation, elevation-topography, geophysical",
-    "terms_of_use": "The GLO-30 dataset is available worldwide with a free license with the\nexception of two countries (Armenia and Azerbaijan). [License for Copernicus\nDEM](https://docs.sentinel-hub.com/api/latest/static/files/data/dem/resources/license/License-COPDEM-30.pdf).\n\n\u00a9 DLR e.V. 2010-2014 and \u00a9 Airbus Defence and Space GmbH 2014-2018 provided\nunder COPERNICUS by the European Union and ESA; all rights reserved.\n",
+    "terms_of_use": "The GLO-30 dataset is available worldwide with a free license. [See the terms\nunder 'Licence for the use of the Copernicus\nWorldDEM-30'](https://dataspace.copernicus.eu/sites/default/files/media/files/2025-06/copernicus_contributing_mission_data_access_v2_cop_dem_licenses.pdf).\n\nWhen communicating to the General Public or distributing the Copernicus WorldDEM-30,\nthe User shall inform the General Public of the source by using the following notice:\n\u00a9 DLR e.V. 2010-2014 and \u00a9 Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS\nby the European Union and ESA; all rights reserved.\n\nWhere the Copernicus WorldDEM-30 data have been adapted or modified, the User shall\nprovide the following notice:\n\"produced using Copernicus WorldDEM-30 \u00a9 DLR e.V. 2010-2014 and \u00a9 Airbus Defence and Space GmbH\n2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved\u201d.\n\nThe following sentence or its translation in any language shall be added by such Users\nin a licence or any legal warning or notice covering their distribution or communication\nto the General Public of the Copernicus WorldDEM30:\n\"The organisations in charge of the Copernicus programme by law or by delegation do not\nincur any liability for any use of the Copernicus WorldDEM-30\".\n",
     "thematic_group": "Elevation and Bathymetry",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_DEM_GLO30_sample.png",
-    "title": "Copernicus DEM GLO-30: Global 30m Digital Elevation Model",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_DEM_GLO30_2024_1_sample.png",
+    "title": "Copernicus DEM GLO-30 (2024_1): Global 30m Digital Elevation Model",
     "type": "image_collection"
   },
   {
@@ -1441,6 +1441,19 @@
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/ECMWF/ECMWF_ERA5_LAND_MONTHLY_BY_HOUR_sample.png",
     "title": "ERA5-Land Monthly Averaged by Hour of Day - ECMWF Climate Reanalysis",
     "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_STATIC",
+    "id": "ECMWF/ERA5_LAND/STATIC",
+    "license": "proprietary",
+    "provider": "Copernicus Climate Data Store",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/ECMWF/ERA5_LAND/STATIC",
+    "tags": "cds, climate, copernicus, ecmwf, era5-land, evaporation, heat, lakes, precipitation, pressure, radiation, reanalysis, runoff, snow, soil-water, temperature, vegetation, wind",
+    "terms_of_use": "Please acknowledge the use of ERA5-Land as stated in the\n[Copernicus C3S/CAMS License agreement](https://apps.ecmwf.int/datasets/licences/copernicus/):\n\n- 5.1.1 Where the Licensee communicates or distributes Copernicus Products\nto the public, the Licensee shall inform the recipients of the source by\nusing the following or any similar notice:\n'Generated using Copernicus Climate Change Service Information [Year]'.\n\n- 5.1.2 Where the Licensee makes or contributes to a publication or\ndistribution containing adapted or modified Copernicus Products, the\nLicensee shall provide the following or any similar notice:\n'Contains modified Copernicus Climate Change Service Information [Year]';\n\nAny such publication or distribution covered by clauses 5.1.1 and 5.1.2\nshall state that neither the European Commission nor ECMWF is responsible\nfor any use that may be made of the Copernicus Information or Data it\ncontains.\n",
+    "thematic_group": "Weather and Climate Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/ECMWF/ECMWF_ERA5_LAND_STATIC_sample.png",
+    "title": "ERA5-Land Static - ECMWF Climate Reanalysis",
+    "type": "image"
   },
   {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_MONTHLY",
