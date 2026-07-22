@@ -6864,6 +6864,19 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP43IA3",
+    "id": "NASA/VIIRS/002/VNP43IA3",
+    "license": "proprietary",
+    "provider": "NASA LP DAAC at the USGS EROS Center",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NASA/VIIRS/002/VNP43IA3",
+    "tags": "albedo, brdf, land, nasa, noaa, satellite-imagery, surface, viirs",
+    "terms_of_use": "LP DAAC NASA data are freely accessible; however, when an author\npublishes these data or works based on the data, it is requested that the\nauthor cite the datasets within the text of the publication and include a\nreference to them in the reference list.\n",
+    "thematic_group": "Global Events Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NASA/NASA_VIIRS_002_VNP43IA3_sample.png",
+    "title": "VNP43IA3: BRDF/Albedo Daily L3 Global 500m SIN Grid",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP43IA4",
     "id": "NASA/VIIRS/002/VNP43IA4",
     "license": "proprietary",
