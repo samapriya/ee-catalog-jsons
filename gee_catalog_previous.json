@@ -11436,7 +11436,20 @@
     "terms_of_use": "",
     "thematic_group": "Global Events Layers",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/pml_evapotranspiration/projects_pml_evapotranspiration_PML_OUTPUT_PML_V22a_sample.png",
-    "title": "PML_V2.2a: Coupled Evapotranspiration and Gross Primary Product (GPP)",
+    "title": "PML_V2.2a: Coupled Evapotranspiration and Gross Primary Product (MODIS Edition)",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_pml_evapotranspiration_PML_OUTPUT_PML_V22a_VIIRS",
+    "id": "projects/pml_evapotranspiration/PML/OUTPUT/PML_V22a_VIIRS",
+    "license": "CC-BY-4.0",
+    "provider": "Large Scale Hydrology Lab",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/pml_evapotranspiration/PML/OUTPUT/PML_V22a_VIIRS",
+    "tags": "evapotranspiration, gpp, plant-productivity, water-vapor",
+    "terms_of_use": "",
+    "thematic_group": "Global Events Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/pml_evapotranspiration/projects_pml_evapotranspiration_PML_OUTPUT_PML_V22a_VIIRS_sample.png",
+    "title": "PML_V2.2a: Coupled Evapotranspiration and Gross Primary Product (VIIRS Edition)",
     "type": "image_collection"
   },
   {
