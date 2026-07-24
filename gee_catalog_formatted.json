@@ -4667,6 +4667,19 @@
     "type": "image"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI04_D_002",
+    "id": "LARSE/GEDI/GEDI04_D_002",
+    "license": "proprietary",
+    "provider": "ORNL DAAC",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LARSE/GEDI/GEDI04_D_002",
+    "tags": "biomass, canopy, elevation, forest, forest-biomass, gedi, larse, nasa, tree-cover",
+    "terms_of_use": "This dataset is in the public domain and is available\nwithout restriction on use and distribution. See [NASA's\nEarth Science Data & Information Policy]\n(https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy)\nfor additional information.\n",
+    "thematic_group": "Elevation and Bathymetry",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LARSE/LARSE_GEDI_GEDI04_D_002_sample.png",
+    "title": "GEDI L4D Imputed Waveforms, Version 2",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GRIDDEDVEG_002_COUNTS_V1_1KM",
     "id": "LARSE/GEDI/GRIDDEDVEG_002/COUNTS/V1/1KM",
     "license": "proprietary",
