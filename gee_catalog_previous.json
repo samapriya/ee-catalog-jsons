@@ -825,7 +825,7 @@
     "provider": "European Union/ESA/Copernicus",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/COPERNICUS/S2_SR_HARMONIZED",
     "tags": "copernicus, esa, eu, msi, reflectance, satellite-imagery, sentinel, sr",
-    "terms_of_use": "The use of Sentinel data is governed by the [Copernicus\nSentinel Data Terms and Conditions.](https://scihub.copernicus.eu/twiki/pub/SciHubWebPortal/TermsConditions/Sentinel_Data_Terms_and_Conditions.pdf)\n",
+    "terms_of_use": "The use of Sentinel data is governed by the [Copernicus\nSentinel Data Terms and Conditions.](https://sentinels.copernicus.eu/documents/247904/690755/Sentinel_Data_Legal_Notice)\n",
     "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_S2_SR_HARMONIZED_sample.png",
     "title": "Harmonized Sentinel-2 MSI: MultiSpectral Instrument, Level-2A (SR)",
@@ -7098,16 +7098,16 @@
     "type": "image_collection"
   },
   {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/NOAA_CFSR",
-    "id": "NOAA/CFSR",
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/NOAA_CFSR_HARMONIZED",
+    "id": "NOAA/CFSR_HARMONIZED",
     "license": "proprietary",
     "provider": "NOAA NWS National Centers for Environmental Prediction (NCEP)",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NOAA/CFSR",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NOAA/CFSR_HARMONIZED",
     "tags": "climate, daylight, flux, forecast, geophysical, ncep, noaa, nws, precipitation, radiation, snow, temperature, vapor, water, weather",
     "terms_of_use": "NOAA data, information, and products, regardless of the method of delivery,\nare not subject to copyright and carry no restrictions on their subsequent\nuse by the public. Once obtained, they may be put to any lawful use. The\nforgoing data is in the public domain and is being provided without\nrestriction on use and distribution. For more information visit the\n[NWS disclaimer site](https://www.weather.gov/disclaimer/).\n",
     "thematic_group": "Weather and Climate Layers",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NOAA/NOAA_CFSR_sample.png",
-    "title": "CFSR: Climate Forecast System Reanalysis",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NOAA/NOAA_CFSR_HARMONIZED_sample.png",
+    "title": "CFSR: Climate Forecast System Reanalysis Harmonized",
     "type": "image_collection"
   },
   {
@@ -10644,32 +10644,6 @@
     "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/forestdatapartnership/projects_forestdatapartnership_assets_rubber_model_2025b_sample.png",
     "title": "Rubber Probability model 2025b",
-    "type": "image_collection"
-  },
-  {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_gcp-public-data-weathernext_assets_59572747_4_0",
-    "id": "projects/gcp-public-data-weathernext/assets/59572747_4_0",
-    "license": "proprietary",
-    "provider": "Google",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/gcp-public-data-weathernext/assets/59572747_4_0",
-    "tags": "climate, forecast, graphcast, precipitation, temperature, weather, weathernext, wind",
-    "terms_of_use": "The Historic Experimental Data is licensed under the Creative Commons\nAttribution International License, Version 4.0 (CC BY 4.0).\n\nThe Real-Time Experimental Data is made available under the following\nGDM Real-Time Weather Forecasting Experimental Data [Terms of Use](https://storage.googleapis.com/weathernext-public/terms-of-use.pdf).\n\n**Third-party materials**\n\nUse of the third-party materials referred to in the Acknowledgements\nsection may be governed by separate terms and conditions or license\nprovisions. Your use of the third-party materials is subject to any such\nterms and you should check that you can comply with any applicable\nrestrictions or terms and conditions before use.\n",
-    "thematic_group": "Weather and Climate Layers",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/gcp-public-data-weathernext/projects_gcp-public-data-weathernext_assets_59572747_4_0_sample.png",
-    "title": "WeatherNext Graph Forecasts",
-    "type": "image_collection"
-  },
-  {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_gcp-public-data-weathernext_assets_126478713_1_0",
-    "id": "projects/gcp-public-data-weathernext/assets/126478713_1_0",
-    "license": "proprietary",
-    "provider": "Google",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/gcp-public-data-weathernext/assets/126478713_1_0",
-    "tags": "climate, forecast, precipitation, temperature, weather, weathernext, wind",
-    "terms_of_use": "The Historic Experimental Data is licensed under the Creative Commons\nAttribution International License, Version 4.0 (CC BY 4.0).\n\nThe Real-Time Experimental Data is made available under the following\nGDM Real-Time Weather Forecasting Experimental Data [Terms of Use](https://storage.googleapis.com/weathernext-public/terms-of-use.pdf).\n\n**Third-party materials**\n\nUse of the third-party materials referred to in the Acknowledgements\nsection may be governed by separate terms and conditions or license\nprovisions. Your use of the third-party materials is subject to any such\nterms and you should check that you can comply with any applicable\nrestrictions or terms and conditions before use.\n",
-    "thematic_group": "Weather and Climate Layers",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/gcp-public-data-weathernext/projects_gcp-public-data-weathernext_assets_126478713_1_0_sample.png",
-    "title": "WeatherNext Gen Forecasts",
     "type": "image_collection"
   },
   {
