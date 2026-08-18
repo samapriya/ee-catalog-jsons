@@ -10770,7 +10770,7 @@
     "provider": "USDA Forest Service (USFS) Field Services and Innovation Center Geospatial Office (FSIC-GO)",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/gtac-data-publish/assets/TreeMap/Product_Version/2026-1",
     "tags": "aboveground, biomass, carbon, climate-change, conus, forest, forest-biomass, forest-inventory-and-analysis, forest-type, fsic-go, gtac, landcover, landfire, redcastle-resources, tree-cover, us, usda, usfs, vegetation",
-    "terms_of_use": "The USDA Forest Service makes no warranty, expressed or implied, including the \nwarranties of merchantability and fitness for a particular purpose, nor assumes \nany legal liability or responsibility for the accuracy, reliability, \ncompleteness or utility of these geospatial data, or for the improper or \nincorrect use of these geospatial data. These geospatial data and related maps \nor graphics are not legal documents and are not intended to be used as such. The \ndata and maps may not be used to determine title, ownership, legal descriptions \nor boundaries, legal jurisdiction, or restrictions that may be in place on \neither public or private land. Natural hazards may or may not be depicted on the \ndata and maps, and land users should exercise due caution. The data are dynamic \nand may change over time. The user is responsible to verify the limitations of \nthe geospatial data and to use the data accordingly.\n\nThese data were collected using funding from the U.S. Government and can be used \nwithout additional permissions or fees. If you use these data in a publication, \npresentation, or other research product please use the appropriate citation for \neach year vintage.\n\nSee TreeMap in the Research Data Archive for additional information on\n  [TreeMap 2016](https://www.fs.usda.gov/rds/archive/catalog/RDS-2021-0074),  \n  [TreeMap 2020](https://www.fs.usda.gov/rds/archive/catalog/RDS-2025-0031),  \n  [TreeMap 2022](https://www.fs.usda.gov/rds/archive/catalog/RDS-2025-0032),  \n  [TreeMap 2023](https://www.fs.usda.gov/rds/archive/catalog/RDS-2026-0038).\n\n",
+    "terms_of_use": "The USDA Forest Service makes no warranty, expressed or implied, including the \nwarranties of merchantability and fitness for a particular purpose, nor assumes \nany legal liability or responsibility for the accuracy, reliability, \ncompleteness or utility of these geospatial data, or for the improper or \nincorrect use of these geospatial data. These geospatial data and related maps \nor graphics are not legal documents and are not intended to be used as such. The \ndata and maps may not be used to determine title, ownership, legal descriptions \nor boundaries, legal jurisdiction, or restrictions that may be in place on \neither public or private land. Natural hazards may or may not be depicted on the \ndata and maps, and land users should exercise due caution. The data are dynamic \nand may change over time. The user is responsible to verify the limitations of \nthe geospatial data and to use the data accordingly.\n\nThese data were collected using funding from the U.S. Government and can be used \nwithout additional permissions or fees. If you use these data in a publication, \npresentation, or other research product please use the appropriate citation for \neach year vintage.\n\nSee TreeMap in the Research Data Archive for additional information.\n* [TreeMap 2016](https://www.fs.usda.gov/rds/archive/catalog/RDS-2021-0074)\n* [TreeMap 2020](https://www.fs.usda.gov/rds/archive/catalog/RDS-2025-0031)  \n* [TreeMap 2022](https://www.fs.usda.gov/rds/archive/catalog/RDS-2025-0032)  \n* [TreeMap 2023](https://www.fs.usda.gov/rds/archive/catalog/RDS-2026-0038)\n\n",
     "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/gtac-data-publish/projects_gtac-data-publish_assets_TreeMap_Product_Version_2026-1_sample.png",
     "title": "USFS TreeMap 2026-1",
@@ -11229,6 +11229,32 @@
     "thematic_group": "Biodiversity, Ecosystems & Habitat Layers",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/nature-trace/projects_nature-trace_assets_forest_typology_natural_forest_2020_v1_0_collection_sample.png",
     "title": "Natural Forests of the World 2020",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_nature-trace_assets_ghg_emit_mapl_emit_enhancements_v1_0",
+    "id": "projects/nature-trace/assets/ghg/emit/mapl_emit_enhancements_v1_0",
+    "license": "CC-BY-4.0",
+    "provider": "Google Research",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/nature-trace/assets/ghg/emit/mapl_emit_enhancements_v1_0",
+    "tags": "atmosphere, emit, ghg, methane",
+    "terms_of_use": "",
+    "thematic_group": "Weather and Climate Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/nature-trace/projects_nature-trace_assets_ghg_emit_mapl_emit_enhancements_v1_0_sample.png",
+    "title": "MAPL-EMIT: Modeled Methane Enhancement and Plume Probability",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_nature-trace_assets_ghg_emit_mapl_emit_plumes_v1_0",
+    "id": "projects/nature-trace/assets/ghg/emit/mapl_emit_plumes_v1_0",
+    "license": "CC-BY-4.0",
+    "provider": "Google Research",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/nature-trace/assets/ghg/emit/mapl_emit_plumes_v1_0",
+    "tags": "atmosphere, emit, ghg, methane",
+    "terms_of_use": "",
+    "thematic_group": "Weather and Climate Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/nature-trace/projects_nature-trace_assets_ghg_emit_mapl_emit_plumes_v1_0_sample.png",
+    "title": "MAPL-EMIT: Modeled Methane Plumes",
     "type": "image_collection"
   },
   {
