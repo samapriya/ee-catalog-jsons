@@ -2470,6 +2470,32 @@
     "type": "image"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/IBGE_PAIS_V2025",
+    "id": "IBGE/PAIS/V2025",
+    "license": "proprietary",
+    "provider": "IBGE",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/IBGE/PAIS/V2025",
+    "tags": "borders, boundaries, brazil, countries, ibge, infrastructure-boundaries, table",
+    "terms_of_use": "This dataset is made available by the Instituto Brasileiro de Geografia e\nEstat&iacute;stica (IBGE) as open public data in accordance with Brazilian Federal\nLaw No. 12.527/2011 (Access to Information Law). Users are free to use,\nmodify, and distribute the data for personal, educational, research, and\ncommercial applications, with appropriate attribution to IBGE.\n",
+    "thematic_group": "Global Events Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/IBGE/IBGE_PAIS_V2025_sample.png",
+    "title": "IBGE: Brazil Country Boundary 2025",
+    "type": "table"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/IBGE_REGIOES_V2025",
+    "id": "IBGE/REGIOES/V2025",
+    "license": "proprietary",
+    "provider": "IBGE",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/IBGE/REGIOES/V2025",
+    "tags": "borders, boundaries, brazil, ibge, infrastructure-boundaries, table",
+    "terms_of_use": "This dataset is made available by the Instituto Brasileiro de Geografia e\nEstat&iacute;stica (IBGE) as open public data in accordance with Brazilian\nFederal Law No. 12.527/2011 (Access to Information Law). Users are free to\nuse, modify, and distribute the data for personal, educational, research,\nand commercial applications, with appropriate attribution to IBGE.\n",
+    "thematic_group": "Global Events Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/IBGE/IBGE_REGIOES_V2025_sample.png",
+    "title": "IBGE: Brazil Macro Regions 2025",
+    "type": "table"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/IDAHO_EPSCOR_GRIDMET",
     "id": "IDAHO_EPSCOR/GRIDMET",
     "license": "proprietary",
