@@ -8424,6 +8424,19 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/TALLO_TALLO_V1",
+    "id": "TALLO/TALLO_V1",
+    "license": "CC-BY-4.0",
+    "provider": "Tommaso Jucker / Selva Lab (University of Bristol)",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/TALLO/TALLO_V1",
+    "tags": "bigquery, biodiversity, biomass, canopy, ecosystems, forest, forest-biomass, height, species",
+    "terms_of_use": "",
+    "thematic_group": "Biodiversity, Ecosystems & Habitat Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/TALLO/TALLO_TALLO_V1_sample.png",
+    "title": "Tallo: A Global Tree Allometry and Crown Architecture Database V1",
+    "type": "bigquery_table"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/TERN_AET_CMRSET_LANDSAT_V2_2",
     "id": "TERN/AET/CMRSET_LANDSAT_V2_2",
     "license": "CC-BY-4.0",
@@ -10670,6 +10683,32 @@
     "thematic_group": "Weather and Climate Layers",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/gcp-public-data-weathernext/projects_gcp-public-data-weathernext_assets_weathernext_2_0_0_mean_sample.png",
     "title": "WeatherNext 2 Mean",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_gcp-public-data-weathernext_assets_weathernext_3_0_0_0p1deg",
+    "id": "projects/gcp-public-data-weathernext/assets/weathernext_3_0_0_0p1deg",
+    "license": "proprietary",
+    "provider": "Google",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/gcp-public-data-weathernext/assets/weathernext_3_0_0_0p1deg",
+    "tags": "climate, forecast, precipitation, temperature, weather, weathernext, wind",
+    "terms_of_use": "This placeholder text will be replaced with final content later on.\n",
+    "thematic_group": "Weather and Climate Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/gcp-public-data-weathernext/projects_gcp-public-data-weathernext_assets_weathernext_3_0_0_0p1deg_sample.png",
+    "title": "WeatherNext 3 (0.1&deg;)",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_gcp-public-data-weathernext_assets_weathernext_3_0_0_0p05deg",
+    "id": "projects/gcp-public-data-weathernext/assets/weathernext_3_0_0_0p05deg",
+    "license": "proprietary",
+    "provider": "Google",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/gcp-public-data-weathernext/assets/weathernext_3_0_0_0p05deg",
+    "tags": "climate, forecast, precipitation, temperature, weather, weathernext, wind",
+    "terms_of_use": "This placeholder text will be replaced with final content later on.\n",
+    "thematic_group": "Weather and Climate Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/gcp-public-data-weathernext/projects_gcp-public-data-weathernext_assets_weathernext_3_0_0_0p05deg_sample.png",
+    "title": "WeatherNext 3 (0.05&deg;)",
     "type": "image_collection"
   },
   {
