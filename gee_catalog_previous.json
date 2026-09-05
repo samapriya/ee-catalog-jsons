@@ -2470,6 +2470,19 @@
     "type": "image"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/IBGE_INTERMEDIARIAS_V2025",
+    "id": "IBGE/INTERMEDIARIAS/V2025",
+    "license": "proprietary",
+    "provider": "IBGE",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/IBGE/INTERMEDIARIAS/V2025",
+    "tags": "borders, boundaries, brazil, ibge, infrastructure-boundaries, table",
+    "terms_of_use": "This dataset is made available by the Instituto Brasileiro de Geografia e\nEstat&iacute;stica (IBGE) as open public data in accordance with Brazilian\nFederal Law No. 12.527/2011 (Access to Information Law). Users are free to\nuse, modify, and distribute the data for personal, educational, research,\nand commercial applications, with appropriate attribution to IBGE.\n",
+    "thematic_group": "Global Events Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/IBGE/IBGE_INTERMEDIARIAS_V2025_sample.png",
+    "title": "IBGE: Brazil Intermediate Geographic Regions 2025",
+    "type": "table"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/IBGE_PAIS_V2025",
     "id": "IBGE/PAIS/V2025",
     "license": "proprietary",
@@ -2493,6 +2506,19 @@
     "thematic_group": "Global Events Layers",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/IBGE/IBGE_REGIOES_V2025_sample.png",
     "title": "IBGE: Brazil Macro Regions 2025",
+    "type": "table"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/IBGE_UF_V2025",
+    "id": "IBGE/UF/V2025",
+    "license": "proprietary",
+    "provider": "IBGE",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/IBGE/UF/V2025",
+    "tags": "borders, boundaries, brazil, ibge, infrastructure-boundaries, states, table",
+    "terms_of_use": "This dataset is made available by the Instituto Brasileiro de Geografia e\nEstat&iacute;stica (IBGE) as open public data in accordance with Brazilian\nFederal Law No. 12.527/2011 (Access to Information Law). Users are free to\nuse, modify, and distribute the data for personal, educational, research,\nand commercial applications, with appropriate attribution to IBGE.\n",
+    "thematic_group": "Global Events Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/IBGE/IBGE_UF_V2025_sample.png",
+    "title": "IBGE: Brazil State Boundaries 2025 (Federation Units)",
     "type": "table"
   },
   {
@@ -10683,6 +10709,32 @@
     "thematic_group": "Weather and Climate Layers",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/gcp-public-data-weathernext/projects_gcp-public-data-weathernext_assets_weathernext_2_0_0_mean_sample.png",
     "title": "WeatherNext 2 Mean",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_gcp-public-data-weathernext_assets_weathernext_3_0_0_0p1deg",
+    "id": "projects/gcp-public-data-weathernext/assets/weathernext_3_0_0_0p1deg",
+    "license": "proprietary",
+    "provider": "Google",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/gcp-public-data-weathernext/assets/weathernext_3_0_0_0p1deg",
+    "tags": "climate, flood, forecast, humidity, precipitation, temperature, weather, weathernext, wind",
+    "terms_of_use": "The Historic Experimental Data is licensed under the Creative Commons\nAttribution International License, Version 4.0 (CC BY 4.0).\n\nThe Real-Time Experimental Data is made available under the following\nGDM Real-Time Weather Forecasting Experimental Data [Terms of Use](https://storage.googleapis.com/weathernext-public/terms-of-use.pdf).\n\n**Third-party materials**\n\nUse of the third-party materials referred to in the Acknowledgements\nsection may be governed by separate terms and conditions or license\nprovisions. Your use of the third-party materials is subject to any such\nterms and you should check that you can comply with any applicable\nrestrictions or terms and conditions before use.\n",
+    "thematic_group": "Weather and Climate Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/gcp-public-data-weathernext/projects_gcp-public-data-weathernext_assets_weathernext_3_0_0_0p1deg_sample.png",
+    "title": "WeatherNext 3 (0.1&deg;)",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_gcp-public-data-weathernext_assets_weathernext_3_0_0_0p05deg",
+    "id": "projects/gcp-public-data-weathernext/assets/weathernext_3_0_0_0p05deg",
+    "license": "proprietary",
+    "provider": "Google",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/gcp-public-data-weathernext/assets/weathernext_3_0_0_0p05deg",
+    "tags": "climate, flood, forecast, humidity, precipitation, temperature, weather, weathernext, wind",
+    "terms_of_use": "The Historic Experimental Data is licensed under the Creative Commons\nAttribution International License, Version 4.0 (CC BY 4.0).\n\nThe Real-Time Experimental Data is made available under the following\nGDM Real-Time Weather Forecasting Experimental Data [Terms of Use](https://storage.googleapis.com/weathernext-public/terms-of-use.pdf).\n\n**Third-party materials**\n\nUse of the third-party materials referred to in the Acknowledgements\nsection may be governed by separate terms and conditions or license\nprovisions. Your use of the third-party materials is subject to any such\nterms and you should check that you can comply with any applicable\nrestrictions or terms and conditions before use.\n",
+    "thematic_group": "Weather and Climate Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/gcp-public-data-weathernext/projects_gcp-public-data-weathernext_assets_weathernext_3_0_0_0p05deg_sample.png",
+    "title": "WeatherNext 3 (0.05&deg;)",
     "type": "image_collection"
   },
   {
