@@ -7735,6 +7735,19 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/OPERA_DIST_L3_DIST-ANN-HLS_V1",
+    "id": "OPERA/DIST/L3_DIST-ANN-HLS/V1",
+    "license": "proprietary",
+    "provider": "NASA JPL",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/OPERA/DIST/L3_DIST-ANN-HLS/V1",
+    "tags": "disturbance, forest, forest-biomass, geophysical, landsat-derived, nasa, opera, sentinel2-derived, vegetation",
+    "terms_of_use": "This dataset is openly shared, without restriction, in accordance with\nthe [EOSDIS Data Use and Citation Guidance](https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance)\n",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OPERA/OPERA_DIST_L3_DIST-ANN-HLS_V1_sample.png",
+    "title": "OPERA Land Surface Disturbance Annual from Harmonized Landsat Sentinel-2 (DIST-ANN-HLS) V1",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/OPERA_DSWX_L3_V1_HLS",
     "id": "OPERA/DSWX/L3_V1/HLS",
     "license": "proprietary",
@@ -10595,6 +10608,19 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_forestdatapartnership_assets_cocoa_model_2026a",
+    "id": "projects/forestdatapartnership/assets/cocoa/model_2026a",
+    "license": "CC-BY-4.0",
+    "provider": "Produced by Google for the Forest Data Partnership",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/forestdatapartnership/assets/cocoa/model_2026a",
+    "tags": "agriculture, alphaearth-derived, biodiversity, cocoa, conservation, crop, eudr, landuse, plantation",
+    "terms_of_use": "",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/forestdatapartnership/projects_forestdatapartnership_assets_cocoa_model_2026a_sample.png",
+    "title": "Cocoa Probability model 2026a",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_forestdatapartnership_assets_coffee_model_2025a",
     "id": "projects/forestdatapartnership/assets/coffee/model_2025a",
     "license": "various",
@@ -10618,6 +10644,19 @@
     "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/forestdatapartnership/projects_forestdatapartnership_assets_coffee_model_2025b_sample.png",
     "title": "Coffee Probability model 2025b",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_forestdatapartnership_assets_coffee_model_2026a",
+    "id": "projects/forestdatapartnership/assets/coffee/model_2026a",
+    "license": "CC-BY-4.0",
+    "provider": "Produced by Google for the Forest Data Partnership",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/forestdatapartnership/assets/coffee/model_2026a",
+    "tags": "agriculture, alphaearth-derived, biodiversity, coffee, conservation, crop, eudr, landuse, plantation",
+    "terms_of_use": "",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/forestdatapartnership/projects_forestdatapartnership_assets_coffee_model_2026a_sample.png",
+    "title": "Coffee Probability model 2026a",
     "type": "image_collection"
   },
   {
@@ -10660,6 +10699,19 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_forestdatapartnership_assets_palm_model_2026a",
+    "id": "projects/forestdatapartnership/assets/palm/model_2026a",
+    "license": "CC-BY-4.0",
+    "provider": "Produced by Google for the Forest Data Partnership",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/forestdatapartnership/assets/palm/model_2026a",
+    "tags": "agriculture, alphaearth-derived, biodiversity, conservation, crop, eudr, landuse, palm, plantation",
+    "terms_of_use": "",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/forestdatapartnership/projects_forestdatapartnership_assets_palm_model_2026a_sample.png",
+    "title": "Palm Probability model 2026a",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_forestdatapartnership_assets_rubber_model_2025a",
     "id": "projects/forestdatapartnership/assets/rubber/model_2025a",
     "license": "various",
@@ -10683,6 +10735,19 @@
     "thematic_group": "Agriculture, Vegetation and Forestry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/forestdatapartnership/projects_forestdatapartnership_assets_rubber_model_2025b_sample.png",
     "title": "Rubber Probability model 2025b",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_forestdatapartnership_assets_rubber_model_2026a",
+    "id": "projects/forestdatapartnership/assets/rubber/model_2026a",
+    "license": "CC-BY-4.0",
+    "provider": "Produced by Google for the Forest Data Partnership",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/forestdatapartnership/assets/rubber/model_2026a",
+    "tags": "agriculture, alphaearth-derived, biodiversity, conservation, crop, eudr, landuse, plantation, rubber",
+    "terms_of_use": "",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/forestdatapartnership/projects_forestdatapartnership_assets_rubber_model_2026a_sample.png",
+    "title": "Rubber Probability model 2026a",
     "type": "image_collection"
   },
   {
