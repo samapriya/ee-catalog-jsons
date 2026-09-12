@@ -1105,6 +1105,19 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/CSIRO_BHI_v4",
+    "id": "CSIRO/BHI/v4",
+    "license": "CC-BY-NC-SA-4.0",
+    "provider": "CSIRO",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/CSIRO/BHI/v4",
+    "tags": "bhi, biodiversity, csiro, ecosystems, habitat, species",
+    "terms_of_use": "",
+    "thematic_group": "Biodiversity, Ecosystems & Habitat Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/CSIRO/CSIRO_BHI_v4_sample.png",
+    "title": "CSIRO Biodiversity Habitat Index v4 (BHI v4)",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/CSIRO_SLGA",
     "id": "CSIRO/SLGA",
     "license": "CC-BY-4.0",
@@ -6822,6 +6835,32 @@
     "thematic_group": "Global Events Layers",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NASA/NASA_TEMPO_O3_L3_V4_QA_sample.png",
     "title": "TEMPO gridded ozone total column V04 (PROVISIONAL)",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_AERDB_D3_VIIRS_NOAA20",
+    "id": "NASA/VIIRS/002/AERDB_D3_VIIRS_NOAA20",
+    "license": "CC0-1.0",
+    "provider": "NASA Atmosphere SIPS / LAADS DAAC",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NASA/VIIRS/002/AERDB_D3_VIIRS_NOAA20",
+    "tags": "aerosol, aot, atmosphere, daily, nasa, noaa, viirs",
+    "terms_of_use": "",
+    "thematic_group": "Weather and Climate Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NASA/NASA_VIIRS_002_AERDB_D3_VIIRS_NOAA20_sample.png",
+    "title": "AERDB_D3_VIIRS_NOAA20.002: VIIRS/NOAA-20 Deep Blue Aerosol Optical Depth Daily L3 Global 1.0 Deg Grid",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_AERDB_D3_VIIRS_SNPP",
+    "id": "NASA/VIIRS/002/AERDB_D3_VIIRS_SNPP",
+    "license": "CC0-1.0",
+    "provider": "NASA Atmosphere SIPS / LAADS DAAC",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NASA/VIIRS/002/AERDB_D3_VIIRS_SNPP",
+    "tags": "aerosol, aot, atmosphere, daily, nasa, noaa, npp, viirs",
+    "terms_of_use": "",
+    "thematic_group": "Weather and Climate Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NASA/NASA_VIIRS_002_AERDB_D3_VIIRS_SNPP_sample.png",
+    "title": "AERDB_D3_VIIRS_SNPP.002: VIIRS/SNPP Deep Blue Aerosol Optical Depth Daily L3 Global 1.0 Deg Grid",
     "type": "image_collection"
   },
   {
