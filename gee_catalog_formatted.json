@@ -2483,6 +2483,19 @@
     "type": "image"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/IBGE_IMEDIATAS_V2025",
+    "id": "IBGE/IMEDIATAS/V2025",
+    "license": "proprietary",
+    "provider": "IBGE",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/IBGE/IMEDIATAS/V2025",
+    "tags": "borders, boundaries, brazil, ibge, infrastructure-boundaries, table",
+    "terms_of_use": "This dataset is made available by the Instituto Brasileiro de Geografia e\nEstat&iacute;stica (IBGE) as open public data in accordance with Brazilian\nFederal Law No. 12.527/2011 (Access to Information Law). Users are free to\nuse, modify, and distribute the data for personal, educational, research,\nand commercial applications, with appropriate attribution to IBGE.\n",
+    "thematic_group": "Global Events Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/IBGE/IBGE_IMEDIATAS_V2025_sample.png",
+    "title": "IBGE: Brazil Immediate Geographic Regions 2025",
+    "type": "table"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/IBGE_INTERMEDIARIAS_V2025",
     "id": "IBGE/INTERMEDIARIAS/V2025",
     "license": "proprietary",
@@ -2493,6 +2506,19 @@
     "thematic_group": "Global Events Layers",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/IBGE/IBGE_INTERMEDIARIAS_V2025_sample.png",
     "title": "IBGE: Brazil Intermediate Geographic Regions 2025",
+    "type": "table"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/IBGE_MUNICIPIOS_V2025",
+    "id": "IBGE/MUNICIPIOS/V2025",
+    "license": "proprietary",
+    "provider": "IBGE",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/IBGE/MUNICIPIOS/V2025",
+    "tags": "borders, boundaries, brazil, ibge, infrastructure-boundaries, table",
+    "terms_of_use": "This dataset is made available by the Instituto Brasileiro de Geografia e\nEstat&iacute;stica (IBGE) as open public data in accordance with Brazilian\nFederal Law No. 12.527/2011 (Access to Information Law). Users are free to\nuse, modify, and distribute the data for personal, educational, research,\nand commercial applications, with appropriate attribution to IBGE.\n",
+    "thematic_group": "Global Events Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/IBGE/IBGE_MUNICIPIOS_V2025_sample.png",
+    "title": "IBGE: Brazil Municipality Boundaries 2025",
     "type": "table"
   },
   {
@@ -10580,6 +10606,19 @@
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/edf-methanesat-ee/projects_edf-methanesat-ee_assets_public-preview_L4point_sample.png",
     "title": "MethaneSAT L4 Point Sources Public Preview V1.0.0",
     "type": "table"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_ee-earth-timelapse_assets_annual",
+    "id": "projects/ee-earth-timelapse/assets/annual",
+    "license": "CC-BY-4.0",
+    "provider": "Google Earth Outreach",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/ee-earth-timelapse/assets/annual",
+    "tags": "change, copernicus, global, google, landsat, satellite-imagery, sentinel",
+    "terms_of_use": "",
+    "thematic_group": "Agriculture, Vegetation and Forestry",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/ee-earth-timelapse/projects_ee-earth-timelapse_assets_annual_sample.png",
+    "title": "Earth Timelapse v0",
+    "type": "image_collection"
   },
   {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_ee-kbas-in-gee_assets_current",
