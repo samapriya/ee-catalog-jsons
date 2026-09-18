@@ -10613,9 +10613,9 @@
     "license": "CC-BY-4.0",
     "provider": "Google Earth Outreach",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/ee-earth-timelapse/assets/annual",
-    "tags": "change, copernicus, global, google, landsat, satellite-imagery, sentinel",
+    "tags": "copernicus, global, google, landsat-derived, satellite-imagery, sentinel2-derived",
     "terms_of_use": "",
-    "thematic_group": "Agriculture, Vegetation and Forestry",
+    "thematic_group": "Global Events Layers",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/ee-earth-timelapse/projects_ee-earth-timelapse_assets_annual_sample.png",
     "title": "Earth Timelapse v0",
     "type": "image_collection"
