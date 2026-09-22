@@ -10530,6 +10530,32 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_climate-and-sustainability_assets_ghg_emit_mapl_emit_enhancements_v1_0",
+    "id": "projects/climate-and-sustainability/assets/ghg/emit/mapl_emit_enhancements_v1_0",
+    "license": "CC-BY-4.0",
+    "provider": "Google Research",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/climate-and-sustainability/assets/ghg/emit/mapl_emit_enhancements_v1_0",
+    "tags": "atmosphere, emit, ghg, methane",
+    "terms_of_use": "",
+    "thematic_group": "Weather and Climate Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/climate-and-sustainability/projects_climate-and-sustainability_assets_ghg_emit_mapl_emit_enhancements_v1_0_sample.png",
+    "title": "MAPL-EMIT: Modeled Methane Enhancement and Plume Probability",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_climate-and-sustainability_assets_ghg_emit_mapl_emit_plumes_v1_0",
+    "id": "projects/climate-and-sustainability/assets/ghg/emit/mapl_emit_plumes_v1_0",
+    "license": "CC-BY-4.0",
+    "provider": "Google Research",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/climate-and-sustainability/assets/ghg/emit/mapl_emit_plumes_v1_0",
+    "tags": "atmosphere, emit, ghg, methane",
+    "terms_of_use": "",
+    "thematic_group": "Weather and Climate Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/climate-and-sustainability/projects_climate-and-sustainability_assets_ghg_emit_mapl_emit_plumes_v1_0_sample.png",
+    "title": "MAPL-EMIT: Modeled Methane Plumes",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_edf-methanesat-ee_assets_mair_L3concentration",
     "id": "projects/edf-methanesat-ee/assets/mair/L3concentration",
     "license": "proprietary",
@@ -11372,32 +11398,6 @@
     "thematic_group": "Biodiversity, Ecosystems & Habitat Layers",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/nature-trace/projects_nature-trace_assets_forest_typology_natural_forest_2020_v1_0_collection_sample.png",
     "title": "Natural Forests of the World 2020",
-    "type": "image_collection"
-  },
-  {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_nature-trace_assets_ghg_emit_mapl_emit_enhancements_v1_0",
-    "id": "projects/nature-trace/assets/ghg/emit/mapl_emit_enhancements_v1_0",
-    "license": "CC-BY-4.0",
-    "provider": "Google Research",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/nature-trace/assets/ghg/emit/mapl_emit_enhancements_v1_0",
-    "tags": "atmosphere, emit, ghg, methane",
-    "terms_of_use": "",
-    "thematic_group": "Weather and Climate Layers",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/nature-trace/projects_nature-trace_assets_ghg_emit_mapl_emit_enhancements_v1_0_sample.png",
-    "title": "MAPL-EMIT: Modeled Methane Enhancement and Plume Probability",
-    "type": "image_collection"
-  },
-  {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_nature-trace_assets_ghg_emit_mapl_emit_plumes_v1_0",
-    "id": "projects/nature-trace/assets/ghg/emit/mapl_emit_plumes_v1_0",
-    "license": "CC-BY-4.0",
-    "provider": "Google Research",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/nature-trace/assets/ghg/emit/mapl_emit_plumes_v1_0",
-    "tags": "atmosphere, emit, ghg, methane",
-    "terms_of_use": "",
-    "thematic_group": "Weather and Climate Layers",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/nature-trace/projects_nature-trace_assets_ghg_emit_mapl_emit_plumes_v1_0_sample.png",
-    "title": "MAPL-EMIT: Modeled Methane Plumes",
     "type": "image_collection"
   },
   {
