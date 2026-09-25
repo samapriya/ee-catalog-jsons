@@ -3289,16 +3289,16 @@
     "type": "image_collection"
   },
   {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/JRC_GFC2020_V3",
-    "id": "JRC/GFC2020/V3",
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/JRC_GFC2020_V4",
+    "id": "JRC/GFC2020/V4",
     "license": "proprietary",
     "provider": "Joint Research Centre, European Commission",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/JRC/GFC2020/V3",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/JRC/GFC2020/V4",
     "tags": "eudr, forest, forest-biomass, jrc",
     "terms_of_use": "The data may be used by anyone, anywhere, anytime without permission,\nlicense or royalty payment. Attribution using the recommended citation\nis requested.\n",
     "thematic_group": "Agriculture, Vegetation and Forestry",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/JRC/JRC_GFC2020_V3_sample.png",
-    "title": "EC JRC global map of forest cover 2020, V3",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/JRC/JRC_GFC2020_V4_sample.png",
+    "title": "EC JRC global map of forest cover 2020, V4",
     "type": "image"
   },
   {
