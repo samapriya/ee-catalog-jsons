@@ -6164,7 +6164,7 @@
   {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/NASA_GDDP-CMIP6",
     "id": "NASA/GDDP-CMIP6",
-    "license": "various",
+    "license": "CC0-1.0",
     "provider": "NASA / Climate Analytics Group",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NASA/GDDP-CMIP6",
     "tags": "cag, climate, gddp, geophysical, ipcc, nasa, nex, precipitation, temperature",
