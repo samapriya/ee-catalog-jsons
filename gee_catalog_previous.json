@@ -7871,10 +7871,10 @@
     "provider": "PRISM / OREGONSTATE",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/OREGONSTATE/PRISM/ANd",
     "tags": "climate, daily, geophysical, oregonstate, precipitation, pressure, prism, temperature, vapor, weather",
-    "terms_of_use": "These PRISM datasets are available without restriction\non use or distribution. PRISM Climate Group does request that the\nuser give proper attribution and identify PRISM, where applicable,\nas the source of the data.\n",
+    "terms_of_use": "These PRISM datasets are available without restriction\non use or distribution. PRISM Group does request that the\nuser give proper attribution and identify PRISM, where applicable,\nas the source of the data.\n",
     "thematic_group": "Weather and Climate Layers",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OREGONSTATE/OREGONSTATE_PRISM_ANd_sample.png",
-    "title": "PRISM Daily Spatial Climate Dataset ANd",
+    "title": "PRISM Daily Spatial Dataset ANd",
     "type": "image_collection"
   },
   {
@@ -7884,10 +7884,10 @@
     "provider": "PRISM / OREGONSTATE",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/OREGONSTATE/PRISM/ANm",
     "tags": "climate, geophysical, monthly, oregonstate, precipitation, pressure, prism, temperature, vapor, weather",
-    "terms_of_use": "These PRISM datasets are available without restriction\non use or distribution. PRISM Climate Group does request that the\nuser give proper attribution and identify PRISM, where applicable,\nas the source of the data.\n",
+    "terms_of_use": "These PRISM datasets are available without restriction\non use or distribution. PRISM Group does request that the\nuser give proper attribution and identify PRISM, where applicable,\nas the source of the data.\n",
     "thematic_group": "Weather and Climate Layers",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OREGONSTATE/OREGONSTATE_PRISM_ANm_sample.png",
-    "title": "PRISM Monthly Spatial Climate Dataset ANm",
+    "title": "PRISM Monthly Spatial Dataset ANm",
     "type": "image_collection"
   },
   {
@@ -7897,10 +7897,10 @@
     "provider": "PRISM / OREGONSTATE",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/OREGONSTATE/PRISM/Norm91m",
     "tags": "30-year, climate, geophysical, oregonstate, precipitation, pressure, prism, temperature, vapor, weather",
-    "terms_of_use": "These PRISM datasets are available without restriction\non use or distribution. PRISM Climate Group does request that the\nuser give proper attribution and identify PRISM, where applicable,\nas the source of the data.\n[https://prism.oregonstate.edu/terms/](https://prism.oregonstate.edu/terms/)\n",
+    "terms_of_use": "These PRISM datasets are available without restriction\non use or distribution. PRISM Group does request that the\nuser give proper attribution and identify PRISM, where applicable,\nas the source of the data.\n[https://prism.oregonstate.edu/terms/](https://prism.oregonstate.edu/terms/)\n",
     "thematic_group": "Weather and Climate Layers",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/OREGONSTATE/OREGONSTATE_PRISM_Norm91m_sample.png",
-    "title": "PRISM Long-Term Average Climate Dataset Norm91m",
+    "title": "PRISM Long-Term Normals Dataset Norm91m",
     "type": "image_collection"
   },
   {
@@ -10527,6 +10527,19 @@
     "thematic_group": "Weather and Climate Layers",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/YALE/YALE_YCEO_UHI_Winter_UHI_yearly_pixel_v4_sample.png",
     "title": "YCEO Surface Urban Heat Islands: Pixel-Level Yearly Composites of Wintertime Daytime and Nighttime Intensity",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_climate-and-sustainability_assets_gem-15_v1",
+    "id": "projects/climate-and-sustainability/assets/gem-15_v1",
+    "license": "CC-BY-4.0",
+    "provider": "Google Research",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/climate-and-sustainability/assets/gem-15_v1",
+    "tags": "dem, elevation, elevation-topography, google, height, ml, topography",
+    "terms_of_use": "",
+    "thematic_group": "Elevation and Bathymetry",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/climate-and-sustainability/projects_climate-and-sustainability_assets_gem-15_v1_sample.png",
+    "title": "GEM-15: Near-Global Surface and Terrain Elevation Models (15m) (Experimental)",
     "type": "image_collection"
   },
   {
