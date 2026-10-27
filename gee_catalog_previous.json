@@ -10413,16 +10413,16 @@
     "type": "table"
   },
   {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/WorldPop_GP_100m_pop",
-    "id": "WorldPop/GP/100m/pop",
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/WorldPop_GP_100m_R2025A_v1_pop",
+    "id": "WorldPop/GP/100m/R2025A/v1/pop",
     "license": "CC-BY-4.0",
     "provider": "WorldPop",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/WorldPop/GP/100m/pop",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/WorldPop/GP/100m/R2025A/v1/pop",
     "tags": "demography, population, worldpop",
     "terms_of_use": "",
     "thematic_group": "Population & Socioeconomic",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/WorldPop/WorldPop_GP_100m_pop_sample.png",
-    "title": "WorldPop Global Project Population Data: Estimated Residential Population per 100x100m Grid Square",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/WorldPop/WorldPop_GP_100m_R2025A_v1_pop_sample.png",
+    "title": "WorldPop Global Project Population Data (R2025A): Estimated Residential Population per 100x100m Grid Square",
     "type": "image_collection"
   },
   {
