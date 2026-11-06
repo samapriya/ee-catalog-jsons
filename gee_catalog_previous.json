@@ -6903,6 +6903,19 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VJ209GA",
+    "id": "NASA/VIIRS/002/VJ209GA",
+    "license": "proprietary",
+    "provider": "NASA Land SIPS",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NASA/VIIRS/002/VJ209GA",
+    "tags": "daily, nasa, noaa, noaa21, reflectance, satellite-imagery, sr, viirs, vj209ga",
+    "terms_of_use": "LP DAAC NASA data are freely accessible; however, when an author\npublishes these data or works based on the data, it is requested that the\nauthor cite the datasets within the text of the publication and include a\nreference to them in the reference list.\n",
+    "thematic_group": "Global Events Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NASA/NASA_VIIRS_002_VJ209GA_sample.png",
+    "title": "VJ209GA: VIIRS Surface Reflectance Daily 500m and 1km",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VJ214A1",
     "id": "NASA/VIIRS/002/VJ214A1",
     "license": "proprietary",
