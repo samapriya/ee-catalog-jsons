@@ -6916,6 +6916,19 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VJ209H1",
+    "id": "NASA/VIIRS/002/VJ209H1",
+    "license": "proprietary",
+    "provider": "NASA LP DAAC at the USGS EROS Center",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/NASA/VIIRS/002/VJ209H1",
+    "tags": "8-day, nasa, noaa, noaa21, reflectance, satellite-imagery, sr, viirs, vj209h1",
+    "terms_of_use": "LP DAAC NASA data are freely accessible; however, when an author\npublishes these data or works based on the data, it is requested that the\nauthor cite the datasets within the text of the publication and include a\nreference to them in the reference list.\n",
+    "thematic_group": "Global Events Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/NASA/NASA_VIIRS_002_VJ209H1_sample.png",
+    "title": "VJ209H1: VIIRS Surface Reflectance 8-Day L3 Global 500m",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VJ214A1",
     "id": "NASA/VIIRS/002/VJ214A1",
     "license": "proprietary",
