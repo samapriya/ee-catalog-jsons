@@ -10894,6 +10894,32 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_gcp-public-data-weathernext_assets_PARDIG_1_LR",
+    "id": "projects/gcp-public-data-weathernext/assets/PARDIG_1_LR",
+    "license": "CC-BY-4.0",
+    "provider": "Google",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/gcp-public-data-weathernext/assets/PARDIG_1_LR",
+    "tags": "climate, flood, gpm, hydrology, meteorology, pardig, precipitation, radar, rain, rainfall, satellite, snowfall, weather, weather-and-climate, weathernext",
+    "terms_of_use": "",
+    "thematic_group": "Weather and Climate Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/gcp-public-data-weathernext/projects_gcp-public-data-weathernext_assets_PARDIG_1_LR_sample.png",
+    "title": "PARDIG LR (Long-Record)",
+    "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_gcp-public-data-weathernext_assets_PARDIG_1_NRT",
+    "id": "projects/gcp-public-data-weathernext/assets/PARDIG_1_NRT",
+    "license": "CC-BY-4.0",
+    "provider": "Google",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/projects/gcp-public-data-weathernext/assets/PARDIG_1_NRT",
+    "tags": "climate, flood, gpm, hydrology, meteorology, pardig, precipitation, radar, rain, rainfall, satellite, satweave, snowfall, weather, weather-and-climate, weathernext",
+    "terms_of_use": "",
+    "thematic_group": "Weather and Climate Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/gcp-public-data-weathernext/projects_gcp-public-data-weathernext_assets_PARDIG_1_NRT_sample.png",
+    "title": "PARDIG NRT (Near-Real-Time)",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/projects_gcp-public-data-weathernext_assets_weathernext_2_0_0",
     "id": "projects/gcp-public-data-weathernext/assets/weathernext_2_0_0",
     "license": "proprietary",
