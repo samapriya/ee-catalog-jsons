@@ -3302,16 +3302,16 @@
     "type": "image"
   },
   {
-    "docs": "https://developers.google.com/earth-engine/datasets/catalog/JRC_GFC2020_subtypes_V1",
-    "id": "JRC/GFC2020_subtypes/V1",
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/JRC_GFC2020_subtypes_V2",
+    "id": "JRC/GFC2020_subtypes/V2",
     "license": "proprietary",
     "provider": "Joint Research Centre, European Commission",
-    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/JRC/GFC2020_subtypes/V1",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/JRC/GFC2020_subtypes/V2",
     "tags": "eudr, forest, forest-biomass, jrc, landcover, primary-forest",
     "terms_of_use": "The data may be used by anyone, anywhere, anytime without permission,\nlicense or royalty payment. Attribution using the recommended citation is\nrequested.\n",
     "thematic_group": "Agriculture, Vegetation and Forestry",
-    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/JRC/JRC_GFC2020_subtypes_V1_sample.png",
-    "title": "EC JRC global map of forest types 2020, V1",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/JRC/JRC_GFC2020_subtypes_V2_sample.png",
+    "title": "EC JRC global map of forest types 2020, V2",
     "type": "image"
   },
   {
