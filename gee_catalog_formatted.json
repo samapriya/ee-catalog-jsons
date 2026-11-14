@@ -572,6 +572,19 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_MARINE_GLOBAL_SEA_SURFACE_NRT_DAILY_V2",
+    "id": "COPERNICUS/MARINE/GLOBAL_SEA_SURFACE/NRT_DAILY_V2",
+    "license": "CC-BY-4.0",
+    "provider": "Copernicus",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/COPERNICUS/MARINE/GLOBAL_SEA_SURFACE/NRT_DAILY_V2",
+    "tags": "copernicus, oceans",
+    "terms_of_use": "",
+    "thematic_group": "Oceans and Shorelines",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/COPERNICUS/COPERNICUS_MARINE_GLOBAL_SEA_SURFACE_NRT_DAILY_V2_sample.png",
+    "title": "Multi Observation Global Ocean Sea Surface Salinity and Sea Surface Density : Daily, Near Real Time V2",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_MARINE_GLOBAL_SEA_SURFACE_REP_DAILY",
     "id": "COPERNICUS/MARINE/GLOBAL_SEA_SURFACE/REP_DAILY",
     "license": "CC-BY-4.0",
@@ -5205,7 +5218,7 @@
     "license": "proprietary",
     "provider": "NASA NSIDC DAAC at CIRES",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/MODIS/061/MOD10A2",
-    "tags": "cryosphere, daily, geophysical, global, modis, nasa, nsidc, snow, terra",
+    "tags": "8-day, cryosphere, geophysical, global, modis, nasa, nsidc, snow, terra",
     "terms_of_use": "You may download and use photographs, imagery, or text\nfrom the NSIDC web site, unless limitations for its use are specifically\nstated. For more information on usage and citing NSIDC datasets,\nplease visit the\n[NSIDC 'Use and Copyright' page](https://nsidc.org/about/data-use-and-copyright).\n",
     "thematic_group": "Geophysical, Biological & Biogeochemical",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/MODIS/MODIS_061_MOD10A2_sample.png",
