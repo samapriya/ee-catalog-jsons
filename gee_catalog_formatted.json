@@ -3263,6 +3263,19 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/JAXA_GPM_L3_GSMaP_v9_operational",
+    "id": "JAXA/GPM_L3/GSMaP/v9/operational",
+    "license": "proprietary",
+    "provider": "JAXA Earth Observation Research Center",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/JAXA/GPM_L3/GSMaP/v9/operational",
+    "tags": "climate, geophysical, gpm, hourly, jaxa, precipitation, weather",
+    "terms_of_use": "Anyone wishing to publish any results using the data\nfrom the JAXA Global Rainfall Watch System should clearly acknowledge\nthe ownership of the data in the publication (for example, ' Global\nRainfall Map in Near-Real-Time (GSMaP_NRT) by JAXA Global Rainfall\nWatch' was produced and distributed by the Earth Observation Research\nCenter, Japan Aerospace Exploration Agency). If you have benefited\nfrom GSMaP rainfall products, please cite the major papers listed\nbelow. For additional information, please visit the [JAXA Site\nPolicy](https://global.jaxa.jp/policy.html) and the [Users Guide](https://sharaku.eorc.jaxa.jp/GSMaP/guide.html).\n",
+    "thematic_group": "Weather and Climate Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/JAXA/JAXA_GPM_L3_GSMaP_v9_operational_sample.png",
+    "title": "GSMaP Operational: Global Satellite Mapping of Precipitation - V9",
+    "type": "image_collection"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/JCU_Murray_GIC_global_tidal_wetland_change_2019",
     "id": "JCU/Murray/GIC/global_tidal_wetland_change/2019",
     "license": "CC-BY-4.0",
