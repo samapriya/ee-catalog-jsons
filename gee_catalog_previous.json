@@ -2415,7 +2415,7 @@
     "thematic_group": "Global Events Layers",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/Germany/Germany_Brandenburg_orthos_20cm_sample.png",
     "title": "Brandenburg (Germany) RGBN orthophotos 20 cm",
-    "type": "image_collection"
+    "type": "image"
   },
   {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/HU_BERLIN_EPFD_V2_points",
