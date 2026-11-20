@@ -3507,7 +3507,7 @@
     "thematic_group": "Fire Monitoring and Analysis",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/JRC/JRC_GWIS_GlobFire_v2_DailyPerimeters_sample.png",
     "title": "GlobFire Daily Fire Event Detection Based on MCD64A1",
-    "type": "table_collection"
+    "type": "folder"
   },
   {
     "docs": "https://spdx.org/licenses/CC-BY-4.0.html",
@@ -4664,7 +4664,7 @@
     "thematic_group": "Elevation and Bathymetry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LARSE/LARSE_GEDI_GEDI02_A_002_sample.png",
     "title": "GEDI L2A Vector Canopy Top Height (Version 2)",
-    "type": "table_collection"
+    "type": "folder"
   },
   {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI02_A_002_INDEX",
@@ -4703,7 +4703,7 @@
     "thematic_group": "Elevation and Bathymetry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LARSE/LARSE_GEDI_GEDI02_B_002_sample.png",
     "title": "GEDI L2B Vector Canopy Cover Vertical Profile Metrics (Version 2)",
-    "type": "table_collection"
+    "type": "folder"
   },
   {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI02_B_002_INDEX",
@@ -4742,7 +4742,7 @@
     "thematic_group": "Elevation and Bathymetry",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LARSE/LARSE_GEDI_GEDI04_A_002_sample.png",
     "title": "GEDI L4A Aboveground Biomass Density, Version 2.1",
-    "type": "table_collection"
+    "type": "folder"
   },
   {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI04_A_002_INDEX",
