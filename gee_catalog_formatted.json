@@ -2384,12 +2384,25 @@
     "license": "CC-BY-4.0",
     "provider": "Google Earth Engine",
     "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/GOOGLE/SATELLITE_EMBEDDING/V1/ANNUAL",
-    "tags": "annual, global, google, landsat-derived, satellite-imagery, sentinel1-derived, sentinel2-derived",
+    "tags": "annual, embeddings, global, google, landsat-derived, satellite-imagery, sentinel1-derived, sentinel2-derived",
     "terms_of_use": "",
     "thematic_group": "Global Events Layers",
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/GOOGLE/GOOGLE_SATELLITE_EMBEDDING_V1_ANNUAL_sample.png",
     "title": "Satellite Embedding V1",
     "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_SATELLITE_EMBEDDING_V1_CUSTOM",
+    "id": "GOOGLE/SATELLITE_EMBEDDING/V1/CUSTOM",
+    "license": "CC-BY-4.0",
+    "provider": "Google Earth Engine",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/GOOGLE/SATELLITE_EMBEDDING/V1/CUSTOM",
+    "tags": "embeddings, google, landsat-derived, satellite-imagery, sentinel1-derived, sentinel2-derived",
+    "terms_of_use": "",
+    "thematic_group": "Global Events Layers",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/GOOGLE/GOOGLE_SATELLITE_EMBEDDING_V1_CUSTOM_sample.png",
+    "title": "Custom Satellite Embeddings Samples",
+    "type": "folder"
   },
   {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/GRIDMET_DROUGHT",
@@ -4693,6 +4706,32 @@
     "type": "image_collection"
   },
   {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI02_A_003",
+    "id": "LARSE/GEDI/GEDI02_A_003",
+    "license": "proprietary",
+    "provider": "USFS Laboratory for Applications of Remote Sensing in Ecology (LARSE)",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LARSE/GEDI/GEDI02_A_003",
+    "tags": "elevation, forest-biomass, gedi, larse, nasa, tree-cover, usgs",
+    "terms_of_use": "This dataset is in the public domain and is available\nwithout restriction on use and distribution. See [NASA's\nEarth Science Data & Information Policy]\n(https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy)\nfor additional information.\n",
+    "thematic_group": "Elevation and Bathymetry",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LARSE/LARSE_GEDI_GEDI02_A_003_sample.png",
+    "title": "GEDI L2A Vector Canopy Top Height (Version 3)",
+    "type": "folder"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI02_A_003_INDEX",
+    "id": "LARSE/GEDI/GEDI02_A_003_INDEX",
+    "license": "proprietary",
+    "provider": "Indexing: Google and USFS Laboratory for Applications of Remote Sensing in Ecology (LARSE)",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LARSE/GEDI/GEDI02_A_003_INDEX",
+    "tags": "elevation, forest-biomass, gedi, larse, nasa, table, tree-cover, usgs",
+    "terms_of_use": "This dataset is in the public domain and is available\nwithout restriction on use and distribution. See [NASA's\nEarth Science Data & Information Policy]\n(https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy)\nfor additional information.\n",
+    "thematic_group": "Elevation and Bathymetry",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LARSE/LARSE_GEDI_GEDI02_A_003_INDEX_sample.png",
+    "title": "GEDI L2A Table Index (Version 3)",
+    "type": "table"
+  },
+  {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI02_B_002",
     "id": "LARSE/GEDI/GEDI02_B_002",
     "license": "proprietary",
@@ -4730,6 +4769,32 @@
     "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LARSE/LARSE_GEDI_GEDI02_B_002_MONTHLY_sample.png",
     "title": "GEDI L2B Raster Canopy Cover Vertical Profile Metrics (Version 2)",
     "type": "image_collection"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI02_B_003",
+    "id": "LARSE/GEDI/GEDI02_B_003",
+    "license": "proprietary",
+    "provider": "USFS Laboratory for Applications of Remote Sensing in Ecology (LARSE)",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LARSE/GEDI/GEDI02_B_003",
+    "tags": "elevation, forest-biomass, gedi, larse, nasa, tree-cover, usgs",
+    "terms_of_use": "This dataset is in the public domain and is available\nwithout restriction on use and distribution. See [NASA's\nEarth Science Data & Information Policy]\n(https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy)\nfor additional information.\n",
+    "thematic_group": "Elevation and Bathymetry",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LARSE/LARSE_GEDI_GEDI02_B_003_sample.png",
+    "title": "GEDI L2B Vector Canopy Cover Vertical Profile Metrics (Version 3)",
+    "type": "folder"
+  },
+  {
+    "docs": "https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI02_B_003_INDEX",
+    "id": "LARSE/GEDI/GEDI02_B_003_INDEX",
+    "license": "proprietary",
+    "provider": "Indexing: Google and USFS Laboratory for Applications of Remote Sensing in Ecology (LARSE)",
+    "sample_code": "https://code.earthengine.google.com/?scriptPath=Examples:Datasets/LARSE/GEDI/GEDI02_B_003_INDEX",
+    "tags": "elevation, forest-biomass, gedi, larse, nasa, table, tree-cover, usgs",
+    "terms_of_use": "This dataset is in the public domain and is available\nwithout restriction on use and distribution. See [NASA's\nEarth Science Data & Information Policy]\n(https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy)\nfor additional information.\n",
+    "thematic_group": "Elevation and Bathymetry",
+    "thumbnail": "https://developers.google.com/earth-engine/datasets/images/LARSE/LARSE_GEDI_GEDI02_B_003_INDEX_sample.png",
+    "title": "GEDI L2B Table Index (Version 3)",
+    "type": "table"
   },
   {
     "docs": "https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI04_A_002",
